@@ -1,0 +1,8 @@
+{
+	"preferences": {
+		"css.valueSeparator": ":"
+	},
+	"syntaxProfiles": {
+		"html": "xhtml"
+	}
+}

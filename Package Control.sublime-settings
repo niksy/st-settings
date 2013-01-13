@@ -1,0 +1,24 @@
+{
+	"auto_upgrade_last_run": null,
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"Alignment",
+		"ApacheConf.tmLanguage",
+		"Auto Semi-Colon",
+		"BracketHighlighter",
+		"Clipboard History",
+		"DocBlockr",
+		"Dotfiles Syntax Highlighting",
+		"Emmet",
+		"Gist",
+		"Markdown Preview",
+		"Package Control",
+		"ScopeHunter",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SyncedSideBar",
+		"Terminal",
+		"Theme - Soda"
+	]
+}

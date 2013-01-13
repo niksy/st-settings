@@ -1,0 +1,10 @@
+[
+	// Use paste and indent as default paste action
+	{ "keys": ["super+v"], "command": "paste_and_indent" },
+	{ "keys": ["super+shift+v"], "command": "paste" },
+
+	// Unbind commands
+	{ "keys": ["super+ctrl+a"], "command": "unbound" },
+	{ "keys": ["super+shift+t"], "command": "unbound" },
+	{ "keys": ["super+shift+alt+t"], "command": "unbound" }
+]

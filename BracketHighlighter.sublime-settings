@@ -1,0 +1,17 @@
+{
+	// Scope
+	"quote_scope" : "brackethighlighter.quote",
+	"curly_scope" : "brackethighlighter.curly",
+	"round_scope" : "brackethighlighter.round",
+	"square_scope": "brackethighlighter.square",
+	"angle_scope" : "brackethighlighter.angle",
+	"tag_scope"   : "brackethighlighter.tag",
+
+	// Icons
+	"quote_icon" : "none",
+	"curly_icon" : "none",
+	"round_icon" : "none",
+	"square_icon": "none",
+	"angle_icon" : "none",
+	"tag_icon"   : "none"
+}

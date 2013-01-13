@@ -1,0 +1,11 @@
+{
+	"sublimelinter": "save-only",
+	"sublimelinter_syntax_map":{
+		"JavaScript+": "javascript",
+		"CSS+": "css"
+	},
+	"csslint_options": {
+		"star-property-hack": false,
+		"underscore-property-hack": false
+	}
+}
