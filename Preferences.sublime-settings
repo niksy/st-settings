@@ -30,5 +30,7 @@
 	"tab_size": 4,
 	"theme": "Soda Light.sublime-theme",
 	"trim_trailing_white_space_on_save": true,
-	"word_separators": "./\\()\"':,.;<>~!@#$%^&*|+=[]{}`~?"
+	"word_separators": "./\\()\"':,.;<>~!@#$%^&*|+=[]{}`~?",
+	"match_brackets": false,
+	"match_tags": false
 }

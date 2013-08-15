@@ -1,0 +1,14 @@
+{
+    "bracket_styles": {
+        "default": {
+            "icon": "none",
+            "color": "brackethighlighter.default",
+            "style": "outline"
+        },
+        "unmatched": {
+        	"icon": "none",
+            "color": "brackethighlighter.unmatched",
+            "style": "outline"
+        }
+    }
+}
