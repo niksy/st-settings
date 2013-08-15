@@ -9,6 +9,13 @@
 	// Unbind commands
 	{ "keys": ["super+ctrl+a"], "command": "unbound" },
 	{ "keys": ["super+shift+alt+t"], "command": "unbound" },
-	{ "keys": ["ctrl+shift+t"], "command": "unbound" }
+	{ "keys": ["ctrl+shift+t"], "command": "unbound" },
+
+	// When in SASS, saving file should automatically build it
+	{ "keys": ["super+s"], "command": "build", "context":
+		[
+			{ "key": "selector", "operator": "equal", "operand": "source.css" }
+		]
+	}
 
 ]
