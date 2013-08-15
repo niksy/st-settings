@@ -3,8 +3,12 @@
 	{ "keys": ["super+v"], "command": "paste_and_indent" },
 	{ "keys": ["super+shift+v"], "command": "paste" },
 
+	// Open recently closed tab(s)
+	{ "keys": ["super+shift+t"], "command": "open_recent_files" },
+
 	// Unbind commands
 	{ "keys": ["super+ctrl+a"], "command": "unbound" },
-	{ "keys": ["super+shift+t"], "command": "unbound" },
-	{ "keys": ["super+shift+alt+t"], "command": "unbound" }
+	{ "keys": ["super+shift+alt+t"], "command": "unbound" },
+	{ "keys": ["ctrl+shift+t"], "command": "unbound" }
+
 ]
