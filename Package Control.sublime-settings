@@ -11,6 +11,8 @@
 		"DocBlockr",
 		"Dotfiles Syntax Highlighting",
 		"Emmet",
+		"Find++",
+		"Fix Mac Path",
 		"Gist",
 		"Markdown Preview",
 		"Open Recent Files",
@@ -21,5 +23,9 @@
 		"SyncedSideBar",
 		"Terminal",
 		"Theme - Soda"
+	],
+	"repositories":
+	[
+		"https://github.com/niksy/st-css-bundle"
 	]
 }
