@@ -1,6 +1,9 @@
 {
 	"extensions":
 	[
-		"js"
+		"js",
+		"sublime-settings",
+		"sublime-commands",
+		".jshintrc"
 	]
 }
