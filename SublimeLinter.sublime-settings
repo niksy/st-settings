@@ -1,7 +1,7 @@
 {
 	"sublimelinter": "save-only",
 	"sublimelinter_syntax_map":{
-		"JavaScript+": "javascript",
+		"JavaScriptNext": "javascript",
 		"CSS+": "css"
 	},
 	"csslint_options": {
