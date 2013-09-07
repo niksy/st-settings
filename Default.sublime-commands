@@ -2,5 +2,6 @@
 	{ "caption": "Align", "command": "alignment"  },
 	{ "caption": "Open Terminal here", "command": "open_terminal" },
 	{ "caption": "Open Terminal at project root", "command": "open_terminal_project_folder" },
-	{ "caption": "View: Reveal in Side Bar", "command": "reveal_in_side_bar" }
+	{ "caption": "View: Reveal in Side Bar", "command": "reveal_in_side_bar" },
+	{ "caption": "Switch project", "command": "prompt_select_project" }
 ]
