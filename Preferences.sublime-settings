@@ -16,8 +16,10 @@
 		"CSS",
 		"SublimeOnSaveBuild"
 	],
-	"line_padding_bottom": 2,
-	"line_padding_top": 2,
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"match_brackets": false,
+	"match_tags": false,
 	"open_files_in_new_window": false,
 	"rulers":
 	[
@@ -30,8 +32,5 @@
 	"show_tab_close_buttons": false,
 	"tab_size": 4,
 	"theme": "Soda Light.sublime-theme",
-	"trim_trailing_white_space_on_save": true,
-	"word_separators": "./\\()\"':,.;<>~!@#$%^&*|+=[]{}`~?",
-	"match_brackets": false,
-	"match_tags": false
+	"trim_trailing_white_space_on_save": true
 }
