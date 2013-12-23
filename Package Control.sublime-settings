@@ -6,12 +6,14 @@
 		"ApacheConf.tmLanguage",
 		"Auto Semi-Colon",
 		"BracketHighlighter",
+		"Case Conversion",
 		"Clipboard History",
 		"DocBlockr",
 		"Dotfiles Syntax Highlighting",
 		"Emmet",
 		"Find++",
 		"Fix Mac Path",
+		"FoldComments",
 		"Gist",
 		"hosts",
 		"Markdown Preview",
@@ -22,10 +24,12 @@
 		"SideBarEnhancements",
 		"SublimeLinter",
 		"Terminal",
+		"TernJS",
 		"Theme - Soda"
 	],
 	"repositories":
 	[
-		"https://github.com/niksy/st-css-bundle"
+		"https://github.com/niksy/st-css-bundle",
+		"https://github.com/hasclass/FoldComments"
 	]
 }
