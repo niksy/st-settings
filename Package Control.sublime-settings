@@ -25,11 +25,22 @@
 		"SublimeLinter",
 		"Terminal",
 		"TernJS",
-		"Theme - Soda"
+		"Theme - Soda",
+		"st-solarized-light",
+		"st-html-bundle",
+		"st-css-bundle",
+		"st-scss-bundle",
+		"st-js-bundle",
+		"st-comments-snippets"
 	],
 	"repositories":
 	[
+		"https://github.com/niksy/st-solarized-light",
+		"https://github.com/niksy/st-html-bundle",
 		"https://github.com/niksy/st-css-bundle",
+		"https://github.com/niksy/st-scss-bundle",
+		"https://github.com/niksy/st-js-bundle",
+		"https://github.com/niksy/st-comments-snippets",
 		"https://github.com/hasclass/FoldComments"
 	]
 }
