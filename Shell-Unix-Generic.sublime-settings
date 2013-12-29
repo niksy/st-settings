@@ -25,6 +25,9 @@
 		".wgetrc",
 		".extra",
 		".gitconfig_extra",
-		".gitignore_global"
+		".gitignore_global",
+		"Brewfile",
+		".appconfig",
+		".appconfig_extra"
 	]
 }
