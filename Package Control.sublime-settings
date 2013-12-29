@@ -15,22 +15,24 @@
 		"Fix Mac Path",
 		"FoldComments",
 		"hosts",
+		"INI",
 		"Markdown Preview",
 		"Open Recent Files",
 		"Package Control",
 		"PlistJsonConverter",
 		"ScopeHunter",
 		"SideBarEnhancements",
+		"st-comments-snippets",
+		"st-css-bundle",
+		"st-git-bundle",
+		"st-html-bundle",
+		"st-js-bundle",
+		"st-scss-bundle",
+		"st-solarized-light",
 		"SublimeLinter",
 		"Terminal",
 		"TernJS",
-		"Theme - Soda",
-		"st-solarized-light",
-		"st-html-bundle",
-		"st-css-bundle",
-		"st-scss-bundle",
-		"st-js-bundle",
-		"st-comments-snippets"
+		"Theme - Soda"
 	],
 	"repositories":
 	[
@@ -40,6 +42,7 @@
 		"https://github.com/niksy/st-scss-bundle",
 		"https://github.com/niksy/st-js-bundle",
 		"https://github.com/niksy/st-comments-snippets",
-		"https://github.com/hasclass/FoldComments"
+		"https://github.com/hasclass/FoldComments",
+		"https://github.com/niksy/st-git-bundle"
 	]
 }
