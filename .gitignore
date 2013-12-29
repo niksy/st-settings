@@ -2,3 +2,4 @@ Package Control.last-run
 Package Control.system-ca-bundle
 Package Control.cache/*
 *.tm*.cache
+*.cache
