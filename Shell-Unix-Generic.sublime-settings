@@ -11,7 +11,6 @@
 		".functions",
 		".git",
 		".gitattributes",
-		".gitconfig",
 		".gitignore",
 		".hushlogin",
 		".inputrc",
@@ -28,6 +27,7 @@
 		".gitignore_global",
 		"Brewfile",
 		".appconfig",
-		".appconfig_extra"
+		".appconfig_extra",
+		"sh"
 	]
 }

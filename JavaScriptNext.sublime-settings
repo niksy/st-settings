@@ -5,7 +5,8 @@
 		"sublime-settings",
 		"sublime-commands",
 		".jshintrc",
-		"JSON"
+		"JSON",
+		".jscs"
 	],
 	"word_separators": "./\\()\"':,.;<>~!@#$%^&*|+=[]{}`~?"
 }
