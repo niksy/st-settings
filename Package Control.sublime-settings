@@ -21,6 +21,7 @@
 		"Package Control",
 		"ScopeHunter",
 		"SerializedDataConverter",
+		"SideBarEnhancements",
 		"SSH Config",
 		"st-comments-snippets",
 		"st-css-bundle",
@@ -43,6 +44,7 @@
 		"https://github.com/niksy/st-js-bundle",
 		"https://github.com/niksy/st-comments-snippets",
 		"https://github.com/hasclass/FoldComments",
-		"https://github.com/niksy/st-git-bundle"
+		"https://github.com/niksy/st-git-bundle",
+		"https://github.com/samuelbran/SideBarEnhancements"
 	]
 }
