@@ -7,7 +7,7 @@
 		"json",
 		".jshintrc",
 		".eslintrc",
-		".jscs"
+		".jscsrc"
 	],
 	"word_separators": "./\\()\"':,.;<>~!@#$%^&*|+=[]{}`~?"
 }
