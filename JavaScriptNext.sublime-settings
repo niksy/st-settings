@@ -4,6 +4,7 @@
 		"js",
 		"sublime-settings",
 		"sublime-commands",
+		"sublime-project",
 		"json",
 		".jshintrc",
 		".eslintrc",
