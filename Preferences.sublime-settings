@@ -17,9 +17,9 @@
 	[
 		"Vintage",
 		"JavaScript",
-		"SublimeOnSaveBuild",
 		"HTML",
-		"CSS"
+		"CSS",
+		"SublimeOnSaveBuild"
 	],
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,

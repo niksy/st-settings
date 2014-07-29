@@ -5,6 +5,7 @@
 		"sublime-settings",
 		"sublime-commands",
 		"sublime-project",
+		"sublime-keymap",
 		"json",
 		".jshintrc",
 		".eslintrc",
