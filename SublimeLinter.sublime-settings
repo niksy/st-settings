@@ -2,11 +2,6 @@
 	"sublimelinter": "save-only",
 	"sublimelinter_syntax_map":{
 		"JavaScriptNext": "javascript",
-		"JSON": "javascript",
-		"CSS+": "css"
-	},
-	"csslint_options": {
-		"star-property-hack": false,
-		"underscore-property-hack": false
+		"JSON": "javascript"
 	}
 }
