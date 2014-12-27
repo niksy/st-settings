@@ -1,7 +1,7 @@
 {
 	"auto_complete_commit_on_tab": true,
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/st-solarized-light/Solarized (light).tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Solarized (light) (SL).tmTheme",
 	"draw_white_space": "selection",
 	"ensure_newline_at_eof_on_save": true,
 	"font_face": "Consolas",

@@ -1,7 +1,0 @@
-{
-	"sublimelinter": "save-only",
-	"sublimelinter_syntax_map":{
-		"JavaScriptNext": "javascript",
-		"JSON": "javascript"
-	}
-}
