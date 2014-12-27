@@ -16,8 +16,8 @@
 	"ignored_packages":
 	[
 		"Vintage",
-		"JavaScript",
 		"CSS",
+		"JavaScript",
 		"HTML"
 	],
 	"line_padding_bottom": 1,
