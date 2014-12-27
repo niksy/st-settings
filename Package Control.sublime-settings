@@ -37,6 +37,8 @@
 		"st-solarized-light",
 		"StringEncode",
 		"SublimeLinter",
+		"SublimeLinter-jshint",
+		"SublimeLinter-json",
 		"Terminal",
 		"TernJS",
 		"Theme - Soda"
