@@ -15,9 +15,9 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"CSS",
 		"Vintage",
 		"JavaScript",
+		"CSS",
 		"HTML"
 	],
 	"line_padding_bottom": 1,
