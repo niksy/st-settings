@@ -18,8 +18,8 @@ subl_user_dir="$HOME/Library/Application Support/Sublime Text 3/Packages/User";
 for f in $dir/*; do
 	file=$(basename "$f");
 	excluded=$(in_array "$file" "${excludes[@]}");
-	excludedResult=$?;
-	if [ $excludedResult -ne 0 ]; then
+	excluded_result=$?;
+	if [ $excluded_result -ne 0 ]; then
 		ln -sfhv "$dir/$file" "$subl_user_dir/$file";
 	fi
 done
