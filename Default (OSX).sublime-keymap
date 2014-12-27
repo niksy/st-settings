@@ -4,7 +4,7 @@
 	{ "keys": ["super+shift+v"], "command": "paste" },
 
 	// Open recently closed tab(s)
-	{ "keys": ["super+shift+t"], "command": "open_recent_files" },
+	{ "keys": ["super+shift+t"], "command": "recent_active_files"},
 
 	// Unbind commands
 	{ "keys": ["super+ctrl+a"], "command": "unbound" },
