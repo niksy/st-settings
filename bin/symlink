@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+
+# Check for existence of value in array
+function in_array() {
+	local hay needle=$1
+	shift
+	for hay;
+	do
+		[[ $hay == $needle ]] && return 0
+	done
+	return 1
+}
+
+excludes=(".DS_Store" "README.md" ".git" ".gitignore" "bin");
+dir=$(dirname $(dirname $(cd $(dirname $0); pwd)/$(basename $0)));
+subl_user_dir="$HOME/Library/Application Support/Sublime Text 3/Packages/User";
+
+for f in $dir/*; do
+	file=$(basename "$f");
+	excluded=$(in_array "$file" "${excludes[@]}");
+	excludedResult=$?;
+	if [ $excludedResult -ne 0 ]; then
+		ln -sfhv "$dir/$file" "$subl_user_dir/$file";
+	fi
+done
