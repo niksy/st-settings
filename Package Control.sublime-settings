@@ -1,5 +1,7 @@
 {
-	"auto_upgrade_last_run": null,
+	"in_process_packages":
+	[
+	],
 	"installed_dependencies":
 	[
 		"0_package_control_loader",
@@ -12,18 +14,15 @@
 		"Auto Semi-Colon",
 		"BracketHighlighter",
 		"Case Conversion",
-		"Clipboard History",
 		"DocBlockr",
 		"Dotfiles Syntax Highlighting",
 		"EditorConfig",
 		"Emmet",
 		"Find++",
 		"Fix Mac Path",
-		"FoldComments",
 		"hosts",
 		"INI",
 		"Markdown Preview",
-		"Open Recent Files",
 		"Package Control",
 		"ScopeHunter",
 		"SerializedDataConverter",
@@ -50,8 +49,6 @@
 		"https://github.com/niksy/st-scss-bundle",
 		"https://github.com/niksy/st-js-bundle",
 		"https://github.com/niksy/st-comments-snippets",
-		"https://github.com/hasclass/FoldComments",
-		"https://github.com/niksy/st-git-bundle",
-		"https://github.com/samuelbran/SideBarEnhancements"
+		"https://github.com/niksy/st-git-bundle"
 	]
 }
