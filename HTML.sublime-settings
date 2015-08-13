@@ -4,6 +4,11 @@
 		"template",
 		"view",
 		"hbs",
-		"handlebars"
+		"handlebars",
+		"nunj",
+		"jst",
+		"jsv",
+		"twig",
+		"mustache"
 	]
 }
