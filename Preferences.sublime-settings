@@ -3,6 +3,7 @@
 	"bold_folder_labels": true,
 	"color_scheme": "Packages/st-solarized-light/Solarized (light).tmTheme",
 	"draw_white_space": "selection",
+	"el_capitan_sidebar_blue_folders": true,
 	"ensure_newline_at_eof_on_save": true,
 	"font_face": "Consolas",
 	"font_options":
@@ -35,6 +36,6 @@
 	"show_full_path": true,
 	"show_tab_close_buttons": false,
 	"tab_size": 4,
-	"theme": "Soda Light.sublime-theme",
+	"theme": "El Capitan.sublime-theme",
 	"trim_trailing_white_space_on_save": true
 }
