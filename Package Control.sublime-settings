@@ -36,6 +36,7 @@
 		"st-twig-bundle",
 		"StringEncode",
 		"SublimeLinter",
+		"SublimeLinter-contrib-eslint",
 		"SublimeLinter-jshint",
 		"SublimeLinter-json",
 		"Terminal",
