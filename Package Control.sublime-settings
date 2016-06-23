@@ -37,6 +37,7 @@
 		"StringEncode",
 		"SublimeLinter",
 		"SublimeLinter-contrib-eslint",
+		"SublimeLinter-contrib-stylelint",
 		"SublimeLinter-jshint",
 		"SublimeLinter-json",
 		"Terminal",
@@ -52,6 +53,7 @@
 		"https://github.com/niksy/st-js-bundle",
 		"https://github.com/niksy/st-comments-snippets",
 		"https://github.com/niksy/st-git-bundle",
-		"https://github.com/niksy/st-twig-bundle"
+		"https://github.com/niksy/st-twig-bundle",
+		"https://github.com/niksy/SublimeLinter-contrib-stylelint"
 	]
 }
