@@ -18,6 +18,7 @@
 		"Fix Mac Path",
 		"Hosts",
 		"INI",
+		"Markdown Extended",
 		"Markdown Preview",
 		"Package Control",
 		"PackageResourceViewer",
@@ -55,8 +56,8 @@
 		"https://github.com/niksy/st-comments-snippets",
 		"https://github.com/niksy/st-git-bundle",
 		"https://github.com/niksy/st-twig-bundle",
-		"https://github.com/niksy/SublimeLinter-contrib-stylelint",
 		"https://github.com/niksy/SublimeLinter-jshint",
-		"https://github.com/niksy/st-php-bundle"
+		"https://github.com/niksy/st-php-bundle",
+		"https://github.com/niksy/SublimeLinter-contrib-stylelint"
 	]
 }

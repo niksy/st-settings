@@ -7,11 +7,6 @@
         "gutter_theme_excludes": [],
         "lint_mode": "background",
         "linters": {
-            "stylelint": {
-                "@disable": false,
-                "args": [],
-                "excludes": []
-            },
             "eslint": {
                 "@disable": false,
                 "args": [],
@@ -27,6 +22,11 @@
                 "args": [],
                 "excludes": [],
                 "strict": true
+            },
+            "stylelint": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
             }
         },
         "mark_style": "squiggly underline",
