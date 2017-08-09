@@ -9,6 +9,55 @@
 	// Unbind commands
 	{ "keys": ["super+ctrl+a"], "command": "unbound" },
 	{ "keys": ["super+shift+alt+t"], "command": "unbound" },
-	{ "keys": ["ctrl+shift+t"], "command": "unbound" }
+	{ "keys": ["ctrl+shift+t"], "command": "unbound" },
+
+	// Add markup completion for JSX
+	// (default key binding expanded with JS support)
+	{
+		"keys": [
+			"tab"
+		],
+		"command": "expand_abbreviation_by_tab",
+		"context": [
+			{
+			    "operand": "source.js meta.group.braces.round, source.css, source.sass, source.less, source.scss, source.stylus, source.postcss, source.jade, text.jade, source.pug, text.pug, text.slim, text.xml, text.html - source, text.haml, text.scala.html, source string",
+			    "operator": "equal",
+			    "match_all": true,
+			    "key": "selector"
+			},
+			{
+			    "operand": "storage.type.templatetag.django",
+			    "operator": "not_equal",
+			    "match_all": true,
+			    "key": "selector"
+			},
+			{
+			    "match_all": true,
+			    "key": "selection_empty"
+			},
+			{
+			    "operator": "equal",
+			    "operand": false,
+			    "match_all": true,
+			    "key": "has_next_field"
+			},
+			{
+			    "operator": "equal",
+			    "operand": false,
+			    "match_all": true,
+			    "key": "setting.disable_tab_abbreviations"
+			},
+			{
+			    "operand": false,
+			    "operator": "equal",
+			    "match_all": true,
+			    "key": "auto_complete_visible"
+			},
+			{
+			    "match_all": true,
+			    "key": "is_abbreviation"
+			}
+		]
+	}
 
 ]

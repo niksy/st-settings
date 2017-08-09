@@ -4,6 +4,8 @@
 		"sublime-commands",
 		".jshintrc",
 		".eslintrc",
-		".jscsrc"
+		".jscsrc",
+		".stylelintrc",
+		".babelrc"
 	]
 }
