@@ -34,7 +34,6 @@
 		"st-git-bundle",
 		"st-html-bundle",
 		"st-js-bundle",
-		"st-php-bundle",
 		"st-scss-bundle",
 		"st-solarized-light",
 		"st-twig-bundle",
@@ -59,7 +58,6 @@
 		"https://github.com/niksy/st-git-bundle",
 		"https://github.com/niksy/st-twig-bundle",
 		"https://github.com/niksy/SublimeLinter-jshint",
-		"https://github.com/niksy/st-php-bundle",
 		"https://github.com/niksy/SublimeLinter-contrib-stylelint"
 	]
 }
