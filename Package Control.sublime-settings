@@ -6,7 +6,7 @@
 	"installed_packages":
 	[
 		"Alignment",
-		"ApacheConf.tmLanguage",
+		"ApacheConf",
 		"Auto Semi-Colon",
 		"BinaryPlist",
 		"BracketHighlighter",
@@ -40,8 +40,8 @@
 		"st-twig-bundle",
 		"StringEncode",
 		"SublimeLinter",
-		"SublimeLinter-contrib-eslint",
 		"SublimeLinter-contrib-stylelint",
+		"SublimeLinter-eslint",
 		"SublimeLinter-jshint",
 		"SublimeLinter-json",
 		"Terminal",
