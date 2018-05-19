@@ -21,7 +21,7 @@
 		"HTML-CSS-JS Prettify",
 		"INI",
 		"Markdown Extended",
-		"Markdown Preview",
+		"MarkdownPreview",
 		"Package Control",
 		"PackageDev",
 		"PackageResourceViewer",
@@ -40,10 +40,11 @@
 		"st-twig-bundle",
 		"StringEncode",
 		"SublimeLinter",
-		"SublimeLinter-contrib-stylelint",
 		"SublimeLinter-eslint",
 		"SublimeLinter-jshint",
 		"SublimeLinter-json",
+		"SublimeLinter-shellcheck",
+		"SublimeLinter-stylelint",
 		"Terminal",
 		"TernJS",
 		"Theme - El Capitan"
@@ -57,8 +58,6 @@
 		"https://github.com/niksy/st-js-bundle",
 		"https://github.com/niksy/st-comments-snippets",
 		"https://github.com/niksy/st-git-bundle",
-		"https://github.com/niksy/st-twig-bundle",
-		"https://github.com/niksy/SublimeLinter-jshint",
-		"https://github.com/niksy/SublimeLinter-contrib-stylelint"
+		"https://github.com/niksy/st-twig-bundle"
 	]
 }
