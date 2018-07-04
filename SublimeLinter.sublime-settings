@@ -18,5 +18,22 @@
                 "error"
             ]
         }
-    ]
+    ],
+    "linters": {
+        "eslint": {
+            "env": {
+                "PATH": "~/.nvm/current/bin:$PATH"
+            }
+        },
+        "stylelint": {
+            "env": {
+                "PATH": "~/.nvm/current/bin:$PATH"
+            }
+        },
+        "jshint": {
+            "env": {
+                "PATH": "~/.nvm/current/bin:$PATH"
+            }
+        }
+    }
 }
