@@ -11,7 +11,8 @@
 		".git",
 		".hg",
 		"CVS",
-		"coverage"
+		"coverage",
+		"node_modules"
 	],
 	"font_face": "Consolas",
 	"font_options":
