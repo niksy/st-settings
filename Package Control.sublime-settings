@@ -47,7 +47,8 @@
 		"SublimeLinter-stylelint",
 		"Terminal",
 		"TernJS",
-		"Theme - El Capitan"
+		"Theme - El Capitan",
+		"Vue Syntax Highlight"
 	],
 	"repositories":
 	[

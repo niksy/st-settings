@@ -21,6 +21,7 @@
     ],
     "linters": {
         "eslint": {
+            "selector": "text.html.vue, source.js - meta.attribute-with-value",
             "env": {
                 "PATH": "~/.nvm/current/bin:$PATH"
             }

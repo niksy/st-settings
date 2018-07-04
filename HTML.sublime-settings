@@ -8,7 +8,6 @@
 		"jsv",
 		"twig",
 		"mustache",
-		"html",
-		"vue"
+		"html"
 	]
 }
