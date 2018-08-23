@@ -1,7 +1,7 @@
 {
     "styles": [
         {
-            "mark_style": "squiggly_underline",
+            "mark_style": "none",
             "priority": 1,
             "scope": "region.yellowish markup.changed.sublime_linter markup.warning.sublime_linter",
             "icon": "dot",
