@@ -29,7 +29,8 @@
 		"HTML",
 		"JavaScript",
 		"Markdown",
-		"Vintage"
+		"Vintage",
+		"Git Formats"
 	],
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
