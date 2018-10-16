@@ -1,0 +1,9 @@
+/*
+	Color Highlight user settings in here override the default
+*/
+{
+	"user": {
+		"highlight": false,
+		"gutter_icon": false
+	}
+}
