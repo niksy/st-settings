@@ -1,7 +1,21 @@
 {
 	"supported_syntaxes": {
 		"js": [
+			"ecmascript.sublime-syntax",
+			"JavaScript.sublime-syntax",
+			"JavaScript (Babel).sublime-syntax",
+			"JavaScriptNext.tmLanguage",
+			// Custom tmLanguage
 			"JavaScript.tmLanguage"
+		]
+	},
+	"import_line_regex": {
+		"js": [
+			"^import\\s+['\"](.+)['\"];?$",
+			".*from\\s+['\"](.+)['\"];?$",
+			".*require\\(['\"](.+?)['\"]\\).*",
+			// Dynamic imports
+			".*import\\(['\"](.+)['\"]\\)(?:[;\\.])?",
 		]
 	},
 	// This should be set per-project
