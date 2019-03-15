@@ -1,0 +1,14 @@
+{
+	"supported_syntaxes": {
+		"js": [
+			"JavaScript.tmLanguage"
+		]
+	},
+	// This should be set per-project
+	// Ref. https://github.com/aziz/SublimeHyperClick/pull/31#issuecomment-473224136
+	"lookup_paths": {
+		"js": [
+			"local_modules"
+		]
+	}
+}
