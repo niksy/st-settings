@@ -6,7 +6,8 @@
 			"JavaScript (Babel).sublime-syntax",
 			"JavaScriptNext.tmLanguage",
 			// Custom tmLanguage
-			"JavaScript.tmLanguage"
+			"JavaScript.tmLanguage",
+			"Vue Component.sublime-syntax"
 		]
 	},
 	"import_line_regex": {
@@ -15,14 +16,19 @@
 			".*from\\s+['\"](.+)['\"];?$",
 			".*require\\(['\"](.+?)['\"]\\).*",
 			// Dynamic imports
-			".*import\\(['\"](.+)['\"]\\)(?:[;\\.])?",
+			".*import\\((?:\\/\\*.+?\\*\\/\\s+)?['\"](.+)['\"]\\)(?:[;\\.,])?",
 		]
 	},
 	// This should be set per-project
 	// Ref. https://github.com/aziz/SublimeHyperClick/pull/31#issuecomment-473224136
 	"lookup_paths": {
 		"js": [
-			"local_modules"
+			"local_modules",
+			"local_modules/style/app-modules"
 		]
+	},
+	"valid_extensions": {
+		// Add Vue support
+		"js": ["js", "jsx", "vue"]
 	}
 }
