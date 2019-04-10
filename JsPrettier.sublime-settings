@@ -1,6 +1,7 @@
 {
 	"prettier_cli_path": "~/.nvm/current/bin/prettier",
 	"node_path": "~/.nvm/current/bin/node",
+	"custom_file_extensions": ["template", "twig"],
 	"prettier_options": {
 		"printWidth": 80,
 		"tabWidth": 4,
@@ -16,6 +17,14 @@
 		"insertPragma": false,
 		"proseWrap": "preserve",
 		"htmlWhitespaceSensitivity": "css",
-		"endOfLine": "lf"
+		"endOfLine": "lf",
+		"overrides": [
+			{
+				"files": "*.template",
+				"options": {
+					"parser": "html"
+				}
+			}
+		]
 	}
 }
