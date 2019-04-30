@@ -1,34 +1,27 @@
 {
-	"supported_syntaxes": {
-		"js": [
-			"ecmascript.sublime-syntax",
-			"JavaScript.sublime-syntax",
-			"JavaScript (Babel).sublime-syntax",
-			"JavaScriptNext.tmLanguage",
-			// Custom tmLanguage
-			"JavaScript.tmLanguage",
-			"Vue Component.sublime-syntax"
-		]
-	},
-	"import_line_regex": {
-		"js": [
-			"^import\\s+['\"](.+)['\"];?$",
-			".*from\\s+['\"](.+)['\"];?$",
-			".*require\\(['\"](.+?)['\"]\\).*",
-			// Dynamic imports
-			".*import\\((?:\\/\\*.+?\\*\\/\\s+)?['\"](.+)['\"]\\)(?:[;\\.,])?",
-		]
-	},
-	// This should be set per-project
-	// Ref. https://github.com/aziz/SublimeHyperClick/pull/31#issuecomment-473224136
-	"lookup_paths": {
-		"js": [
-			"local_modules",
-			"local_modules/style/app-modules"
-		]
-	},
-	"valid_extensions": {
-		// Add Vue support
-		"js": ["js", "jsx", "vue"]
-	}
+  "supported_syntaxes": {
+    "js": [
+      "ecmascript.sublime-syntax",
+      "JavaScript.sublime-syntax",
+      "JavaScript (Babel).sublime-syntax",
+      "JavaScriptNext.tmLanguage",
+      // Custom tmLanguage
+      "JavaScript.tmLanguage",
+      "Vue Component.sublime-syntax"
+    ]
+  },
+  "import_line_regex": {
+    "js": [
+      "^import\\s+['\"](.+)['\"];?$",
+      ".*from\\s+['\"](.+)['\"];?$",
+      ".*require\\(['\"](.+?)['\"]\\).*",
+      // Dynamic imports
+      ".*import\\((?:\\/\\*.+?\\*\\/\\s+)?['\"](.+)['\"]\\)(?:[;\\.,])?",
+    ]
+  },
+  "valid_extensions": {
+    // Add Vue support
+    "js": ["js", "jsx", "vue"]
+  }
 }
+
