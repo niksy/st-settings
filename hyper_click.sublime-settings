@@ -8,6 +8,10 @@
       // Custom tmLanguage
       "JavaScript.tmLanguage",
       "Vue Component.sublime-syntax"
+    ],
+    "sass": [
+      "SCSS.tmLanguage",
+      "Sass.tmLanguage"
     ]
   },
   "import_line_regex": {
@@ -17,11 +21,15 @@
       ".*require\\(['\"](.+?)['\"]\\).*",
       // Dynamic imports
       ".*import\\((?:\\/\\*.+?\\*\\/\\s+)?['\"](.+)['\"]\\)(?:[;\\.,])?",
+    ],
+    "sass": [
+      "^@import\\s+['\"](.+)['\"];?$"
     ]
   },
   "valid_extensions": {
     // Add Vue support
-    "js": ["js", "jsx", "vue"]
+    "js": ["js", "jsx", "vue"],
+    "sass": ["scss", "sass"]
   }
 }
 
