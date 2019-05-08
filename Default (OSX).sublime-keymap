@@ -8,7 +8,7 @@
 	{ "keys": ["super+shift+t"], "command": "recent_active_files"},
 
 	// Run Prettier
-	{ "keys": ["ctrl+s"], "command": "js_prettier"},
+	{ "keys": ["alt+f"], "command": "js_prettier"},
 
 	// Unbind commands
 	{ "keys": ["super+ctrl+a"], "command": "unbound" },
