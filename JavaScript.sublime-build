@@ -1,0 +1,13 @@
+{
+	"selector": "source.js",
+	"variants": [
+		{
+			"name": "ESLint fix",
+			"cmd": ["npx", "--no-install", "eslint", "$file", "--fix"]
+		},
+		{
+			"name": "Prettier",
+			"cmd": ["npx", "--no-install", "prettier", "$file", "--write"]
+		}
+	]
+}
