@@ -1,0 +1,9 @@
+{
+	"selector": "text.html.basic, text.html.twig",
+	"variants": [
+		{
+			"name": "Prettier",
+			"cmd": ["npx", "--no-install", "prettier", "--parser", "html", "$file", "--write"]
+		}
+	]
+}

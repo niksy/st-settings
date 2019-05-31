@@ -1,4 +1,8 @@
 {
+	"additional_path_items":
+	[
+		"$HOME/.nvm/current/bin"
+	],
 	"auto_complete_commit_on_tab": true,
 	"bold_folder_labels": true,
 	"color_scheme": "Packages/st-solarized-light/Solarized (light).tmTheme",
@@ -50,6 +54,5 @@
 	"show_tab_close_buttons": false,
 	"tab_size": 4,
 	"theme": "El Capitan.sublime-theme",
-	"trim_trailing_white_space_on_save": true,
-	"additional_path_items": ["$HOME/.nvm/current/bin"]
+	"trim_trailing_white_space_on_save": true
 }

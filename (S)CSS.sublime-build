@@ -1,0 +1,13 @@
+{
+	"selector": "source.css, source.scss",
+	"variants": [
+		{
+			"name": "Stylelint fix",
+			"cmd": ["npx", "--no-install", "stylelint", "$file", "--fix"]
+		},
+		{
+			"name": "Prettier",
+			"cmd": ["npx", "--no-install", "prettier", "$file", "--write"]
+		}
+	]
+}
