@@ -52,7 +52,8 @@
 		"Terminal",
 		"TernJS",
 		"Theme - El Capitan",
-		"Vue Syntax Highlight"
+		"Vue Syntax Highlight",
+		"YAMLMacros"
 	],
 	"repositories":
 	[
