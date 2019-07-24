@@ -1,0 +1,9 @@
+{
+	"selector": "source.json",
+	"variants": [
+		{
+			"name": "Prettier",
+			"cmd": ["npx", "--no-install", "prettier", "$file", "--write"]
+		}
+	]
+}
