@@ -1,7 +1,6 @@
 {
 	"extensions":
 	[
-		"view",
 		"hbs",
 		"handlebars",
 		"jst",
