@@ -4,6 +4,7 @@
 {
 	"user": {
 		"highlight": false,
+		"highlight_values": false,
 		"gutter_icon": false
 	}
 }

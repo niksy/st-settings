@@ -1,9 +1,13 @@
 {
-	"preferences": {
-		"css.valueSeparator": ": ",
-		"css.alignVendor": true
+	"preferences":
+	{
+		"css.alignVendor": true,
+		"css.valueSeparator": ": "
 	},
-	"syntaxProfiles": {
+	"syntaxProfiles":
+	{
 		"html": "xhtml"
-	}
+	},
+	"telemetry": true,
+	"uid": "a5e86da8-8acd-4892-9456-e88fa64545de"
 }
