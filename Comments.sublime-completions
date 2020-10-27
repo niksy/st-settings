@@ -1,0 +1,19 @@
+{
+	"scope": "source.css, source.scss, source.js",
+	"completions": [
+		{
+			"trigger": "seccomm",
+			"annotation": "Section comment block",
+			"contents": "/**\n * =============================================================================\n * ${1:\\$${2:Section name}}\n * =============================================================================\n */\n$0",
+			"kind": "snippet",
+			"details": "Section comment block"
+		},
+		{
+			"trigger": "subseccomm",
+			"annotation": "Sub-section comment block",
+			"contents": "/**\n * ${1:\\$${2:Sub-section name}}\n * -----------------------------------------------------------------------------\n */\n$0",
+			"kind": "snippet",
+			"details": "Sub-section comment block"
+		},
+	]
+}

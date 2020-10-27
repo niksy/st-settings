@@ -30,8 +30,6 @@
 	"ignored_packages":
 	[
 		"Git Formats",
-		"HTML",
-		"Markdown",
 		"Vintage"
 	],
 	"line_padding_bottom": 1,
