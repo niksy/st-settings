@@ -29,7 +29,6 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Git Formats",
 		"Vintage"
 	],
 	"line_padding_bottom": 1,
