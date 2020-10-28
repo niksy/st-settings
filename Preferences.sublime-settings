@@ -7,6 +7,7 @@
 	"bold_folder_labels": true,
 	"color_scheme": "Packages/st-solarized-light/Solarized (light).tmTheme",
 	"draw_white_space": "selection",
+	"el_capitan_font_default": true,
 	"el_capitan_sidebar_blue_folders": true,
 	"ensure_newline_at_eof_on_save": true,
 	"folder_exclude_patterns":
