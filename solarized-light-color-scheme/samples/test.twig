@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Webpage</title>
+    </head>
+    <body>
+        <ul id="navigation">
+        {% for item in navigation %}
+            <li><a href="{{ item.href }}">{{ item.caption }}</a></li>
+        {% endfor %}
+        </ul>
+
+        <h1>My Webpage</h1>
+        {{ a_variable }}
+
+        {{ foo.bar }}
+        {{ foo['bar'] }}
+
+
+        {# equivalent to the non-working foo.data-foo #}
+        {{ attribute(foo, 'data-foo') }}
+
+        {% set foo = 'foo' %}
+        {% set foo = [1, 2] %}
+        {% set foo = {'foo': 'bar'} %}
+
+        {{ name|striptags|title }}
+
+
+        {{ list|join(', ') }}
+
+        {% filter upper %}
+            This text becomes uppercase
+        {% endfilter %}
+
+        {% for i in range(0, 3) %}
+            {{ i }},
+        {% endfor %}
+
+        {% for i in range(low=1, high=10, step=2) %}
+            {{ i }},
+        {% endfor %}
+
+        {{ data|convert_encoding('UTF-8', 'iso-2022-jp') }}
+
+        {# versus #}
+
+        {{ data|convert_encoding(from='iso-2022-jp', to='UTF-8') }}
+
+        {# the first argument is the date format, which defaults to the global date format if null is passed #}
+        {{ "now"|date(null, "Europe/Paris") }}
+
+        {# or skip the format value by using a named argument for the time zone #}
+        {{ "now"|date(timezone="Europe/Paris") }}
+
+        {{ "now"|date('d/m/Y H:i', timezone="Europe/Paris") }}
+
+        <h1>Members</h1>
+        <ul>
+            {% for user in users %}
+                <li>{{ user.username|e }}</li>
+            {% endfor %}
+        </ul>
+
+        {% if users|length > 0 %}
+            <ul>
+                {% for user in users %}
+                    <li>{{ user.username|e }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+
+        {# note: disabled template because we no longer use this
+            {% for user in users %}
+                ...
+            {% endfor %}
+        #}
+
+        {{ include('sidebar.html') }}
+
+        {% for box in boxes %}
+            {{ include('render_box.html') }}
+        {% endfor %}
+
+        {{ include('sections/articles/sidebar.html') }}
+
+        {% block head %}
+            <link rel="stylesheet" href="style.css" />
+            <title>{% block title %}{% endblock %} - My Webpage</title>
+        {% endblock %}
+
+        {% extends "base.html" %}
+
+        {% block title %}Index{% endblock %}
+        {% block head %}
+            {{ parent() }}
+            <style type="text/css">
+                .important { color: #336699; }
+            </style>
+        {% endblock %}
+        {% block content %}
+            <h1>Index</h1>
+            <p class="important">
+                Welcome to my awesome homepage.
+            </p>
+        {% endblock %}
+
+        {{ user.username|e('js') }}
+        {{ user.username|e('css') }}
+        {{ user.username|e('url') }}
+        {{ user.username|e('html_attr') }}
+
+        {% macro input(name, value, type, size) %}
+            <input type="{{ type|default('text') }}" name="{{ name }}" value="{{ value|e }}" size="{{ size|default(20) }}" />
+        {% endmacro %}
+
+        {% from 'forms.html' import input as input_field %}
+
+        <dl>
+            <dt>Username</dt>
+            <dd>{{ input_field('username') }}</dd>
+            <dt>Password</dt>
+            <dd>{{ input_field('password', '', 'password') }}</dd>
+        </dl>
+
+        {% set greeting = 'Hello ' %}
+        {% set name = 'Fabien' %}
+
+        {{ greeting ~ name|lower }}   {# Hello fabien #}
+
+        {# use parenthesis to change precedence #}
+        {{ (greeting ~ name)|lower }} {# hello fabien #}
+    </body>
+</html>

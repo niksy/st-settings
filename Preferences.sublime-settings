@@ -5,7 +5,7 @@
 	],
 	"auto_complete_commit_on_tab": true,
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/st-solarized-light/Solarized (light).tmTheme",
+	"color_scheme": "Packages/User/solarized-light-color-scheme/Solarized (light).sublime-color-scheme",
 	"draw_white_space": "selection",
 	"el_capitan_font_default": true,
 	"el_capitan_sidebar_blue_folders": true,

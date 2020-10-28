@@ -1,0 +1,253 @@
+// Single line comment
+
+/* Block
+comment */
+
+@import "foo";
+@import url("printstyle.css") print;
+
+$blue: #3bbfce;
+$margin: 16px;
+
+%placeholder-class {
+	text-align:center;
+}
+
+@mixin table-base {
+	th {
+		text-align: center;
+		font-weight: bold;
+	}
+	td, th {padding: 2px}
+}
+
+@mixin left($dist) {
+	float: left;
+	margin-left: $dist;
+	@debug $dist;
+}
+
+@function function-name($foo) {
+	@return $foo ;
+}
+
+.content-navigation {
+	@include block-standard-table;
+	border-color: $blue;
+	color: darken($blue, 9%);
+	table-layout:fixed;
+
+	&:hover {
+		color: #f00;
+	}
+
+	&:enter {
+		color: #ff0;
+	}
+}
+
+.border {
+	padding: $margin / 2;
+	margin: $margin / 2;
+	border-color: $blue;
+}
+
+table.hl {
+	margin: 2em 0;
+	td.ln {
+		text-align: right;
+	}
+}
+
+li {
+	font: {
+		family: serif;
+		weight: bold;
+		size: 1.2em;
+	}
+}
+
+#data {
+	@include left(10px);
+	@include table-base;
+}
+
+.error {
+	border: 1px #f00;
+	background: #fdd;
+}
+
+.badError {
+	@extend .error;
+	border-width: 3px;
+}
+
+body { height: 100%; }
+
+h1,
+article h2,
+section h3 { line-height: 2em; } /* comment goes here */
+
+h8 { color: blue; } /* non spec element */
+
+div.styled {
+	position: relative;
+	width: 10px;
+	height: 100px;
+	background: #abc123 url('../folder/something.png');
+	-moz-opacity: 1.0;
+	-webkit-opacity: 1.0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1.0 !important;
+	transition: width 2s;
+	-moz-transition: width 2s;
+	-webkit-transition: width 2s;
+	-o-transition: width 2s;
+	background-color: rgba(0,0,0,0.5);
+}
+
+@import url("printstyle.css") print;
+
+@media screen and (max-width: 800px) and (-webkit-min-device-pixel-ratio: 2) {
+	ul:last-of-type {
+		display: none;
+	}
+}
+
+@font-face {
+  font-family: "some typeface";
+  src: url("type/filename.eot");
+  src: local("☺"),
+	url("type/filename.woff") format("woff"),
+	url("type/filename.otf") format("opentype"),
+	url("type/filename.svg#filename") format("svg");
+}
+h2 { font-family: "some typeface", Georgia, serif; }
+
+div #something > .link a,
+div #something > .link a:link,
+div #something > .link a:visited,
+div #something > .link a:visited { text-decoration: underline; }
+
+.element:first-child,
+ul:first-child li:nth-child(odd):nth-child(1n+2),
+form p *:not(#foo):not(figure.bar):not(label) { height: 20px; }
+
+select option.element[selected] { font-weight: bold; }
+select option.element_right[contenteditable~="true false"] { border: 1px solid #999; }
+[tabindex="0"] { color:#ff0; *color:#f00; }
+main, template {}
+
+@-webkit-viewport { width:device-width; }
+   @-moz-viewport { width:device-width; }
+    @-ms-viewport { width:device-width; }
+     @-o-viewport { width:device-width; }
+        @viewport { width:device-width; }
+
+@-moz-document url-prefix() {}
+
+::selection {
+	background:red;
+}
+::-moz-selection {
+	background:red;
+}
+::-webkit-input-placeholder {
+   color:red;
+}
+:-moz-placeholder {
+   color:red;
+}
+::-moz-placeholder {
+   color:red;
+}
+:-ms-input-placeholder {
+   color:red;
+}
+::placeholder {
+   color:red;
+}
+
+@supports ( display:flex; ) {
+	#something {
+		background:#f00;
+	}
+}
+
+@-webkit-keyframes myanim {
+
+}
+@-moz-keyframes myanim {
+
+}
+@-o-keyframes myanim {
+
+}
+@keyframes {
+
+}
+
+$colors: (
+  header: #b06,
+  text: #334,
+  footer: #666777,
+);
+
+.button {
+
+  &-primary { background: orange; }
+  &-secondary { background: blue; }
+}
+
+.message {
+
+  @at-root .info { color: blue; }
+  @at-root .error { color: red; }
+}
+
+@media print {
+  .page {
+    width: 8in !important;
+
+    @at-root (without: media) {
+      width: 960px;
+    }
+  }
+}
+
+$animals: (puma, black, default),
+          (sea-slug, blue, pointer),
+          (egret, white, move);
+
+@each $animal, $color, $cursor in $animals {
+  .#{$animal}-icon {
+    background-image: url('/images/#{$animal}.png');
+    border: 2px solid $color;
+    cursor: $cursor;
+  }
+}
+
+@if conditions {
+
+}
+
+@for $i from 1 through 3 {
+	.item-#{$i} {
+
+	}
+}
+
+.foo {
+	@include bar(
+		('baz', 1),
+		('bad', '2')
+	) {
+		.bag {
+			color:red;
+		}
+	}
+}
+
+@use 'foo';
+@forward 'foo';

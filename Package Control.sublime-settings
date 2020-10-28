@@ -32,7 +32,6 @@
 		"SerializedDataConverter",
 		"SideBarEnhancements",
 		"SSH Config",
-		"st-solarized-light",
 		"StringEncode",
 		"SublimeLinter",
 		"SublimeLinter-eslint",
@@ -47,9 +46,5 @@
 		"Twig",
 		"TypeScript",
 		"Vue Syntax Highlight"
-	],
-	"repositories":
-	[
-		"https://github.com/niksy/st-solarized-light"
 	]
 }

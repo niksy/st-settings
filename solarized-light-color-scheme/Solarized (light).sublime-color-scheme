@@ -1,0 +1,1635 @@
+{
+    "name": "Solarized (light)",
+    "author": "Koen Lageveen / Ivan Nikolić",
+    "variables":
+    {
+        "black": "#000000",
+        "black2": "#040404",
+        "black3": "#0b0b0b",
+        "black4": "#0d0d0d",
+        "black5": "#191919",
+        "black6": "#1d1d1d",
+        "black7": "#1f1f1f",
+        "black8": "#262626",
+        "blue": "#4791e4",
+        "blue2": "#336699",
+        "blue3": "#268bd2",
+        "blue4": "#2ca9eb",
+        "blue5": "#1787ae",
+        "blue6": "#1692bd",
+        "blue7": "#0000bb",
+        "blue8": "#0000cc",
+        "blue9": "#0000ff",
+        "blue10": "#6c71c4",
+        "blue11": "#657b83",
+        "blue12": "#637c84",
+        "blue13": "#586e75",
+        "blue14": "#333344",
+        "cyan": "#118877",
+        "cyan2": "#2aa198",
+        "cyan3": "#00ffff",
+        "cyan4": "#5cbcaa",
+        "cyan5": "#3bbfce",
+        "cyan6": "#117788",
+        "green": "#116600",
+        "green2": "#007700",
+        "green3": "#008000",
+        "green4": "#117711",
+        "grey": "#93a1a1",
+        "grey2": "#839496",
+        "grey3": "#666777",
+        "grey4": "#d0d0ce",
+        "grey5": "#c2c0bc",
+        "grey6": "#cbcbcb",
+        "grey7": "#c7c7c7",
+        "grey8": "#c5c5c5",
+        "grey9": "#c3c3c3",
+        "grey10": "#c2c2c2",
+        "grey11": "#c0c0c0",
+        "grey12": "#b4b4b4",
+        "grey13": "#b3b3b3",
+        "grey14": "#a6a6a6",
+        "grey15": "#9d9d9d",
+        "grey16": "#999999",
+        "grey17": "#979797",
+        "grey18": "#959595",
+        "grey19": "#808080",
+        "grey20": "#333333",
+        "grey21": "#373737",
+        "grey22": "#393939",
+        "grey23": "#3f3f3f",
+        "grey24": "#404040",
+        "grey25": "#414141",
+        "grey26": "#434343",
+        "grey27": "#4c4c4c",
+        "grey28": "#4f4f4f",
+        "grey29": "#5d5d5d",
+        "grey30": "#5f5f5f",
+        "grey31": "#616161",
+        "grey32": "#656565",
+        "grey33": "#676767",
+        "grey34": "#696969",
+        "grey35": "#6d6d6d",
+        "grey36": "#6e6e6e",
+        "grey37": "#6f6f6f",
+        "grey38": "#707070",
+        "grey39": "#727272",
+        "grey40": "#747474",
+        "grey41": "#757575",
+        "grey42": "#767676",
+        "grey43": "#797979",
+        "grey44": "#7f7f7f",
+        "grey45": "#cccccc",
+        "grey46": "#323232",
+        "grey47": "#2d2d2d",
+        "grey48": "#282828",
+        "orange": "#ff9900",
+        "orange2": "#ffa500",
+        "orange3": "#f8c231",
+        "orange4": "#ffc20e",
+        "orange5": "#b58900",
+        "orange6": "#d4cebd",
+        "orange7": "#b2ad9f",
+        "pink": "#ff00ff",
+        "pink2": "#bb0066",
+        "pink3": "#d33682",
+        "red": "#800000",
+        "red2": "#dd0000",
+        "red3": "#ee0000",
+        "red4": "#ff0000",
+        "red5": "#dc322f",
+        "red6": "#ee322b",
+        "red7": "#882211",
+        "red8": "#882233",
+        "red9": "#ff9e7e",
+        "red10": "#ff7f50",
+        "red11": "#ea6e3d",
+        "red12": "#cb4b16",
+        "white": "#ffdddd",
+        "white2": "#ffffff",
+        "white3": "#fbfbfb",
+        "white4": "#f9f9f9",
+        "white5": "#f8f8f8",
+        "white6": "#f6f6f6",
+        "white7": "#f5f5f5",
+        "white8": "#f1f1f1",
+        "white9": "#eeeeee",
+        "white10": "#e9e9e9",
+        "white11": "#e8e8e8",
+        "white12": "#e5e5e5",
+        "white13": "#e2e2e2",
+        "white14": "#dddddd",
+        "white15": "#dcdcdc",
+        "white16": "#dadada",
+        "white17": "#ffdec7",
+        "white18": "#fdf6e3",
+        "white19": "#fff3cf",
+        "white20": "#fff1c2",
+        "white21": "#f4eed9",
+        "white22": "#f1ede4",
+        "white23": "#fefce4",
+        "white24": "#f8f5ec",
+        "white25": "#eee8d5",
+        "white26": "#e7ffc3",
+        "white27": "#f2f4ff",
+        "white28": "#c9e4ff",
+        "yellow": "#ffff00",
+        "yellow2": "#859900",
+        "yellow3": "#abc123",
+        "yellow4": "#fdcd00",
+        "yellow5": "#aedc23",
+        "yellow6": "#669900"
+    },
+    "globals":
+    {
+        "foreground": "var(blue11)",
+        "background": "var(white18)",
+        "caret": "var(blue11)",
+        "invisibles": "var(white25)",
+        "line_highlight": "var(white25)",
+        "selection": "var(blue13)",
+        "selection_foreground": "var(white18)",
+        "selection_border": "var(white18)",
+        "guide": "var(orange6)"
+    },
+    "rules":
+    [
+        {
+            "name": "Comment",
+            "scope": "comment, comment.line.git.rebase meta.rebase-msg.git.rebase markup.heading.git.rebase, comment.line.git.rebase meta.rebase-msg.git.rebase constant.numeric.hex.hash.git.rebase, comment.line.git.rebase markup.heading.git.rebase, comment.line.git.commit constant.language.branch-name.git.commit, comment.line.git.commit markup.heading.on-branch.git.commit, comment.line.git.commit markup.heading.git.commit, comment.line.git.commit meta.change-list.git.commit keyword.other.change-list.git.commit, comment.line.git.commit meta.change-list.git.commit string.unquoted.git.commit markup.changed.file.content.git.commit, comment.line.git.commit meta.change-list.git.commit string.unquoted.git.commit markup.deleted.file.git.commit, comment.line.git.commit meta.change-list.git.commit string.unquoted.git.commit markup.inserted.file.git.commit, comment.line.git.commit constant.language.timestamp.git.commit, comment.line.git.commit meta.change-list.git.commit string.unquoted.git.commit markup.changed.file.name.git.commit",
+            "foreground": "var(grey)",
+            "font_style": "italic"
+        },
+        {
+            "name": "String",
+            "scope": "string",
+            "foreground": "var(cyan2)"
+        },
+        {
+            "name": "StringNumber",
+            "scope": "string",
+            "foreground": "var(blue13)"
+        },
+        {
+            "name": "Regexp",
+            "scope": "string.regexp",
+            "foreground": "var(red5)",
+            "background": "var(white21)"
+        },
+        {
+            "name": "Number",
+            "scope": "constant.numeric",
+            "foreground": "var(pink3)"
+        },
+        {
+            "name": "Variable",
+            "scope": "variable.language, variable.other",
+            "foreground": "var(blue3)"
+        },
+        {
+            "name": "Keyword",
+            "scope": "keyword",
+            "foreground": "var(yellow2)"
+        },
+        {
+            "name": "Storage",
+            "scope": "storage",
+            "foreground": "var(yellow2)"
+        },
+        {
+            "name": "Class name",
+            "scope": "entity.name.class, entity.name.type.class",
+            "foreground": "var(blue3)"
+        },
+        {
+            "name": "Function name",
+            "scope": "entity.name.function, meta.function-call.sass variable.function.sass, entity.other.animation-name.css",
+            "foreground": "var(blue3)"
+        },
+        {
+            "name": "Variable start",
+            "scope": "punctuation.definition.variable",
+            "foreground": "var(yellow2)"
+        },
+        {
+            "name": "Embedded code markers",
+            "scope": "punctuation.section.embedded.begin, punctuation.section.embedded.end",
+            "foreground": "var(red5)"
+        },
+        {
+            "name": "Built-in constant",
+            "scope": "constant.language, meta.preprocessor",
+            "foreground": "var(orange5)"
+        },
+        {
+            "name": "Support.construct",
+            "scope": "support.function.construct, keyword.other.new",
+            "foreground": "var(red5)"
+        },
+        {
+            "name": "User-defined constant",
+            "scope": "constant.character, constant.other",
+            "foreground": "var(red12)"
+        },
+        {
+            "name": "Inherited class",
+            "scope": "entity.other.inherited-class"
+        },
+        {
+            "name": "Function argument",
+            "scope": "variable.parameter"
+        },
+        {
+            "name": "Tag name",
+            "scope": "entity.name.tag, entity.tag.apacheconf",
+            "foreground": "var(blue3)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Tag start/end",
+            "scope": "punctuation.definition.tag.html, punctuation.definition.tag.begin, punctuation.definition.tag.end, punctuation.definition.tag.apacheconf",
+            "foreground": "var(grey)"
+        },
+        {
+            "name": "Tag attribute",
+            "scope": "entity.other.attribute-name",
+            "foreground": "var(grey)"
+        },
+        {
+            "name": "Library function",
+            "scope": "support.function",
+            "foreground": "var(blue3)"
+        },
+        {
+            "name": "Continuation",
+            "scope": "punctuation.separator.continuation",
+            "foreground": "var(red5)"
+        },
+        {
+            "name": "Library constant",
+            "scope": "support.constant"
+        },
+        {
+            "name": "Library class/type",
+            "scope": "support.type, support.class",
+            "foreground": "var(yellow2)"
+        },
+        {
+            "name": "Library Exception",
+            "scope": "support.type.exception",
+            "foreground": "var(red12)"
+        },
+        {
+            "name": "Special",
+            "scope": "keyword.other.special-method",
+            "foreground": "var(red12)"
+        },
+        {
+            "name": "Library variable",
+            "scope": "support.other.variable"
+        },
+        {
+            "name": "Invalid",
+            "scope": "invalid"
+        },
+        {
+            "name": "Quoted String",
+            "scope": "string.quoted.double, string.quoted.single, string.template-string.js, string.template-string.js string.template-string.js, string.quoted.jsx, string.template.js, string.quoted.single.js entity.name.function.js",
+            "foreground": "var(cyan2)"
+        },
+        {
+            "name": "Quotes",
+            "scope": "punctuation.definition.string.begin, punctuation.definition.string.end, punctuation.definition.template-string.begin.js, punctuation.definition.template-string.end.js",
+            "foreground": "var(grey2)"
+        },
+        {
+            "name": "()",
+            "scope": "meta.brace.round",
+            "foreground": "var(grey)"
+        },
+        {
+            "name": "CSS: Property name (body)",
+            "scope": "entity.name.tag.css, support.type.property-name.css, support.type.property-name.media.css, support.type.property-name.media.scss meta.property-name.css, support.type.property-name.scss, meta.property-name.css support.type.vendor-prefix.css",
+            "foreground": "var(blue11)"
+        },
+        {
+            "name": "CSS: @ rules (purple)",
+            "scope": "punctuation.definition.keyword.scss, punctuation.definition.keyword.css, keyword.control.at-rule.charset.css, keyword.control.at-rule.charset.scss, keyword.control.each.css, keyword.control.each.scss, keyword.control.else.css, keyword.control.else.scss, keyword.control.at-rule.import.css, keyword.control.at-rule.import.scss, keyword.control.at-rule.fontface.css, keyword.control.at-rule.fontface.scss, keyword.control.for.css, keyword.control.for.scss, keyword.control.at-rule.function.css, keyword.control.at-rule.function.scss, keyword.control.if.css, keyword.control.if.scss, keyword.control.at-rule.include.scss, keyword.control.at-rule.media.css, keyword.control.at-rule.media.scss, keyword.control.at-rule.font-face.css, keyword.control.at-rule.font-face.scss, variable.other.less, variable.declaration.less, variable.interpolation.less, keyword.control.at-rule.css, keyword.control.at-rule.scss, keyword.control.at-rule.supports.css, keyword.control.at-rule.supports.scss, keyword.control.at-rule.mixin.scss, meta.at-rule.import.scss support.function.url.scss, keyword.control.at-rule.viewport.css, keyword.control.at-rule.viewport.scss, keyword.control.return.scss, keyword.control.at-rule.keyframes.css, keyword.control.at-rule.keyframes.scss, meta.function.declaration.sass keyword.control.at-rule.sass, keyword.control.at-rule.return.sass, keyword.control.at-rule.extend.sass, meta.function-call.sass variable.function.sass keyword.control.at-rule.sass, meta.at-rule.sass keyword.control.at-rule.sass, keyword.control.at-rule.keyframe.css, keyword.control.at-rule.keyframe.css support.type.property-vendor.css, keyword.control.at-rule.at-root.sass, meta.at-rule.each.sass keyword.control.flow.sass, keyword.control.at-rule.module.sass, keyword.control.flow.conditional.sass, meta.at-rule.sass keyword.control.flow.sass",
+            "foreground": "var(blue10)",
+            "font_style": "bold"
+        },
+        {
+            "name": "CSS: @media, @supports, @import rules",
+            "scope": "meta.at-rule.import, meta.at-rule.media, meta.at-rule.supports, meta.at-rule.media keyword.control.operator, meta.at-rule.media support.function.misc",
+            "foreground": "var(blue3)",
+            "font_style": "bold"
+        },
+        {
+            "name": "CSS: css-modules import path",
+            "scope": "meta.import.css-modules.css, meta.import.css-modules.scss",
+            "foreground": "var(blue3)",
+            "font_style": "bold"
+        },
+        {
+            "name": "CSS: Numeric Value (blue)",
+            "scope": "support.variable.namespace.css, meta.at-rule.include.scss support.constant, meta.at-rule.include.scss support.constant.property-value.scss, constant.numeric.css, keyword.other.unit.css, keyword.unit.css, constant.numeric.scss, keyword.other.unit.scss, constant.numeric.integer.decimal.css, constant.numeric.float.decimal.css, punctuation.definition.constant.scss, punctuation.definition.constant.css, constant.other.rgb-value.css",
+            "foreground": "var(blue3)"
+        },
+        {
+            "name": "CSS: String, value and constants (azure)",
+            "scope": "variable.parameter.url.scss, meta.property-value.css, meta.property-value.scss, support.constant.property-value.scss, support.constant.font-name.scss, string.quoted.single.css, string.quoted.double.css, constant.character.escaped.css, string.quoted.variable.parameter.url, punctuation.definition.string.begin.scss, punctuation.definition.string.begin.css, punctuation.definition.string.end.scss, punctuation.definition.string.end.css, support.constant.property-value.css, meta.property-value.css string.unquoted.css",
+            "foreground": "var(cyan2)"
+        },
+        {
+            "name": "CSS: !Important (red)",
+            "scope": "keyword.other.important.css, keyword.other.important.scss",
+            "foreground": "var(red5)",
+            "font_style": "bold"
+        },
+        {
+            "name": "CSS: Standard color value (orange)",
+            "scope": "support.constant.color, constant.other.color.rgb-value.css, constant.other.color.rgb-value.css punctuation.definition.constant.css, constant.other.color.rgb-value.scss, constant.other.color.rgb-value.scss punctuation.definition.constant.scss, invalid.deprecated.color.w3c-non-standard-color-name.scss",
+            "foreground": "var(red12)"
+        },
+        {
+            "name": "CSS: : , () (body)",
+            "scope": "punctuation.terminator.rule.css, punctuation.terminator.rule.scss, punctuation.section.function.css, punctuation.section.function.scss, punctuation.separator.key-value.css, punctuation.separator.key-value.scss, punctuation.scss, punctuation.css, keyword.operator.less, entity.name.tag.reference.scss, punctuation.definition.group.begin.css, punctuation.definition.group.end.css, punctuation.definition.group.begin.sass, punctuation.definition.group.end.sass, meta.map.arguments.css punctuation.separator.css, punctuation.separator.sequence.css, meta.selector.css keyword.operator.ampersand.sass",
+            "foreground": "var(blue11)"
+        },
+        {
+            "name": "CSS: Selector > [] and non-spec tags (body)",
+            "scope": "meta.selector.css",
+            "foreground": "var(blue11)"
+        },
+        {
+            "name": "CSS: Tag (green)",
+            "scope": "entity.name.tag.css, entity.name.tag.scss, entity.name.tag.wildcard.scss, entity.name.tag.wildcard.css",
+            "foreground": "var(yellow2)"
+        },
+        {
+            "name": "CSS .class (yellow)",
+            "scope": "entity.other.attribute-name.suffix.scss, entity.other.attribute-name.class.css, entity.other.less.mixin, meta.selector.css entity.other.attribute-name.css",
+            "foreground": "var(orange5)"
+        },
+        {
+            "name": "CSS: #id (yellow)",
+            "scope": "source.css entity.other.attribute-name.id, entity.other.attribute-name.id.css",
+            "foreground": "var(orange5)",
+            "font_style": "bold"
+        },
+        {
+            "name": "CSS :pseudo (orange)",
+            "scope": "entity.other.attribute-name.pseudo-element.css, entity.other.attribute-name.pseudo-class.css, entity.other.attribute-name.custom-pseudo-class.css, entity.other.attribute-name.pseudo-class.css-modules.css, entity.other.pseudo-class.css, entity.other.pseudo-element.css, entity.other.pseudo-element.css support.type.vendor-prefix.css, entity.other.pseudo-class.css support.type.vendor-prefix.css",
+            "foreground": "var(red12)"
+        },
+        {
+            "name": "SCSS: Variables (pink)",
+            "scope": "variable, variable.scss, variable.other.scss, variable.declaration.sass, punctuation.definition.variable.sass, variable.other.sass",
+            "foreground": "var(pink3)"
+        },
+        {
+            "name": "SCSS: Debug",
+            "scope": "keyword.control.warn.scss, keyword.control.warn.scss punctuation.definition.keyword.scss",
+            "foreground": "var(red5)",
+            "font_style": "bold"
+        },
+        {
+            "name": "JS: Keyword control",
+            "scope": "source.js keyword.control",
+            "foreground": "var(blue10)",
+            "font_style": "bold"
+        },
+        {
+            "name": "JS: Function Name",
+            "scope": "entity.name.function.js, support.function.dom.js, entity.name.method.js, support.function.js.firebug, support.function.console.js, entity.template-string.tag.name.js, meta.function-call.method.js variable.function.js, meta.function-call.js variable.function.js, variable.function.tagged-template.js",
+            "foreground": "var(blue13)",
+            "font_style": "bold"
+        },
+        {
+            "name": "JS: Function Arguments",
+            "scope": "variable.parameter.function.js, meta.function.js meta.group.braces.curly variable.other.readwrite.js, meta.method.js meta.group.braces.curly variable.other.readwrite.js, meta.function.arrow.js meta.group.braces.curly variable.other.readwrite.js, meta.function.js meta.group.braces.square variable.other.readwrite.js, meta.method.js meta.group.braces.square variable.other.readwrite.js, meta.function.arrow.js meta.group.braces.square variable.other.readwrite.js",
+            "foreground": "var(pink3)"
+        },
+        {
+            "name": "JS: Function",
+            "scope": "storage.type.function.js",
+            "foreground": "var(blue3)",
+            "font_style": "bold"
+        },
+        {
+            "name": "JS: Numeric Constant",
+            "scope": "constant.numeric.js",
+            "foreground": "var(pink3)"
+        },
+        {
+            "name": "JS: Storage Type",
+            "scope": "storage.type.js, keyword.control.declaration.js",
+            "foreground": "var(yellow2)",
+            "font_style": "bold"
+        },
+        {
+            "name": "JS: Node constants",
+            "scope": "support.constant.node.js",
+            "foreground": "var(yellow2)"
+        },
+        {
+            "name": "JS: Variable name",
+            "scope": "variable.other.readwrite.js, meta.function-call.constructor.js variable.type.js",
+            "foreground": "var(blue11)"
+        },
+        {
+            "name": "JS: Console and debugger",
+            "scope": "entity.name.type.object.js.firebug, keyword.control.debug.js, support.type.object.firebug.js, support.type.object.console.js, keyword.other.debugger.js",
+            "foreground": "var(red5)",
+            "font_style": "bold"
+        },
+        {
+            "name": "JS: this",
+            "scope": "variable.language.this.js",
+            "font_style": "italic"
+        },
+        {
+            "name": "JS: Object",
+            "scope": "variable.other.object.js, meta.property.object.js, meta.function.js support.object.js",
+            "foreground": "var(blue11)"
+        },
+        {
+            "name": "JS: Object property",
+            "scope": "variable.other.property.js",
+            "foreground": "var(orange5)"
+        },
+        {
+            "name": "JS: Object, unqouted property",
+            "scope": "constant.other.object.key.js string.unquoted.label.js, meta.object-literal.key.js",
+            "foreground": "var(cyan2)"
+        },
+        {
+            "name": "JS: Object, unqouted method",
+            "scope": "meta.function.json.js entity.name.function.js, meta.function.json.arrow.js entity.name.function.js, meta.group.braces.curly meta.method.js entity.name.method.js, meta.object-literal.js meta.function.declaration.js entity.name.function.js",
+            "foreground": "var(cyan2)",
+            "font_style": "bold"
+        },
+        {
+            "name": "JS: Delimiter",
+            "scope": "punctuation.separator.key-value.js, meta.delimiter.method.period.js, keyword.operator.js, keyword.operator.assignment.js",
+            "foreground": "var(grey)"
+        },
+        {
+            "name": "JS: Constant",
+            "scope": "source.js constant.language, source.json constant.language",
+            "foreground": "var(blue3)",
+            "font_style": "italic bold"
+        },
+        {
+            "name": "JS: (), {}, [], ,",
+            "scope": "source.json meta.structure.array punctuation.definition.array.begin, source.json meta.structure.array punctuation.definition.array.end, source.json meta.structure.dictionary punctuation.definition.dictionary.begin, source.json meta.structure.dictionary punctuation.definition.dictionary.end, source.js meta.function.js punctuation.definition.parameters, source.js meta.function.arrow.js punctuation.definition.parameters, meta.brace.round.js, meta.brace.curly.js, meta.brace.square.js, source.js meta.group.braces.round punctuation.section.scope, source.js meta.group.braces.curly punctuation.section.scope, source.js meta.group.braces.square punctuation.section.scope, meta.object-literal.js, meta.binding.destructuring.mapping.js, meta.function.js meta.block.js, punctuation.section.group.begin.js, punctuation.section.group.end.js, punctuation.section.brackets.begin.js, punctuation.section.brackets.end.js, punctuation.section.block.begin.js, punctuation.section.block.end.js, punctuation.section.mapping.begin.json, punctuation.section.mapping.end.json, punctuation.section.sequence.begin.json, punctuation.section.sequence.end.json",
+            "foreground": "var(grey)"
+        },
+        {
+            "name": "JS: ,",
+            "scope": "punctuation.terminator.statement.js, punctuation.separator.parameter.function.js",
+            "foreground": "var(blue11)"
+        },
+        {
+            "name": "JS: Source",
+            "scope": "text.html.basic source.js.embedded.html",
+            "foreground": "var(orange5)"
+        },
+        {
+            "name": "JS: Template string, element",
+            "scope": "string.template-string.js entity.template-string.element.js",
+            "foreground": "var(blue11)"
+        },
+        {
+            "name": "JS: Template string, element start and begin",
+            "scope": "punctuation.template-string.element.begin.js, punctuation.template-string.element.end.js, punctuation.definition.template-expression.begin.js, punctuation.definition.template-expression.end.js",
+            "foreground": "var(grey)"
+        },
+        {
+            "name": "JS: import/export",
+            "scope": "keyword.control.import-export.js",
+            "foreground": "var(yellow2)",
+            "font_style": "bold"
+        },
+        {
+            "name": "JSX: Element",
+            "scope": "meta.jsx.js",
+            "background": "var(white21)"
+        },
+        {
+            "name": "JSX: Element start and begin",
+            "scope": "punctuation.section.embedded.begin.jsx, punctuation.section.embedded.end.jsx",
+            "foreground": "var(grey)"
+        },
+        {
+            "name": "Vue: Template interpolation",
+            "scope": "text.html.vue punctuation.definition.template.begin.html, text.html.vue punctuation.definition.template.end.html",
+            "foreground": "var(grey)",
+            "background": "var(white21)",
+            "font_style": "bold"
+        },
+        {
+            "name": "HTML: Doctype",
+            "scope": "entity.name.tag.doctype.html, meta.tag.sgml.html, string.quoted.double.doctype.identifiers-and-DTDs.html",
+            "foreground": "var(grey2)",
+            "font_style": "italic"
+        },
+        {
+            "name": "HTML: Comment Block",
+            "scope": "comment.block.html",
+            "foreground": "var(grey2)",
+            "font_style": "italic"
+        },
+        {
+            "name": "HTML: Script",
+            "scope": "entity.name.tag.script.html",
+            "font_style": "italic"
+        },
+        {
+            "name": "HTML: Style",
+            "scope": "source.css.embedded.html string.quoted.double.html",
+            "foreground": "var(cyan2)"
+        },
+        {
+            "name": "HTML: Text",
+            "scope": "text.html.ruby",
+            "foreground": "var(blue11)",
+            "font_style": "bold"
+        },
+        {
+            "name": "HTML: =",
+            "scope": "text.html.basic meta.tag.other.html, text.html.basic meta.tag.any.html, text.html.basic meta.tag.block.any, text.html.basic meta.tag.inline.any, text.html.basic meta.tag.structure.any.html, text.html.basic source.js.embedded.html, text.html.basic source.css.embedded.html, punctuation.separator.key-value.html",
+            "foreground": "var(blue11)"
+        },
+        {
+            "name": "HTML: something=",
+            "scope": "text.html.twig entity.other.attribute-name.html",
+            "foreground": "var(blue11)"
+        },
+        {
+            "name": "HTML: \"",
+            "scope": "text.html.basic meta.tag.structure.any.html punctuation.definition.string.begin.html, punctuation.definition.string.begin.html, punctuation.definition.string.end.html",
+            "foreground": "var(cyan2)"
+        },
+        {
+            "name": "HTML: <tag>",
+            "scope": "entity.name.tag.block.any.html",
+            "foreground": "var(blue3)",
+            "font_style": "bold"
+        },
+        {
+            "name": "HTML: <style>",
+            "scope": "source.css.embedded.html entity.name.tag.style.html, entity.name.tag.style.html",
+            "font_style": "italic"
+        },
+        {
+            "name": "HTML: {}",
+            "scope": "text.html.basic, punctuation.section.property-list.css"
+        },
+        {
+            "name": "HTML: Embeddable",
+            "scope": "source.js.embedded.html, source.css.embedded.html, text.html.vue source.js",
+            "foreground": "var(grey2)",
+            "background": "var(white21)"
+        },
+        {
+            "name": "Vue: script and style block",
+            "scope": "text.html.vue source.js.embedded.html, text.html.vue source.css.embedded.html",
+            "foreground": "var(grey2)",
+            "background": "var(white18)"
+        },
+        {
+            "name": "Ruby: Variable definition",
+            "scope": "punctuation.definition.variable.ruby",
+            "foreground": "var(blue3)"
+        },
+        {
+            "name": "Ruby: Function Name",
+            "scope": "meta.function.method.with-arguments.ruby",
+            "foreground": "var(blue11)"
+        },
+        {
+            "name": "Ruby: Variable",
+            "scope": "variable.language.ruby",
+            "foreground": "var(cyan2)"
+        },
+        {
+            "name": "Ruby: Function",
+            "scope": "entity.name.function.ruby",
+            "foreground": "var(blue3)"
+        },
+        {
+            "name": "Ruby: Keyword Control",
+            "scope": "keyword.control.ruby, keyword.control.def.ruby",
+            "foreground": "var(yellow2)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Ruby: Class",
+            "scope": "keyword.control.class.ruby, meta.class.ruby",
+            "foreground": "var(yellow2)"
+        },
+        {
+            "name": "Ruby: Class Name",
+            "scope": "entity.name.type.class.ruby",
+            "foreground": "var(orange5)"
+        },
+        {
+            "name": "Ruby: Keyword",
+            "scope": "keyword.control.ruby",
+            "foreground": "var(yellow2)"
+        },
+        {
+            "name": "Ruby: Support Class",
+            "scope": "support.class.ruby",
+            "foreground": "var(orange5)"
+        },
+        {
+            "name": "Ruby: Special Method",
+            "scope": "keyword.other.special-method.ruby",
+            "foreground": "var(yellow2)"
+        },
+        {
+            "name": "Ruby: Constant",
+            "scope": "constant.language.ruby, constant.numeric.ruby",
+            "foreground": "var(cyan2)"
+        },
+        {
+            "name": "Ruby: Constant Other",
+            "scope": "variable.other.constant.ruby",
+            "foreground": "var(orange5)"
+        },
+        {
+            "name": "Ruby: :symbol",
+            "scope": "constant.other.symbol.ruby",
+            "foreground": "var(cyan2)"
+        },
+        {
+            "name": "Ruby: Punctuation Section ''",
+            "scope": "punctuation.section.embedded.ruby, punctuation.definition.string.begin.ruby, punctuation.definition.string.end.ruby",
+            "foreground": "var(red5)"
+        },
+        {
+            "name": "Ruby: Special Method",
+            "scope": "keyword.other.special-method.ruby",
+            "foreground": "var(red12)"
+        },
+        {
+            "name": "PHP: Include",
+            "scope": "keyword.control.import.include.php",
+            "foreground": "var(red12)"
+        },
+        {
+            "name": "Ruby: erb =",
+            "scope": "text.html.ruby meta.tag.inline.any.html",
+            "foreground": "var(grey2)"
+        },
+        {
+            "name": "Ruby: erb \"\"",
+            "scope": "text.html.ruby punctuation.definition.string.begin, text.html.ruby punctuation.definition.string.end",
+            "foreground": "var(cyan2)"
+        },
+        {
+            "name": "PHP: Class Names",
+            "scope": "support.class.php",
+            "foreground": "var(blue13)"
+        },
+        {
+            "name": "PHP: []",
+            "scope": "keyword.operator.index-start.php, keyword.operator.index-end.php, punctuation.section.brackets.begin.php, punctuation.section.brackets.end.php",
+            "foreground": "var(blue11)"
+        },
+        {
+            "name": "PHP: Array",
+            "scope": "meta.array.php",
+            "foreground": "var(blue13)"
+        },
+        {
+            "name": "PHP: Array()",
+            "scope": "meta.array.php support.function.construct.php, meta.array.empty.php support.function.construct.php",
+            "foreground": "var(orange5)"
+        },
+        {
+            "name": "PHP: Array Construct",
+            "scope": "support.function.construct.php",
+            "foreground": "var(orange5)"
+        },
+        {
+            "name": "PHP: Array Begin",
+            "scope": "punctuation.definition.array.begin, punctuation.definition.array.end",
+            "foreground": "var(red5)"
+        },
+        {
+            "name": "PHP: Numeric Constant",
+            "scope": "constant.numeric.php",
+            "foreground": "var(pink3)"
+        },
+        {
+            "name": "PHP: New",
+            "scope": "keyword.other.new.php",
+            "foreground": "var(red12)"
+        },
+        {
+            "name": "PHP: ::",
+            "scope": "keyword.operator.class",
+            "foreground": "var(blue13)"
+        },
+        {
+            "name": "PHP: Other Property",
+            "scope": "variable.other.property.php",
+            "foreground": "var(grey2)"
+        },
+        {
+            "name": "PHP: Class",
+            "scope": "storage.modifier.extends.php, storage.type.class.php, keyword.operator.class.php",
+            "foreground": "var(orange5)"
+        },
+        {
+            "name": "PHP: Semicolon",
+            "scope": "punctuation.terminator.expression.php",
+            "foreground": "var(blue11)"
+        },
+        {
+            "name": "PHP: Inherited Class",
+            "scope": "meta.other.inherited-class.php",
+            "foreground": "var(blue13)"
+        },
+        {
+            "name": "PHP: Storage Type",
+            "scope": "storage.type.php",
+            "foreground": "var(yellow2)"
+        },
+        {
+            "name": "PHP: Function",
+            "scope": "entity.name.function.php",
+            "foreground": "var(grey2)"
+        },
+        {
+            "name": "PHP: Function Construct",
+            "scope": "support.function.construct.php",
+            "foreground": "var(yellow2)"
+        },
+        {
+            "name": "PHP: Function Call",
+            "scope": "entity.name.type.class.php, meta.function-call.php, meta.function-call.static.php, meta.function-call.object.php, variable.function.php, meta.function-call.php punctuation.section.group.begin.php, meta.function-call.php punctuation.section.group.end.php, meta.function-call.php punctuation.section.array.begin.php, meta.function-call.php punctuation.section.array.end.php",
+            "foreground": "var(grey2)"
+        },
+        {
+            "name": "PHP: Comment",
+            "scope": "keyword.other.phpdoc",
+            "foreground": "var(grey2)"
+        },
+        {
+            "name": "PHP: Source Emebedded",
+            "scope": "source.php.embedded.block.html",
+            "foreground": "var(red12)"
+        },
+        {
+            "name": "PHP: Storage Type Function",
+            "scope": "storage.type.function.php",
+            "foreground": "var(red12)"
+        },
+        {
+            "name": "PHP: Namespace",
+            "scope": "meta.use.php support.other.namespace.php, meta.use.php support.class.php, support.other.namespace.php, entity.name.namespace.php",
+            "foreground": "var(red12)"
+        },
+        {
+            "name": "PHP: {}",
+            "scope": "punctuation.section.block.php, punctuation.section.block.begin.php, punctuation.section.block.end.php",
+            "foreground": "var(grey)"
+        },
+        {
+            "name": "C: constant",
+            "scope": "constant.numeric.c",
+            "foreground": "var(cyan2)"
+        },
+        {
+            "name": "C: Meta Preprocessor",
+            "scope": "meta.preprocessor.c.include, meta.preprocessor.macro.c",
+            "foreground": "var(red12)"
+        },
+        {
+            "name": "C: Keyword",
+            "scope": "keyword.control.import.define.c, keyword.control.import.include.c",
+            "foreground": "var(red12)"
+        },
+        {
+            "name": "C: Function Preprocessor",
+            "scope": "entity.name.function.preprocessor.c",
+            "foreground": "var(red12)"
+        },
+        {
+            "name": "C: include <something.c>",
+            "scope": "meta.preprocessor.c.include string.quoted.other.lt-gt.include.c, meta.preprocessor.c.include punctuation.definition.string.begin.c, meta.preprocessor.c.include punctuation.definition.string.end.c",
+            "foreground": "var(cyan2)"
+        },
+        {
+            "name": "C: Function",
+            "scope": "support.function.C99.c, support.function.any-method.c, entity.name.function.c",
+            "foreground": "var(blue13)"
+        },
+        {
+            "name": "C: \"",
+            "scope": "punctuation.definition.string.begin.c, punctuation.definition.string.end.c",
+            "foreground": "var(cyan2)"
+        },
+        {
+            "name": "C: Storage Type",
+            "scope": "storage.type.c",
+            "foreground": "var(orange5)"
+        },
+        {
+            "name": "diff: header",
+            "scope": "meta.diff, meta.diff.header",
+            "foreground": "var(white25)",
+            "font_style": "italic"
+        },
+        {
+            "name": "diff: deleted",
+            "scope": "markup.deleted",
+            "foreground": "var(red5)"
+        },
+        {
+            "name": "diff: changed",
+            "scope": "markup.changed",
+            "foreground": "var(red12)"
+        },
+        {
+            "name": "diff: inserted",
+            "scope": "markup.inserted",
+            "foreground": "var(yellow2)"
+        },
+        {
+            "name": "reST raw",
+            "scope": "text.restructuredtext markup.raw",
+            "foreground": "var(cyan2)"
+        },
+        {
+            "name": "Other: Removal",
+            "scope": "other.package.exclude, other.remove",
+            "foreground": "var(red5)"
+        },
+        {
+            "name": "Other: Add",
+            "scope": "other.add",
+            "foreground": "var(cyan2)"
+        },
+        {
+            "name": "Tex: {}",
+            "scope": "punctuation.section.group.tex , punctuation.definition.arguments.begin.latex, punctuation.definition.arguments.end.latex, punctuation.definition.arguments.latex",
+            "foreground": "var(red5)"
+        },
+        {
+            "name": "Tex: {text}",
+            "scope": "meta.group.braces.tex",
+            "foreground": "var(orange5)"
+        },
+        {
+            "name": "Tex: Other Math",
+            "scope": "string.other.math.tex",
+            "foreground": "var(orange5)"
+        },
+        {
+            "name": "Tex: {var}",
+            "scope": "variable.parameter.function.latex",
+            "foreground": "var(red12)"
+        },
+        {
+            "name": "Tex: Math \\\\",
+            "scope": "punctuation.definition.constant.math.tex",
+            "foreground": "var(red5)"
+        },
+        {
+            "name": "Tex: Constant Math",
+            "scope": "text.tex.latex constant.other.math.tex, constant.other.general.math.tex, constant.other.general.math.tex, constant.character.math.tex",
+            "foreground": "var(cyan2)"
+        },
+        {
+            "name": "Tex: Other Math String",
+            "scope": "string.other.math.tex",
+            "foreground": "var(orange5)"
+        },
+        {
+            "name": "Tex: $",
+            "scope": "punctuation.definition.string.begin.tex, punctuation.definition.string.end.tex",
+            "foreground": "var(red5)"
+        },
+        {
+            "name": "Tex: \\label",
+            "scope": "keyword.control.label.latex, text.tex.latex constant.other.general.math.tex",
+            "foreground": "var(cyan2)"
+        },
+        {
+            "name": "Tex: \\label { }",
+            "scope": "variable.parameter.definition.label.latex",
+            "foreground": "var(red5)"
+        },
+        {
+            "name": "Tex: Function",
+            "scope": "support.function.be.latex",
+            "foreground": "var(yellow2)"
+        },
+        {
+            "name": "Tex: Support Function Section",
+            "scope": "support.function.section.latex",
+            "foreground": "var(red12)"
+        },
+        {
+            "name": "Tex: Support Function",
+            "scope": "support.function.general.tex",
+            "foreground": "var(cyan2)"
+        },
+        {
+            "name": "Tex: Comment",
+            "scope": "punctuation.definition.comment.tex, comment.line.percentage.tex",
+            "font_style": "italic"
+        },
+        {
+            "name": "Tex: Reference Label",
+            "scope": "keyword.control.ref.latex",
+            "foreground": "var(cyan2)"
+        },
+        {
+            "name": "Python: storage",
+            "scope": "storage.type.class.python, storage.type.function.python, storage.modifier.global.python",
+            "foreground": "var(yellow2)"
+        },
+        {
+            "name": "Python: import",
+            "scope": "keyword.control.import.python, keyword.control.import.from.python",
+            "foreground": "var(red12)"
+        },
+        {
+            "name": "Python: Support.exception",
+            "scope": "support.type.exception.python",
+            "foreground": "var(orange5)"
+        },
+        {
+            "name": "Shell: builtin",
+            "scope": "support.function.builtin.shell",
+            "foreground": "var(yellow2)"
+        },
+        {
+            "name": "Shell: variable",
+            "scope": "variable.other.normal.shell",
+            "foreground": "var(red12)"
+        },
+        {
+            "name": "Shell: DOT_FILES",
+            "scope": "source.shell",
+            "foreground": "var(blue3)"
+        },
+        {
+            "name": "Shell: meta scope in loop",
+            "scope": "meta.scope.for-in-loop.shell, variable.other.loop.shell",
+            "foreground": "var(blue13)"
+        },
+        {
+            "name": "Shell: \"\"",
+            "scope": "punctuation.definition.string.end.shell, punctuation.definition.string.begin.shell",
+            "foreground": "var(yellow2)"
+        },
+        {
+            "name": "Shell: Meta Block",
+            "scope": "meta.scope.case-block.shell, meta.scope.case-body.shell",
+            "foreground": "var(blue13)"
+        },
+        {
+            "name": "Shell: []",
+            "scope": "punctuation.definition.logical-expression.shell",
+            "foreground": "var(red5)"
+        },
+        {
+            "name": "Shell: Comment",
+            "scope": "comment.line.number-sign.shell",
+            "font_style": "italic"
+        },
+        {
+            "name": "Java: import",
+            "scope": "keyword.other.import.java",
+            "foreground": "var(red12)"
+        },
+        {
+            "name": "Java: meta-import",
+            "scope": "storage.modifier.import.java",
+            "foreground": "var(blue13)"
+        },
+        {
+            "name": "Java: Class",
+            "scope": "meta.class.java storage.modifier.java",
+            "foreground": "var(orange5)"
+        },
+        {
+            "name": "Java: /* comment */",
+            "scope": "source.java comment.block",
+            "foreground": "var(blue13)"
+        },
+        {
+            "name": "Java: /* @param */",
+            "scope": "comment.block meta.documentation.tag.param.javadoc keyword.other.documentation.param.javadoc",
+            "foreground": "var(blue13)"
+        },
+        {
+            "name": "Perl: variables",
+            "scope": "punctuation.definition.variable.perl, variable.other.readwrite.global.perl, variable.other.predefined.perl, keyword.operator.comparison.perl",
+            "foreground": "var(orange5)"
+        },
+        {
+            "name": "Perl: functions",
+            "scope": "support.function.perl",
+            "foreground": "var(yellow2)"
+        },
+        {
+            "name": "Perl: comments",
+            "scope": "comment.line.number-sign.perl",
+            "foreground": "var(blue13)",
+            "font_style": "italic"
+        },
+        {
+            "name": "Perl: quotes",
+            "scope": "punctuation.definition.string.begin.perl, punctuation.definition.string.end.perl",
+            "foreground": "var(cyan2)"
+        },
+        {
+            "name": "Perl: \\char",
+            "scope": "constant.character.escape.perl",
+            "foreground": "var(red5)"
+        },
+        {
+            "name": "Twig: Variable",
+            "scope": "variable.other.twig, variable.other.property.twig",
+            "foreground": "var(blue13)"
+        },
+        {
+            "name": "Twig: Function",
+            "scope": "support.function.twig, meta.function-call.twig, variable.function.twig",
+            "foreground": "var(blue13)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Twig: Block",
+            "scope": "meta.tag.template.block.twig, meta.tag.template.value.twig, meta.placeholder.twig, meta.statement.twig",
+            "background": "var(white21)"
+        },
+        {
+            "name": "Twig: Start/End delimiters",
+            "scope": "punctuation.section.tag.twig, punctuation.definition.placeholder.begin.twig, punctuation.definition.placeholder.end.twig, punctuation.definition.statement.begin.twig, punctuation.definition.statement.end.twig",
+            "foreground": "var(grey)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Twig: Control",
+            "scope": "keyword.control.twig, keyword.operator.comparison.twig, keyword.operator.other.twig, meta.tag.template.value.twig keyword.operator.assignment.twig, keyword.control.loop.for.twig, keyword.control.loop.end.twig, keyword.other.tag.twig, keyword.other.endtag.twig, keyword.control.conditional.if.twig, keyword.control.conditional.end.twig, keyword.operator.logical.twig",
+            "font_style": "bold"
+        },
+        {
+            "name": "Twig: Variable assignment",
+            "scope": "meta.tag.template.block.twig keyword.operator.assignment.twig",
+            "foreground": "var(grey)"
+        },
+        {
+            "scope": "markup.list, text.html.markdown punctuation.definition, meta.separator.markdown",
+            "foreground": "var(red12)"
+        },
+        {
+            "scope": "markup.heading",
+            "foreground": "var(blue3)"
+        },
+        {
+            "scope": "markup.quote, meta.paragraph.list, text.html.markdown punctuation.definition.list_item, markup.list.unnumbered.markdown, markup.list.numbered.markdown",
+            "foreground": "var(cyan2)"
+        },
+        {
+            "scope": "markup.italic",
+            "font_style": "italic"
+        },
+        {
+            "scope": "markup.bold",
+            "font_style": "bold"
+        },
+        {
+            "scope": "markup.underline.link.markdown, meta.link.inline punctuation.definition.metadata, meta.link.reference.markdown punctuation.definition.constant, meta.link.reference.markdown constant.other.reference",
+            "foreground": "var(orange5)"
+        },
+        {
+            "scope": "meta.paragraph.markdown meta.dummy.line-break",
+            "background": "var(blue10)"
+        },
+        {
+            "name": "Markdown fenced block: JS comment",
+            "scope": "markup.raw.block.fenced.markdown source.js punctuation.definition.comment.js",
+            "foreground": "var(grey)",
+            "font_style": "italic"
+        },
+        {
+            "name": "Apache Configuration: Source",
+            "scope": "source.apacheconf, string.path.apacheconf",
+            "foreground": "var(orange5)"
+        },
+        {
+            "name": "Apache Configuration: Value",
+            "scope": "string.value.apacheconf",
+            "foreground": "var(cyan2)"
+        },
+        {
+            "name": "Find Results: File name",
+            "scope": "entity.name.filename.find-in-files",
+            "foreground": "var(cyan2)",
+            "background": "var(white21)",
+            "font_style": "bold"
+        },
+        {
+            "name": "SublimeLinter Annotations",
+            "scope": "sublimelinter.notes",
+            "foreground": "var(white25)",
+            "background": "var(white25)"
+        },
+        {
+            "name": "SublimeLinter Error Outline",
+            "scope": "sublimelinter.outline.illegal",
+            "foreground": "var(grey)",
+            "background": "var(grey)"
+        },
+        {
+            "name": "SublimeLinter Error Underline",
+            "scope": "sublimelinter.underline.illegal",
+            "background": "var(red5)"
+        },
+        {
+            "name": "SublimeLinter Warning Outline",
+            "scope": "sublimelinter.outline.warning",
+            "foreground": "var(grey2)",
+            "background": "var(grey2)"
+        },
+        {
+            "name": "SublimeLinter Warning Underline",
+            "scope": "sublimelinter.underline.warning",
+            "background": "var(orange5)"
+        },
+        {
+            "name": "SublimeLinter Violation Outline",
+            "scope": "sublimelinter.outline.violation",
+            "foreground": "var(blue11)",
+            "background": "var(blue11)"
+        },
+        {
+            "name": "SublimeLinter Violation Underline",
+            "scope": "sublimelinter.underline.violation",
+            "background": "var(red12)"
+        },
+        {
+            "name": "SublimeLinter Warning",
+            "scope": "sublimelinter.mark.warning, region.yellowish markup.changed.sublime_linter markup.warning.sublime_linter",
+            "foreground": "var(orange5)"
+        },
+        {
+            "name": "SublimeLinter Error",
+            "scope": "sublimelinter.mark.error, region.redish markup.deleted.sublime_linter markup.error.sublime_linter",
+            "foreground": "var(red5)"
+        },
+        {
+            "name": "SublimeLinter Gutter Mark",
+            "scope": "sublimelinter.gutter-mark",
+            "foreground": "var(blue11)"
+        },
+        {
+            "name": "Bracket Default",
+            "scope": "brackethighlighter.default",
+            "background": "var(orange7)"
+        },
+        {
+            "name": "Bracket Unmatched",
+            "scope": "brackethighlighter.unmatched",
+            "background": "var(orange7)"
+        },
+        {
+            "name": "GitGutter deleted",
+            "scope": "markup.deleted.git_gutter",
+            "foreground": "var(red5)"
+        },
+        {
+            "name": "GitGutter inserted",
+            "scope": "markup.inserted.git_gutter",
+            "foreground": "var(yellow2)"
+        },
+        {
+            "name": "GitGutter changed",
+            "scope": "markup.changed.git_gutter",
+            "foreground": "var(orange5)"
+        },
+        {
+            "name": "Git Commit: Diff",
+            "scope": "meta.diff.git-commit",
+            "foreground": "var(grey2)"
+        },
+        {
+            "name": "Git Commit: Diff, header, from file",
+            "scope": "meta.diff.git-commit meta.diff.header.from-file",
+            "foreground": "var(red12)"
+        },
+        {
+            "name": "Git Commit: Diff, header, to file",
+            "scope": "meta.diff.git-commit meta.diff.header.to-file",
+            "foreground": "var(cyan2)"
+        },
+        {
+            "name": "Git Commit: Line too long warning",
+            "scope": "invalid.warning.line-too-long.git-commit",
+            "foreground": "var(orange5)"
+        },
+        {
+            "name": "Git Commit: Line too long error",
+            "scope": "invalid.error.line-too-long.git-commit",
+            "foreground": "var(red5)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Git Rebase: SHA",
+            "scope": "constant.sha.git-rebase, meta.commit.git.rebase constant.numeric.hex.hash.git.rebase",
+            "foreground": "var(orange5)"
+        },
+        {
+            "name": "Git Rebase: Command",
+            "scope": "support.function.git-rebase, meta.commit.git.rebase keyword.operator.commit.pick.git.rebase",
+            "foreground": "var(blue3)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Git Config: Section",
+            "scope": "meta.section.git-config, entity.name.section.git.config, punctuation.definition.brackets.begin.git.config, punctuation.definition.brackets.end.git.config",
+            "foreground": "var(blue10)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Git Config: Section name",
+            "scope": "entity.name.section.git-config, meta.brackets.git.config string.quoted.double.git.config",
+            "font_style": "bold"
+        },
+        {
+            "name": "Git Config: Subsection name",
+            "scope": "entity.name.section.subsection.git-config",
+            "foreground": "var(pink3)"
+        },
+        {
+            "name": "Git Config: Property declaration",
+            "scope": "meta.value-pair.section-item.git-config, string.unquoted.value.git.config",
+            "foreground": "var(cyan2)"
+        },
+        {
+            "name": "Git Config: Property declaration, shell",
+            "scope": "meta.mapping.value.git.config source.shell",
+            "background": "var(white21)"
+        },
+        {
+            "name": "Git Config: Property name",
+            "scope": "meta.value-pair.section-item.git-config support.constant.git-config, punctuation.separator.key-value.git-config",
+            "foreground": "var(blue3)"
+        },
+        {
+            "name": "Find In Files: Matched line numbers",
+            "scope": "constant.numeric.line-number.match.find-in-files",
+            "font_style": "bold"
+        },
+        {
+            "name": "Arithmetical, Assignment, Comparision Operators",
+            "scope": "keyword.operator.comparison, keyword.operator.assignment, keyword.operator.arithmetic",
+            "foreground": "var(yellow2)"
+        },
+        {
+            "scope": "col_gutter",
+            "foreground": "var(white2)",
+            "background": "var(black)"
+        },
+        {
+            "scope": "col_F2F4FFFF",
+            "foreground": "var(grey40)",
+            "background": "var(white27)"
+        },
+        {
+            "scope": "col_008000FF",
+            "foreground": "var(grey6)",
+            "background": "var(green3)"
+        },
+        {
+            "scope": "col_1787AEFF",
+            "foreground": "var(white10)",
+            "background": "var(blue5)"
+        },
+        {
+            "scope": "col_1692BDFF",
+            "foreground": "var(white8)",
+            "background": "var(blue6)"
+        },
+        {
+            "scope": "col_E7FFC3FF",
+            "foreground": "var(grey38)",
+            "background": "var(white26)"
+        },
+        {
+            "scope": "col_F8C231FF",
+            "foreground": "var(grey25)",
+            "background": "var(orange3)"
+        },
+        {
+            "scope": "col_FFA500FF",
+            "foreground": "var(grey47)",
+            "background": "var(orange2)"
+        },
+        {
+            "scope": "col_0000FFFF",
+            "foreground": "var(grey15)",
+            "background": "var(blue9)"
+        },
+        {
+            "scope": "col_4791E4FF",
+            "foreground": "var(black2)",
+            "background": "var(blue)"
+        },
+        {
+            "scope": "col_F9F9F9FF",
+            "foreground": "var(grey43)",
+            "background": "var(white4)"
+        },
+        {
+            "scope": "col_FDCD00FF",
+            "foreground": "var(grey26)",
+            "background": "var(yellow4)"
+        },
+        {
+            "scope": "col_999999FF",
+            "foreground": "var(black5)",
+            "background": "var(grey16)"
+        },
+        {
+            "scope": "col_333333FF",
+            "foreground": "var(grey13)",
+            "background": "var(grey20)"
+        },
+        {
+            "scope": "col_F6F6F6FF",
+            "foreground": "var(grey42)",
+            "background": "var(white6)"
+        },
+        {
+            "scope": "col_2CA9EBFF",
+            "foreground": "var(black3)",
+            "background": "var(blue4)"
+        },
+        {
+            "scope": "col_AEDC23FF",
+            "foreground": "var(grey22)",
+            "background": "var(yellow5)"
+        },
+        {
+            "scope": "col_FFC20EFF",
+            "foreground": "var(grey23)",
+            "background": "var(orange4)"
+        },
+        {
+            "scope": "col_FFFF00FF",
+            "foreground": "var(grey31)",
+            "background": "var(yellow)"
+        },
+        {
+            "scope": "col_656565FF",
+            "foreground": "var(white12)",
+            "background": "var(grey32)"
+        },
+        {
+            "scope": "col_DDDDDDFF",
+            "foreground": "var(grey29)",
+            "background": "var(white14)"
+        },
+        {
+            "scope": "col_EE322BFF",
+            "foreground": "var(white10)",
+            "background": "var(red6)"
+        },
+        {
+            "scope": "col_D0D0CEFF",
+            "foreground": "var(grey28)",
+            "background": "var(grey4)"
+        },
+        {
+            "scope": "col_EEEEEEFF",
+            "foreground": "var(grey36)",
+            "background": "var(white9)"
+        },
+        {
+            "scope": "col_EE0000FF",
+            "foreground": "var(grey7)",
+            "background": "var(red3)"
+        },
+        {
+            "scope": "col_EA6E3DFF",
+            "foreground": "var(black4)",
+            "background": "var(red11)"
+        },
+        {
+            "scope": "col_FEFCE4FF",
+            "foreground": "var(grey43)",
+            "background": "var(white23)"
+        },
+        {
+            "scope": "col_CCCCCCFF",
+            "foreground": "var(grey27)",
+            "background": "var(grey45)"
+        },
+        {
+            "scope": "col_FFF1C2FF",
+            "foreground": "var(grey37)",
+            "background": "var(white20)"
+        },
+        {
+            "scope": "col_669900FF",
+            "foreground": "var(white5)",
+            "background": "var(yellow6)"
+        },
+        {
+            "scope": "col_C9E4FFFF",
+            "foreground": "var(grey30)",
+            "background": "var(white28)"
+        },
+        {
+            "scope": "col_0000007F",
+            "foreground": "var(white3)",
+            "background": "color(var(black) alpha(0.5))"
+        },
+        {
+            "scope": "col_FFFFFFFF",
+            "foreground": "var(grey44)",
+            "background": "var(white2)"
+        },
+        {
+            "scope": "col_117788FF",
+            "foreground": "var(white16)",
+            "background": "var(cyan6)"
+        },
+        {
+            "scope": "col_88221111",
+            "foreground": "var(grey34)",
+            "background": "color(var(red7) alpha(0.067))"
+        },
+        {
+            "scope": "col_00FFFFFF",
+            "foreground": "var(grey46)",
+            "background": "var(cyan3)"
+        },
+        {
+            "scope": "col_FF00FFFF",
+            "foreground": "var(white10)",
+            "background": "var(pink)"
+        },
+        {
+            "scope": "col_FF0000FF",
+            "foreground": "var(grey45)",
+            "background": "var(red4)"
+        },
+        {
+            "scope": "col_FFF3CFFF",
+            "foreground": "var(grey39)",
+            "background": "var(white19)"
+        },
+        {
+            "scope": "col_116600FF",
+            "foreground": "var(grey11)",
+            "background": "var(green)"
+        },
+        {
+            "scope": "col_118877FF",
+            "foreground": "var(white13)",
+            "background": "var(cyan)"
+        },
+        {
+            "scope": "col_117711FF",
+            "foreground": "var(grey45)",
+            "background": "var(green4)"
+        },
+        {
+            "scope": "col_0000BBFF",
+            "foreground": "var(grey18)",
+            "background": "var(blue7)"
+        },
+        {
+            "scope": "col_DD0000FF",
+            "foreground": "var(grey10)",
+            "background": "var(red2)"
+        },
+        {
+            "scope": "col_FF9900FF",
+            "foreground": "var(black8)",
+            "background": "var(orange)"
+        },
+        {
+            "scope": "col_000000FF",
+            "foreground": "var(grey19)",
+            "background": "var(black)"
+        },
+        {
+            "scope": "col_007700FF",
+            "foreground": "var(grey8)",
+            "background": "var(green2)"
+        },
+        {
+            "scope": "col_FF7F50FF",
+            "foreground": "var(black7)",
+            "background": "var(red10)"
+        },
+        {
+            "scope": "col_637C84FF",
+            "foreground": "var(white7)",
+            "background": "var(blue12)"
+        },
+        {
+            "scope": "col_F8F5ECFF",
+            "foreground": "var(grey40)",
+            "background": "var(white24)"
+        },
+        {
+            "scope": "col_88223301",
+            "foreground": "var(grey41)",
+            "background": "color(var(red8) alpha(0.0039))"
+        },
+        {
+            "scope": "col_5CBCAAFF",
+            "foreground": "var(black6)",
+            "background": "var(cyan4)"
+        },
+        {
+            "scope": "col_F1EDE4FF",
+            "foreground": "var(grey35)",
+            "background": "var(white22)"
+        },
+        {
+            "scope": "col_C2C0BCFF",
+            "foreground": "var(grey24)",
+            "background": "var(grey5)"
+        },
+        {
+            "scope": "col_FFDEC7FF",
+            "foreground": "var(grey32)",
+            "background": "var(white17)"
+        },
+        {
+            "scope": "col_FF9E7EFF",
+            "foreground": "var(grey21)",
+            "background": "var(red9)"
+        },
+        {
+            "scope": "col_800000FF",
+            "foreground": "var(grey14)",
+            "background": "var(red)"
+        },
+        {
+            "name": "Hosts: IP address",
+            "scope": "text.hosts support.constant.built-in.hosts",
+            "foreground": "var(orange5)"
+        },
+        {
+            "scope": "col_FFFFFF01",
+            "foreground": "var(grey41)",
+            "background": "color(var(white2) alpha(0.0039))"
+        },
+        {
+            "scope": "col_3BBFCEFF",
+            "foreground": "var(black5)",
+            "background": "var(cyan5)"
+        },
+        {
+            "scope": "col_FFDDDDFF",
+            "foreground": "var(grey33)",
+            "background": "var(white)"
+        },
+        {
+            "scope": "col_BB0066FF",
+            "foreground": "var(grey9)",
+            "background": "var(pink2)"
+        },
+        {
+            "scope": "col_333344FF",
+            "foreground": "var(grey12)",
+            "background": "var(blue14)"
+        },
+        {
+            "scope": "col_666777FF",
+            "foreground": "var(white11)",
+            "background": "var(grey3)"
+        },
+        {
+            "scope": "col_ABC123FF",
+            "foreground": "var(grey48)",
+            "background": "var(yellow3)"
+        },
+        {
+            "scope": "col_0000CCFF",
+            "foreground": "var(grey17)",
+            "background": "var(blue8)"
+        },
+        {
+            "scope": "col_336699FF",
+            "foreground": "var(white15)",
+            "background": "var(blue2)"
+        }
+    ]
+}

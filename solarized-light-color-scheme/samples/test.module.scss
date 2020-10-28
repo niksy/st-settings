@@ -1,0 +1,40 @@
+.className {
+  color: green;
+  background: red;
+}
+
+.otherClassName {
+  composes: className;
+  color: yellow;
+}
+
+.otherClassName {
+  composes: classNameA classNameB;
+  color: yellow;
+}
+
+.otherClassName {
+  composes: className from "./style.css";
+  composes: className from './style.css';
+}
+
+@supports ( display:flex; ) {
+
+	.otherClassName {
+	  composes: className;
+	  color: yellow;
+	}
+
+	.otherClassName {
+	  composes: className from "./style.css";
+	  composes: className from './style.css';
+	}
+}
+
+:global .global-class-name {
+   color: green;
+}
+
+.localA :global .global-b .global-c :local(.localD.localE) .global-d {
+   color: green;
+}
