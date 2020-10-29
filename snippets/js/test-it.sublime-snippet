@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+it('${1:should}', function () {
+	${0:$TM_SELECTED_TEXT}
+});]]></content>
+	<tabTrigger>testit</tabTrigger>
+	<scope>source.js</scope>
+	<description>Test: it</description>
+</snippet>

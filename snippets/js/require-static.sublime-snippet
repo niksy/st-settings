@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+const ${1:name} = require('${2:name}');
+]]></content>
+	<tabTrigger>req</tabTrigger>
+	<scope>source.js</scope>
+	<description>require</description>
+</snippet>

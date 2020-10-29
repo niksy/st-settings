@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+;(${5: async }(${4: ${3:args} }) => {
+	$0
+})(${2: ${1:args} });]]></content>
+	<tabTrigger>iife</tabTrigger>
+	<scope>source.js</scope>
+	<description>IIFE</description>
+</snippet>

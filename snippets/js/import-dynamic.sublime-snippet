@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+import(/* webpackChunkName: "${1:chunkName}" */ '${2:name}')${0}
+]]></content>
+	<tabTrigger>dimport</tabTrigger>
+	<scope>source.js</scope>
+	<description>import, dynamic</description>
+</snippet>

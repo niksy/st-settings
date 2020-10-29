@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * =============================================================================
+ * ${1:\$${2:Section name}}
+ * =============================================================================
+ */
+$0]]></content>
+	<tabTrigger>seccomm</tabTrigger>
+	<scope>source.css, source.scss, source.js</scope>
+	<description>Section comment block</description>
+</snippet>

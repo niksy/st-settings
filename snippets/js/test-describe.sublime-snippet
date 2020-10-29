@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+describe('${1:test}', function () {
+	${0:$TM_SELECTED_TEXT}
+});]]></content>
+	<tabTrigger>testdescribe</tabTrigger>
+	<scope>source.js</scope>
+	<description>Test: describe</description>
+</snippet>
