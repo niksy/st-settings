@@ -156,7 +156,7 @@
     [
         {
             "name": "Comment",
-            "scope": "comment, comment.line.git.rebase meta.rebase-msg.git.rebase markup.heading.git.rebase, comment.line.git.rebase meta.rebase-msg.git.rebase constant.numeric.hex.hash.git.rebase, comment.line.git.rebase markup.heading.git.rebase, comment.line.git.commit constant.language.branch-name.git.commit, comment.line.git.commit markup.heading.on-branch.git.commit, comment.line.git.commit markup.heading.git.commit, comment.line.git.commit meta.change-list.git.commit keyword.other.change-list.git.commit, comment.line.git.commit meta.change-list.git.commit string.unquoted.git.commit markup.changed.file.content.git.commit, comment.line.git.commit meta.change-list.git.commit string.unquoted.git.commit markup.deleted.file.git.commit, comment.line.git.commit meta.change-list.git.commit string.unquoted.git.commit markup.inserted.file.git.commit, comment.line.git.commit constant.language.timestamp.git.commit, comment.line.git.commit meta.change-list.git.commit string.unquoted.git.commit markup.changed.file.name.git.commit",
+            "scope": "comment, comment.line.git.rebase meta.rebase-msg.git.rebase markup.heading.git.rebase, comment.line.git.rebase meta.rebase-msg.git.rebase constant.numeric.hex.hash.git.rebase, comment.line.git.rebase markup.heading.git.rebase, comment.line.git.commit constant.language.branch-name.git.commit, comment.line.git.commit markup.heading.on-branch.git.commit, comment.line.git.commit markup.heading.git.commit, comment.line.git.commit meta.change-list.git.commit keyword.other.change-list.git.commit, comment.line.git.commit meta.change-list.git.commit string.unquoted.git.commit markup.changed.file.content.git.commit, comment.line.git.commit meta.change-list.git.commit string.unquoted.git.commit markup.deleted.file.git.commit, comment.line.git.commit meta.change-list.git.commit string.unquoted.git.commit markup.inserted.file.git.commit, comment.line.git.commit constant.language.timestamp.git.commit, comment.line.git.commit meta.change-list.git.commit string.unquoted.git.commit markup.changed.file.name.git.commit, comment.line.git.commit meta.command-list.git.commit keyword.operator.git.commit, comment.line.git.commit meta.command-list.git.commit constant.numeric.hex.hash.git.commit, comment.line.git.commit meta.command-list.git.commit string.unquoted.subject.git.commit",
             "foreground": "var(grey)",
             "font_style": "italic"
         },
@@ -315,7 +315,7 @@
         },
         {
             "name": "CSS: Property name (body)",
-            "scope": "entity.name.tag.css, support.type.property-name.css, support.type.property-name.media.css, support.type.property-name.media.scss meta.property-name.css, support.type.property-name.scss, meta.property-name.css support.type.vendor-prefix.css",
+            "scope": "support.type.property-name.css, support.type.property-name.media.css, support.type.property-name.media.scss meta.property-name.css, support.type.property-name.scss, meta.property-name.css support.type.vendor-prefix.css",
             "foreground": "var(blue11)"
         },
         {
@@ -326,15 +326,15 @@
         },
         {
             "name": "CSS: @media, @supports, @import rules",
-            "scope": "meta.at-rule.import, meta.at-rule.media, meta.at-rule.supports, meta.at-rule.media keyword.control.operator, meta.at-rule.media support.function.misc",
+            "scope": "meta.at-rule.import, meta.at-rule.media, meta.at-rule.supports, meta.at-rule.media keyword.control.operator, meta.at-rule.media support.function.misc, meta.import.css-modules.css, meta.import.css-modules.scss",
             "foreground": "var(blue3)",
             "font_style": "bold"
         },
         {
-            "name": "CSS: css-modules import path",
-            "scope": "meta.import.css-modules.css, meta.import.css-modules.scss",
+            "name": "CSS: at-rule properties",
+            "scope": "meta.at-rule string.quoted, meta.at-rule support.type.property-name, meta.at-rule constant.numeric, meta.at-rule punctuation.definition.group, meta.at-rule meta.property-value, meta.at-rule punctuation.separator, meta.at-rule punctuation.terminator",
             "foreground": "var(blue3)",
-            "font_style": "bold"
+            "font_style": "normal"
         },
         {
             "name": "CSS: Numeric Value",
@@ -370,7 +370,8 @@
         {
             "name": "CSS: Tag",
             "scope": "entity.name.tag.css, entity.name.tag.scss, entity.name.tag.wildcard.scss, entity.name.tag.wildcard.css",
-            "foreground": "var(yellow2)"
+            "foreground": "var(yellow2)",
+            "font_style": "normal"
         },
         {
             "name": "CSS .class",
@@ -434,7 +435,7 @@
         },
         {
             "name": "JS: Variable name",
-            "scope": "variable.other.readwrite.js, meta.function-call.constructor.js variable.type.js",
+            "scope": "variable.other.readwrite.js, variable.other.constant.js, meta.function-call.constructor.js variable.type.js",
             "foreground": "var(blue11)"
         },
         {
@@ -501,7 +502,7 @@
         },
         {
             "name": "JS: import/export",
-            "scope": "keyword.control.import-export.js",
+            "scope": "keyword.control.import-export.js, variable.language.import.js",
             "foreground": "var(yellow2)",
             "font_style": "bold"
         },

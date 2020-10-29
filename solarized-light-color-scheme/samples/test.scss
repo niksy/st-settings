@@ -86,6 +86,10 @@ li {
 
 body { height: 100%; }
 
+* {
+	color: red;
+}
+
 h1,
 article h2,
 section h3 { line-height: 2em; } /* comment goes here */
