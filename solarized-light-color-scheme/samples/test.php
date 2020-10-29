@@ -35,6 +35,9 @@ $crumbs[] = array(getGS("Configure"), "");
 $crumbs[] = array(getGS("Countries"), "");
 echo camp_html_breadcrumbs($crumbs);
 
+var_dump(expression);
+die;
+
 ?>
 
 <?php  if ($g_user->hasPermission("ManageCountries")) { ?>

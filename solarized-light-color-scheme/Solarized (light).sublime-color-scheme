@@ -308,6 +308,12 @@
             "foreground": "var(grey)"
         },
         {
+            "name": "Debugging and logging",
+            "scope": "entity.name.type.object.js.firebug, keyword.control.debug.js, support.type.object.firebug.js, support.type.object.console.js, keyword.other.debugger.js, keyword.control.at-rule.debugger.sass, keyword.control.at-rule.warn.sass, keyword.control.warn.scss, keyword.control.warn.scss punctuation.definition.keyword.scss, meta.function-call.php support.function.var.php",
+            "foreground": "var(red5)",
+            "font_style": "bold"
+        },
+        {
             "name": "CSS: Property name (body)",
             "scope": "entity.name.tag.css, support.type.property-name.css, support.type.property-name.media.css, support.type.property-name.media.scss meta.property-name.css, support.type.property-name.scss, meta.property-name.css support.type.vendor-prefix.css",
             "foreground": "var(blue11)"
@@ -331,28 +337,28 @@
             "font_style": "bold"
         },
         {
-            "name": "CSS: Numeric Value (blue)",
+            "name": "CSS: Numeric Value",
             "scope": "support.variable.namespace.css, meta.at-rule.include.scss support.constant, meta.at-rule.include.scss support.constant.property-value.scss, constant.numeric.css, keyword.other.unit.css, keyword.unit.css, constant.numeric.scss, keyword.other.unit.scss, constant.numeric.integer.decimal.css, constant.numeric.float.decimal.css, punctuation.definition.constant.scss, punctuation.definition.constant.css, constant.other.rgb-value.css",
             "foreground": "var(blue3)"
         },
         {
-            "name": "CSS: String, value and constants (azure)",
+            "name": "CSS: String, value and constants",
             "scope": "variable.parameter.url.scss, meta.property-value.css, meta.property-value.scss, support.constant.property-value.scss, support.constant.font-name.scss, string.quoted.single.css, string.quoted.double.css, constant.character.escaped.css, string.quoted.variable.parameter.url, punctuation.definition.string.begin.scss, punctuation.definition.string.begin.css, punctuation.definition.string.end.scss, punctuation.definition.string.end.css, support.constant.property-value.css, meta.property-value.css string.unquoted.css",
             "foreground": "var(cyan2)"
         },
         {
-            "name": "CSS: !Important (red)",
+            "name": "CSS: !important",
             "scope": "keyword.other.important.css, keyword.other.important.scss",
             "foreground": "var(red5)",
             "font_style": "bold"
         },
         {
-            "name": "CSS: Standard color value (orange)",
+            "name": "CSS: Standard color value",
             "scope": "support.constant.color, constant.other.color.rgb-value.css, constant.other.color.rgb-value.css punctuation.definition.constant.css, constant.other.color.rgb-value.scss, constant.other.color.rgb-value.scss punctuation.definition.constant.scss, invalid.deprecated.color.w3c-non-standard-color-name.scss",
             "foreground": "var(red12)"
         },
         {
-            "name": "CSS: : , () (body)",
+            "name": "CSS: : , ()",
             "scope": "punctuation.terminator.rule.css, punctuation.terminator.rule.scss, punctuation.section.function.css, punctuation.section.function.scss, punctuation.separator.key-value.css, punctuation.separator.key-value.scss, punctuation.scss, punctuation.css, keyword.operator.less, entity.name.tag.reference.scss, punctuation.definition.group.begin.css, punctuation.definition.group.end.css, punctuation.definition.group.begin.sass, punctuation.definition.group.end.sass, meta.map.arguments.css punctuation.separator.css, punctuation.separator.sequence.css, meta.selector.css keyword.operator.ampersand.sass",
             "foreground": "var(blue11)"
         },
@@ -362,36 +368,30 @@
             "foreground": "var(blue11)"
         },
         {
-            "name": "CSS: Tag (green)",
+            "name": "CSS: Tag",
             "scope": "entity.name.tag.css, entity.name.tag.scss, entity.name.tag.wildcard.scss, entity.name.tag.wildcard.css",
             "foreground": "var(yellow2)"
         },
         {
-            "name": "CSS .class (yellow)",
+            "name": "CSS .class",
             "scope": "entity.other.attribute-name.suffix.scss, entity.other.attribute-name.class.css, entity.other.less.mixin, meta.selector.css entity.other.attribute-name.css",
             "foreground": "var(orange5)"
         },
         {
-            "name": "CSS: #id (yellow)",
+            "name": "CSS: #id",
             "scope": "source.css entity.other.attribute-name.id, entity.other.attribute-name.id.css",
             "foreground": "var(orange5)",
             "font_style": "bold"
         },
         {
-            "name": "CSS :pseudo (orange)",
+            "name": "CSS :pseudo",
             "scope": "entity.other.attribute-name.pseudo-element.css, entity.other.attribute-name.pseudo-class.css, entity.other.attribute-name.custom-pseudo-class.css, entity.other.attribute-name.pseudo-class.css-modules.css, entity.other.pseudo-class.css, entity.other.pseudo-element.css, entity.other.pseudo-element.css support.type.vendor-prefix.css, entity.other.pseudo-class.css support.type.vendor-prefix.css",
             "foreground": "var(red12)"
         },
         {
-            "name": "SCSS: Variables (pink)",
-            "scope": "variable, variable.scss, variable.other.scss, variable.declaration.sass, punctuation.definition.variable.sass, variable.other.sass",
+            "name": "SCSS: Variables",
+            "scope": "variable, variable.scss, variable.other.scss, variable.declaration.sass, variable.other.sass",
             "foreground": "var(pink3)"
-        },
-        {
-            "name": "SCSS: Debug",
-            "scope": "keyword.control.warn.scss, keyword.control.warn.scss punctuation.definition.keyword.scss",
-            "foreground": "var(red5)",
-            "font_style": "bold"
         },
         {
             "name": "JS: Keyword control",
@@ -400,13 +400,13 @@
             "font_style": "bold"
         },
         {
-            "name": "JS: Function Name",
+            "name": "JS: Function name",
             "scope": "entity.name.function.js, support.function.dom.js, entity.name.method.js, support.function.js.firebug, support.function.console.js, entity.template-string.tag.name.js, meta.function-call.method.js variable.function.js, meta.function-call.js variable.function.js, variable.function.tagged-template.js",
             "foreground": "var(blue13)",
             "font_style": "bold"
         },
         {
-            "name": "JS: Function Arguments",
+            "name": "JS: Function arguments",
             "scope": "variable.parameter.function.js, meta.function.js meta.group.braces.curly variable.other.readwrite.js, meta.method.js meta.group.braces.curly variable.other.readwrite.js, meta.function.arrow.js meta.group.braces.curly variable.other.readwrite.js, meta.function.js meta.group.braces.square variable.other.readwrite.js, meta.method.js meta.group.braces.square variable.other.readwrite.js, meta.function.arrow.js meta.group.braces.square variable.other.readwrite.js",
             "foreground": "var(pink3)"
         },
@@ -417,12 +417,12 @@
             "font_style": "bold"
         },
         {
-            "name": "JS: Numeric Constant",
+            "name": "JS: Numeric constant",
             "scope": "constant.numeric.js",
             "foreground": "var(pink3)"
         },
         {
-            "name": "JS: Storage Type",
+            "name": "JS: Storage type",
             "scope": "storage.type.js, keyword.control.declaration.js",
             "foreground": "var(yellow2)",
             "font_style": "bold"
@@ -436,12 +436,6 @@
             "name": "JS: Variable name",
             "scope": "variable.other.readwrite.js, meta.function-call.constructor.js variable.type.js",
             "foreground": "var(blue11)"
-        },
-        {
-            "name": "JS: Console and debugger",
-            "scope": "entity.name.type.object.js.firebug, keyword.control.debug.js, support.type.object.firebug.js, support.type.object.console.js, keyword.other.debugger.js",
-            "foreground": "var(red5)",
-            "font_style": "bold"
         },
         {
             "name": "JS: this",
@@ -541,14 +535,14 @@
             "font_style": "italic"
         },
         {
-            "name": "HTML: Script",
+            "name": "HTML: <script>",
             "scope": "entity.name.tag.script.html",
             "font_style": "italic"
         },
         {
-            "name": "HTML: Style",
-            "scope": "source.css.embedded.html string.quoted.double.html",
-            "foreground": "var(cyan2)"
+            "name": "HTML: <style>",
+            "scope": "entity.name.tag.style.html",
+            "font_style": "italic"
         },
         {
             "name": "HTML: Text",
@@ -576,11 +570,6 @@
             "scope": "entity.name.tag.block.any.html",
             "foreground": "var(blue3)",
             "font_style": "bold"
-        },
-        {
-            "name": "HTML: <style>",
-            "scope": "source.css.embedded.html entity.name.tag.style.html, entity.name.tag.style.html",
-            "font_style": "italic"
         },
         {
             "name": "HTML: {}",

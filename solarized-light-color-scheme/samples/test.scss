@@ -25,6 +25,8 @@ $margin: 16px;
 	float: left;
 	margin-left: $dist;
 	@debug $dist;
+	@warn $dist;
+	@error $dist;
 }
 
 @function function-name($foo) {
