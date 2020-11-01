@@ -1113,6 +1113,11 @@
             "font_style": "italic"
         },
         {
+            "name": "Markdown inline code and fenced block",
+            "scope": "markup.raw.inline.markdown, markup.raw.code-fence.shell-script.markdown-gfm",
+            "background": "var(white21)"
+        },
+        {
             "name": "Apache Configuration: Source",
             "scope": "source.apacheconf, string.path.apacheconf",
             "foreground": "var(orange5)"
