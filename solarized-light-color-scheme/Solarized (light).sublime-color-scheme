@@ -156,7 +156,7 @@
     [
         {
             "name": "Comment",
-            "scope": "comment, comment.line.git.rebase meta.rebase-msg.git.rebase markup.heading.git.rebase, comment.line.git.rebase meta.rebase-msg.git.rebase constant.numeric.hex.hash.git.rebase, comment.line.git.rebase markup.heading.git.rebase, comment.line.git.commit constant.language.branch-name.git.commit, comment.line.git.commit markup.heading.on-branch.git.commit, comment.line.git.commit markup.heading.git.commit, comment.line.git.commit meta.change-list.git.commit keyword.other.change-list.git.commit, comment.line.git.commit meta.change-list.git.commit string.unquoted.git.commit markup.changed.file.content.git.commit, comment.line.git.commit meta.change-list.git.commit string.unquoted.git.commit markup.deleted.file.git.commit, comment.line.git.commit meta.change-list.git.commit string.unquoted.git.commit markup.inserted.file.git.commit, comment.line.git.commit constant.language.timestamp.git.commit, comment.line.git.commit meta.change-list.git.commit string.unquoted.git.commit markup.changed.file.name.git.commit, comment.line.git.commit meta.command-list.git.commit keyword.operator.git.commit, comment.line.git.commit meta.command-list.git.commit constant.numeric.hex.hash.git.commit, comment.line.git.commit meta.command-list.git.commit string.unquoted.subject.git.commit",
+            "scope": "comment, meta.disable-markdown punctuation.definition.comment, comment.line.git.rebase meta.rebase-msg.git.rebase markup.heading.git.rebase, comment.line.git.rebase meta.rebase-msg.git.rebase constant.numeric.hex.hash.git.rebase, comment.line.git.rebase markup.heading.git.rebase, comment.line.git.commit constant.language.branch-name.git.commit, comment.line.git.commit markup.heading.on-branch.git.commit, comment.line.git.commit markup.heading.git.commit, comment.line.git.commit meta.change-list.git.commit keyword.other.change-list.git.commit, comment.line.git.commit meta.change-list.git.commit string.unquoted.git.commit markup.changed.file.content.git.commit, comment.line.git.commit meta.change-list.git.commit string.unquoted.git.commit markup.deleted.file.git.commit, comment.line.git.commit meta.change-list.git.commit string.unquoted.git.commit markup.inserted.file.git.commit, comment.line.git.commit constant.language.timestamp.git.commit, comment.line.git.commit meta.change-list.git.commit string.unquoted.git.commit markup.changed.file.name.git.commit, comment.line.git.commit meta.command-list.git.commit keyword.operator.git.commit, comment.line.git.commit meta.command-list.git.commit constant.numeric.hex.hash.git.commit, comment.line.git.commit meta.command-list.git.commit string.unquoted.subject.git.commit",
             "foreground": "var(grey)",
             "font_style": "italic"
         },
@@ -183,7 +183,7 @@
         },
         {
             "name": "Variable",
-            "scope": "variable.language, variable.other",
+            "scope": "variable.language, variable.other, meta.property.object.dollar",
             "foreground": "var(blue3)"
         },
         {
@@ -193,7 +193,7 @@
         },
         {
             "name": "Storage",
-            "scope": "storage",
+            "scope": "storage, storage.type",
             "foreground": "var(yellow2)"
         },
         {
@@ -203,7 +203,7 @@
         },
         {
             "name": "Function name",
-            "scope": "entity.name.function, meta.function-call.sass variable.function.sass, entity.other.animation-name.css",
+            "scope": "entity.name.function, meta.function-call.sass variable.function.sass, entity.other.animation-name.css, meta.method.declaration.ts storage.type.ts",
             "foreground": "var(blue3)"
         },
         {
@@ -228,7 +228,7 @@
         },
         {
             "name": "User-defined constant",
-            "scope": "constant.character, constant.other",
+            "scope": "constant.character, constant.other, constant.language.import-export-all.ts",
             "foreground": "var(red12)"
         },
         {
@@ -294,7 +294,7 @@
         },
         {
             "name": "Quoted String",
-            "scope": "string.quoted.double, string.quoted.single, string.template-string.js, string.template-string.js string.template-string.js, string.quoted.jsx, string.template.js, string.quoted.single.js entity.name.function.js",
+            "scope": "string.quoted.double, string.quoted.single, string.template-string.js, string.template-string.js string.template-string.js, string.quoted.jsx, string.template.js, string.template.ts, string.quoted.single.js entity.name.function.js",
             "foreground": "var(cyan2)"
         },
         {
@@ -309,7 +309,7 @@
         },
         {
             "name": "Debugging and logging",
-            "scope": "entity.name.type.object.js.firebug, keyword.control.debug.js, support.type.object.firebug.js, support.type.object.console.js, keyword.other.debugger.js, keyword.control.at-rule.debugger.sass, keyword.control.at-rule.warn.sass, keyword.control.warn.scss, keyword.control.warn.scss punctuation.definition.keyword.scss, meta.function-call.php support.function.var.php",
+            "scope": "entity.name.type.object.js.firebug, keyword.control.debug.js, support.type.object.firebug.js, support.type.object.console.js, support.class.console.ts, keyword.other.debugger.js, keyword.other.debugger.ts, keyword.control.at-rule.debugger.sass, keyword.control.at-rule.warn.sass, keyword.control.warn.scss, keyword.control.warn.scss punctuation.definition.keyword.scss, meta.function-call.php support.function.var.php",
             "foreground": "var(red5)",
             "font_style": "bold"
         },
@@ -343,8 +343,9 @@
         },
         {
             "name": "CSS: String, value and constants",
-            "scope": "variable.parameter.url.scss, meta.property-value.css, meta.property-value.scss, support.constant.property-value.scss, support.constant.font-name.scss, string.quoted.single.css, string.quoted.double.css, constant.character.escaped.css, string.quoted.variable.parameter.url, punctuation.definition.string.begin.scss, punctuation.definition.string.begin.css, punctuation.definition.string.end.scss, punctuation.definition.string.end.css, support.constant.property-value.css, meta.property-value.css string.unquoted.css",
-            "foreground": "var(cyan2)"
+            "scope": "variable.parameter.url.scss, meta.property-value.css, meta.property-value.scss, support.constant.property-value.scss, support.constant.font-name.scss, string.quoted.single.css, string.quoted.double.css, constant.character.escaped.css, string.quoted.variable.parameter.url, punctuation.definition.string.begin.scss, punctuation.definition.string.begin.css, punctuation.definition.string.end.scss, punctuation.definition.string.end.css, support.constant.property-value.css, meta.property-value.css string.unquoted.css, meta.at-rule.import.css support.constant.property-value.css",
+            "foreground": "var(cyan2)",
+            "font_style": "normal"
         },
         {
             "name": "CSS: !important",
@@ -396,24 +397,24 @@
         },
         {
             "name": "JS: Keyword control",
-            "scope": "source.js keyword.control",
+            "scope": "source.js keyword.control, source.ts keyword.control",
             "foreground": "var(blue10)",
             "font_style": "bold"
         },
         {
             "name": "JS: Function name",
-            "scope": "entity.name.function.js, support.function.dom.js, entity.name.method.js, support.function.js.firebug, support.function.console.js, entity.template-string.tag.name.js, meta.function-call.method.js variable.function.js, meta.function-call.js variable.function.js, variable.function.tagged-template.js",
+            "scope": "entity.name.function.js, entity.name.function.ts, support.function.dom.js, entity.name.method.js, support.function.js.firebug, support.function.console.js, support.function.console.ts, entity.template-string.tag.name.js, meta.function-call.method.js variable.function.js, meta.function-call.ts support.function.dom.ts, meta.function-call.ts support.function.promise.ts, meta.function-call.js variable.function.js, meta.function-call.ts support.function.ts, variable.function.tagged-template.js, entity.name.function.tagged-template.ts",
             "foreground": "var(blue13)",
             "font_style": "bold"
         },
         {
             "name": "JS: Function arguments",
-            "scope": "variable.parameter.function.js, meta.function.js meta.group.braces.curly variable.other.readwrite.js, meta.method.js meta.group.braces.curly variable.other.readwrite.js, meta.function.arrow.js meta.group.braces.curly variable.other.readwrite.js, meta.function.js meta.group.braces.square variable.other.readwrite.js, meta.method.js meta.group.braces.square variable.other.readwrite.js, meta.function.arrow.js meta.group.braces.square variable.other.readwrite.js",
+            "scope": "meta.binding.destructuring.mapping.js variable.parameter.function.js, variable.parameter.function.js, meta.function.js meta.group.braces.curly variable.other.readwrite.js, meta.method.js meta.group.braces.curly variable.other.readwrite.js, meta.function.arrow.js meta.group.braces.curly variable.other.readwrite.js, meta.function.js meta.group.braces.square variable.other.readwrite.js, meta.method.js meta.group.braces.square variable.other.readwrite.js, meta.function.arrow.js meta.group.braces.square variable.other.readwrite.js",
             "foreground": "var(pink3)"
         },
         {
             "name": "JS: Function",
-            "scope": "storage.type.function.js",
+            "scope": "storage.type.function.js, storage.type.function.ts",
             "foreground": "var(blue3)",
             "font_style": "bold"
         },
@@ -424,28 +425,28 @@
         },
         {
             "name": "JS: Storage type",
-            "scope": "storage.type.js, keyword.control.declaration.js",
+            "scope": "storage.type.js, keyword.control.declaration.js, storage.type.ts",
             "foreground": "var(yellow2)",
             "font_style": "bold"
         },
         {
             "name": "JS: Node constants",
-            "scope": "support.constant.node.js",
+            "scope": "support.constant.node.js, support.variable.object.node.ts",
             "foreground": "var(yellow2)"
         },
         {
             "name": "JS: Variable name",
-            "scope": "variable.other.readwrite.js, variable.other.constant.js, meta.function-call.constructor.js variable.type.js",
+            "scope": "variable.other.readwrite.js, variable.other.readwrite.ts, variable.other.readwrite.alias.ts, variable.other.object.ts, variable.other.object.property.ts, variable.other.constant.ts, variable.other.constant.js, meta.function-call.constructor.js variable.type.js",
             "foreground": "var(blue11)"
         },
         {
             "name": "JS: this",
-            "scope": "variable.language.this.js",
+            "scope": "variable.language.this.js, variable.language.this.ts",
             "font_style": "italic"
         },
         {
             "name": "JS: Object",
-            "scope": "variable.other.object.js, meta.property.object.js, meta.function.js support.object.js",
+            "scope": "variable.other.object.js, meta.property.object.js, variable.other.property.ts, meta.function.js support.object.js",
             "foreground": "var(blue11)"
         },
         {
@@ -455,12 +456,12 @@
         },
         {
             "name": "JS: Object, unqouted property",
-            "scope": "constant.other.object.key.js string.unquoted.label.js, meta.object-literal.key.js",
+            "scope": "constant.other.object.key.js string.unquoted.label.js, meta.object-literal.key.js, meta.object-literal.key.ts",
             "foreground": "var(cyan2)"
         },
         {
             "name": "JS: Object, unqouted method",
-            "scope": "meta.function.json.js entity.name.function.js, meta.function.json.arrow.js entity.name.function.js, meta.group.braces.curly meta.method.js entity.name.method.js, meta.object-literal.js meta.function.declaration.js entity.name.function.js",
+            "scope": "meta.function.json.js entity.name.function.js, meta.function.json.arrow.js entity.name.function.js, meta.group.braces.curly meta.method.js entity.name.method.js, meta.object-literal.js meta.function.declaration.js entity.name.function.js, meta.objectliteral.ts meta.method.declaration.ts meta.definition.method.ts entity.name.function.ts",
             "foreground": "var(cyan2)",
             "font_style": "bold"
         },
@@ -471,13 +472,13 @@
         },
         {
             "name": "JS: Constant",
-            "scope": "source.js constant.language, source.json constant.language",
+            "scope": "source.js constant.language, source.ts constant.language, source.json constant.language, constant.language.null.js",
             "foreground": "var(blue3)",
             "font_style": "italic bold"
         },
         {
             "name": "JS: (), {}, [], ,",
-            "scope": "source.json meta.structure.array punctuation.definition.array.begin, source.json meta.structure.array punctuation.definition.array.end, source.json meta.structure.dictionary punctuation.definition.dictionary.begin, source.json meta.structure.dictionary punctuation.definition.dictionary.end, source.js meta.function.js punctuation.definition.parameters, source.js meta.function.arrow.js punctuation.definition.parameters, meta.brace.round.js, meta.brace.curly.js, meta.brace.square.js, source.js meta.group.braces.round punctuation.section.scope, source.js meta.group.braces.curly punctuation.section.scope, source.js meta.group.braces.square punctuation.section.scope, meta.object-literal.js, meta.binding.destructuring.mapping.js, meta.function.js meta.block.js, punctuation.section.group.begin.js, punctuation.section.group.end.js, punctuation.section.brackets.begin.js, punctuation.section.brackets.end.js, punctuation.section.block.begin.js, punctuation.section.block.end.js, punctuation.section.mapping.begin.json, punctuation.section.mapping.end.json, punctuation.section.sequence.begin.json, punctuation.section.sequence.end.json",
+            "scope": "source.json meta.structure.array punctuation.definition.array.begin, source.json meta.structure.array punctuation.definition.array.end, source.json meta.structure.dictionary punctuation.definition.dictionary.begin, source.json meta.structure.dictionary punctuation.definition.dictionary.end, source.js meta.function.js punctuation.definition.parameters, source.js meta.function.arrow.js punctuation.definition.parameters, meta.brace.round.js, meta.brace.curly.js, meta.brace.square.js, source.js meta.group.braces.round punctuation.section.scope, source.js meta.group.braces.curly punctuation.section.scope, source.js meta.group.braces.square punctuation.section.scope, meta.object-literal.js, meta.binding.destructuring.mapping.js, meta.function.js meta.block.js, punctuation.section.group.begin.js, punctuation.section.group.end.js, punctuation.section.brackets.begin.js, punctuation.section.brackets.end.js, punctuation.section.block.begin.js, punctuation.section.block.end.js, punctuation.section.mapping.begin.json, punctuation.section.mapping.end.json, punctuation.section.sequence.begin.json, punctuation.section.sequence.end.json, punctuation.definition.block.ts, punctuation.definition.parameters.begin.ts, punctuation.definition.parameters.end.ts, meta.brace.square.ts, punctuation.definition.binding-pattern.array.ts, punctuation.definition.binding-pattern.object.ts",
             "foreground": "var(grey)"
         },
         {
@@ -497,24 +498,35 @@
         },
         {
             "name": "JS: Template string, element start and begin",
-            "scope": "punctuation.template-string.element.begin.js, punctuation.template-string.element.end.js, punctuation.definition.template-expression.begin.js, punctuation.definition.template-expression.end.js",
+            "scope": "punctuation.template-string.element.begin.js, punctuation.template-string.element.end.js, punctuation.definition.template-expression.begin.js, punctuation.definition.template-expression.end.js, punctuation.definition.template-expression.begin.ts, punctuation.definition.template-expression.end.ts",
             "foreground": "var(grey)"
         },
         {
             "name": "JS: import/export",
-            "scope": "keyword.control.import-export.js, variable.language.import.js",
+            "scope": "keyword.control.import-export.js, variable.language.import.js, keyword.control.import.ts, keyword.control.export.ts, keyword.control.from.ts, keyword.control.as.ts",
             "foreground": "var(yellow2)",
             "font_style": "bold"
         },
         {
             "name": "JSX: Element",
-            "scope": "meta.jsx.js",
+            "scope": "meta.jsx.js, meta.jsx.ts",
             "background": "var(white21)"
         },
         {
             "name": "JSX: Element start and begin",
             "scope": "punctuation.section.embedded.begin.jsx, punctuation.section.embedded.end.jsx",
             "foreground": "var(grey)"
+        },
+        {
+            "name": "TS: Storage",
+            "scope": "meta.import.ts keyword.control.type.ts",
+            "foreground": "var(yellow2)",
+            "font_style": "normal"
+        },
+        {
+            "name": "TS: Normalizations",
+            "scope": "meta.method.declaration.ts storage.type.ts, constant.language.import-export-all.ts",
+            "font_style": "normal"
         },
         {
             "name": "Vue: Template interpolation",
@@ -1103,18 +1115,19 @@
             "foreground": "var(orange5)"
         },
         {
-            "scope": "meta.paragraph.markdown meta.dummy.line-break",
+            "name": "Markdown: hard line break",
+            "scope": "meta.paragraph.markdown meta.dummy.line-break, meta.hard-line-break.markdown punctuation.definition.hard-line-break.markdown",
             "background": "var(blue10)"
         },
         {
-            "name": "Markdown fenced block: JS comment",
+            "name": "Markdown: fenced block, JS comment",
             "scope": "markup.raw.block.fenced.markdown source.js punctuation.definition.comment.js",
             "foreground": "var(grey)",
             "font_style": "italic"
         },
         {
-            "name": "Markdown inline code and fenced block",
-            "scope": "markup.raw.inline.markdown, markup.raw.code-fence.shell-script.markdown-gfm",
+            "name": "Markdown: inline code and fenced block",
+            "scope": "markup.raw.inline.markdown, markup.raw.code-fence",
             "background": "var(white21)"
         },
         {
@@ -1246,7 +1259,7 @@
         },
         {
             "name": "Git Rebase: Command",
-            "scope": "support.function.git-rebase, meta.commit.git.rebase keyword.operator.commit.pick.git.rebase",
+            "scope": "support.function.git-rebase, meta.commit.git.rebase keyword.operator.commit",
             "foreground": "var(blue3)",
             "font_style": "bold"
         },
