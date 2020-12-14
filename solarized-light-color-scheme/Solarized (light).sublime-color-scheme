@@ -425,13 +425,13 @@
         },
         {
             "name": "JS: Storage type",
-            "scope": "storage.type.js, keyword.control.declaration.js, storage.type.ts",
+            "scope": "storage.type.js, keyword.control.declaration.js, storage.type.ts, meta.var.expr.ts storage.type.ts",
             "foreground": "var(yellow2)",
             "font_style": "bold"
         },
         {
             "name": "JS: Node constants",
-            "scope": "support.constant.node.js, support.variable.object.node.ts",
+            "scope": "support.constant.node.js, support.variable.object.node.ts, variable.language.global.js",
             "foreground": "var(yellow2)"
         },
         {
@@ -467,7 +467,7 @@
         },
         {
             "name": "JS: Delimiter",
-            "scope": "punctuation.separator.key-value.js, meta.delimiter.method.period.js, keyword.operator.js, keyword.operator.assignment.js",
+            "scope": "punctuation.separator.key-value.js, meta.delimiter.method.period.js, keyword.operator.js, keyword.operator.expression.typeof.ts, keyword.operator.assignment.js",
             "foreground": "var(grey)"
         },
         {
@@ -503,7 +503,7 @@
         },
         {
             "name": "JS: import/export",
-            "scope": "keyword.control.import-export.js, variable.language.import.js, keyword.control.import.ts, keyword.control.export.ts, keyword.control.from.ts, keyword.control.as.ts",
+            "scope": "keyword.control.import-export.js, variable.language.import.js, keyword.control.import.ts, keyword.control.export.ts, keyword.control.from.ts, keyword.control.as.ts, meta.export.default.ts keyword.control.default.ts",
             "foreground": "var(yellow2)",
             "font_style": "bold"
         },

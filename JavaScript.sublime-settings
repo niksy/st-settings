@@ -2,8 +2,7 @@
 	"extensions":
 	[
 		"es6",
-		"mjs",
-		"ts"
+		"mjs"
 	],
 	"word_separators": "./\\()\"':,.;<>~!@#$%^&*|+=[]{}`~?"
 }
