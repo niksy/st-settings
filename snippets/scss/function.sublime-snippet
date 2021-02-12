@@ -1,8 +1,8 @@
 <snippet>
-	<content><![CDATA[@if ${1:conditions} {
+	<content><![CDATA[@function ${1:name}${2:(${3:\$params})} {
 	$0
 }]]></content>
-	<tabTrigger>if</tabTrigger>
+	<tabTrigger>fn</tabTrigger>
 	<scope>source.scss</scope>
-	<description>@if</description>
+	<description>@function</description>
 </snippet>
