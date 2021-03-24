@@ -35,6 +35,9 @@
             "env": {
                 "PATH": "~/.nvm/current/bin:$PATH"
             }
+        },
+        "shellcheck": {
+            "selector": "source.shell"
         }
     }
 }
