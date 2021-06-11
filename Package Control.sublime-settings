@@ -8,6 +8,7 @@
 		"Alignment",
 		"ApacheConf",
 		"Auto Semi-Colon",
+		"AutomaticPackageReloader",
 		"BinaryPlist",
 		"BracketHighlighter",
 		"Case Conversion",
@@ -47,5 +48,5 @@
 		"Twig",
 		"TypeScript",
 		"Vue Syntax Highlight"
-	]
+	],
 }
