@@ -294,7 +294,7 @@
         },
         {
             "name": "Quoted String",
-            "scope": "string.quoted.double, string.quoted.single, string.template-string.js, string.template-string.js string.template-string.js, string.quoted.jsx, string.template.js, string.template.ts, string.quoted.single.js entity.name.function.js",
+            "scope": "string.quoted.double, string.quoted.single, string.template-string.js, string.template-string.js string.template-string.js, string.quoted.jsx, string.template.js, string.template.ts, string.quoted.single.js entity.name.function.js, string.quoted.other.js",
             "foreground": "var(cyan2)"
         },
         {
@@ -309,18 +309,19 @@
         },
         {
             "name": "Debugging and logging",
-            "scope": "entity.name.type.object.js.firebug, keyword.control.debug.js, support.type.object.firebug.js, support.type.object.console.js, support.class.console.ts, keyword.other.debugger.js, keyword.other.debugger.ts, keyword.control.at-rule.debugger.sass, keyword.control.at-rule.warn.sass, keyword.control.warn.scss, keyword.control.warn.scss punctuation.definition.keyword.scss, meta.function-call.php support.function.var.php",
+            "scope": "entity.name.type.object.js.firebug, keyword.control.debug.js, support.type.object.firebug.js, support.type.object.console.js, support.class.console.ts, keyword.other.debugger.js, keyword.other.debugger.ts, keyword.control.at-rule.debugger.sass, keyword.control.at-rule.warn.sass, keyword.control.warn.scss, keyword.control.warn.scss punctuation.definition.keyword.scss, meta.function-call.php support.function.var.php, keyword.control.flow.debugger.js",
             "foreground": "var(red5)",
             "font_style": "bold"
         },
         {
             "name": "CSS: Property name (body)",
-            "scope": "support.type.property-name.css, support.type.property-name.media.css, support.type.property-name.media.scss meta.property-name.css, support.type.property-name.scss, meta.property-name.css support.type.vendor-prefix.css",
-            "foreground": "var(blue11)"
+            "scope": "support.type.property-name.css, support.type.property-name.media.css, support.type.property-name.media.scss meta.property-name.css, support.type.property-name.scss, meta.property-name.css support.type.vendor-prefix.css, meta.group.css support.type.vendor-prefix.css",
+            "foreground": "var(blue11)",
+            "font_style": "normal"
         },
         {
             "name": "CSS: @ rules (purple)",
-            "scope": "punctuation.definition.keyword.scss, punctuation.definition.keyword.css, keyword.control.at-rule.charset.css, keyword.control.at-rule.charset.scss, keyword.control.each.css, keyword.control.each.scss, keyword.control.else.css, keyword.control.else.scss, keyword.control.at-rule.import.css, keyword.control.at-rule.import.scss, keyword.control.at-rule.fontface.css, keyword.control.at-rule.fontface.scss, keyword.control.for.css, keyword.control.for.scss, keyword.control.at-rule.function.css, keyword.control.at-rule.function.scss, keyword.control.if.css, keyword.control.if.scss, keyword.control.at-rule.include.scss, keyword.control.at-rule.media.css, keyword.control.at-rule.media.scss, keyword.control.at-rule.font-face.css, keyword.control.at-rule.font-face.scss, variable.other.less, variable.declaration.less, variable.interpolation.less, keyword.control.at-rule.css, keyword.control.at-rule.scss, keyword.control.at-rule.supports.css, keyword.control.at-rule.supports.scss, keyword.control.at-rule.mixin.scss, meta.at-rule.import.scss support.function.url.scss, keyword.control.at-rule.viewport.css, keyword.control.at-rule.viewport.scss, keyword.control.return.scss, keyword.control.at-rule.keyframes.css, keyword.control.at-rule.keyframes.scss, meta.function.declaration.sass keyword.control.at-rule.sass, keyword.control.at-rule.return.sass, keyword.control.at-rule.extend.sass, meta.function-call.sass variable.function.sass keyword.control.at-rule.sass, meta.at-rule.sass keyword.control.at-rule.sass, keyword.control.at-rule.keyframe.css, keyword.control.at-rule.keyframe.css support.type.property-vendor.css, keyword.control.at-rule.at-root.sass, meta.at-rule.each.sass keyword.control.flow.sass, keyword.control.at-rule.module.sass, keyword.control.flow.conditional.sass, meta.at-rule.sass keyword.control.flow.sass",
+            "scope": "meta.at-rule.keyframe.css keyword.control.directive.css, meta.at-rule.supports.css keyword.control.directive.css, meta.at-rule.font-face.css keyword.control.directive.css, meta.at-rule.media.css keyword.control.directive.css, meta.at-rule.import.css keyword.control.directive.css, punctuation.definition.keyword.scss, punctuation.definition.keyword.css, keyword.control.at-rule.charset.css, keyword.control.at-rule.charset.scss, keyword.control.each.css, keyword.control.each.scss, keyword.control.else.css, keyword.control.else.scss, keyword.control.at-rule.import.css, keyword.control.at-rule.import.scss, keyword.control.at-rule.fontface.css, keyword.control.at-rule.fontface.scss, keyword.control.for.css, keyword.control.for.scss, keyword.control.at-rule.function.css, keyword.control.at-rule.function.scss, keyword.control.if.css, keyword.control.if.scss, keyword.control.at-rule.include.scss, keyword.control.at-rule.media.css, keyword.control.at-rule.media.scss, keyword.control.at-rule.font-face.css, keyword.control.at-rule.font-face.scss, variable.other.less, variable.declaration.less, variable.interpolation.less, keyword.control.at-rule.css, keyword.control.at-rule.scss, keyword.control.at-rule.supports.css, keyword.control.at-rule.supports.scss, keyword.control.at-rule.mixin.scss, meta.at-rule.import.scss support.function.url.scss, keyword.control.at-rule.viewport.css, keyword.control.at-rule.viewport.scss, keyword.control.return.scss, keyword.control.at-rule.keyframes.css, keyword.control.at-rule.keyframes.scss, meta.function.declaration.sass keyword.control.at-rule.sass, keyword.control.at-rule.return.sass, keyword.control.at-rule.extend.sass, meta.function-call.sass variable.function.sass keyword.control.at-rule.sass, meta.at-rule.sass keyword.control.at-rule.sass, keyword.control.at-rule.keyframe.css, keyword.control.at-rule.keyframe.css support.type.property-vendor.css, keyword.control.at-rule.at-root.sass, meta.at-rule.each.sass keyword.control.flow.sass, keyword.control.at-rule.module.sass, keyword.control.flow.conditional.sass, meta.at-rule.sass keyword.control.flow.sass",
             "foreground": "var(blue10)",
             "font_style": "bold"
         },
@@ -338,7 +339,7 @@
         },
         {
             "name": "CSS: Numeric Value",
-            "scope": "support.variable.namespace.css, meta.at-rule.include.scss support.constant, meta.at-rule.include.scss support.constant.property-value.scss, constant.numeric.css, keyword.other.unit.css, keyword.unit.css, constant.numeric.scss, keyword.other.unit.scss, constant.numeric.integer.decimal.css, constant.numeric.float.decimal.css, punctuation.definition.constant.scss, punctuation.definition.constant.css, constant.other.rgb-value.css",
+            "scope": "constant.numeric.suffix.css, constant.numeric.value.css, support.variable.namespace.css, meta.at-rule.include.scss support.constant, meta.at-rule.include.scss support.constant.property-value.scss, constant.numeric.css, keyword.other.unit.css, keyword.unit.css, constant.numeric.scss, keyword.other.unit.scss, constant.numeric.integer.decimal.css, constant.numeric.float.decimal.css, punctuation.definition.constant.scss, punctuation.definition.constant.css, constant.other.rgb-value.css",
             "foreground": "var(blue3)"
         },
         {
@@ -360,8 +361,9 @@
         },
         {
             "name": "CSS: : , ()",
-            "scope": "punctuation.terminator.rule.css, punctuation.terminator.rule.scss, punctuation.section.function.css, punctuation.section.function.scss, punctuation.separator.key-value.css, punctuation.separator.key-value.scss, punctuation.scss, punctuation.css, keyword.operator.less, entity.name.tag.reference.scss, punctuation.definition.group.begin.css, punctuation.definition.group.end.css, punctuation.definition.group.begin.sass, punctuation.definition.group.end.sass, meta.map.arguments.css punctuation.separator.css, punctuation.separator.sequence.css, meta.selector.css keyword.operator.ampersand.sass",
-            "foreground": "var(blue11)"
+            "scope": "punctuation.terminator.rule.css, punctuation.terminator.rule.scss, punctuation.section.function.css, punctuation.section.function.scss, punctuation.separator.key-value.css, punctuation.separator.key-value.scss, punctuation.scss, punctuation.css, keyword.operator.less, entity.name.tag.reference.scss, punctuation.definition.group.begin.css, punctuation.definition.group.end.css, punctuation.definition.group.begin.sass, punctuation.definition.group.end.sass, meta.map.arguments.css punctuation.separator.css, punctuation.separator.sequence.css, meta.selector.css keyword.operator.ampersand.sass, punctuation.section.group.begin.css, punctuation.section.group.end.css, punctuation.section.block.begin.css, punctuation.section.block.end.css",
+            "foreground": "var(blue11)",
+            "font_style": "normal"
         },
         {
             "name": "CSS: Selector > [] and non-spec tags (body)",
@@ -370,7 +372,7 @@
         },
         {
             "name": "CSS: Tag",
-            "scope": "entity.name.tag.css, entity.name.tag.scss, entity.name.tag.wildcard.scss, entity.name.tag.wildcard.css",
+            "scope": "entity.name.tag.html.css, entity.name.tag.css, entity.name.tag.scss, entity.name.tag.wildcard.scss, entity.name.tag.wildcard.css",
             "foreground": "var(yellow2)",
             "font_style": "normal"
         },
@@ -386,9 +388,10 @@
             "font_style": "bold"
         },
         {
-            "name": "CSS :pseudo",
-            "scope": "entity.other.attribute-name.pseudo-element.css, entity.other.attribute-name.pseudo-class.css, entity.other.attribute-name.custom-pseudo-class.css, entity.other.attribute-name.pseudo-class.css-modules.css, entity.other.pseudo-class.css, entity.other.pseudo-element.css, entity.other.pseudo-element.css support.type.vendor-prefix.css, entity.other.pseudo-class.css support.type.vendor-prefix.css",
-            "foreground": "var(red12)"
+            "name": "CSS: pseudo",
+            "scope": "entity.other.attribute-name.pseudo-element.css, entity.other.attribute-name.pseudo-class.css, entity.other.attribute-name.custom-pseudo-class.css, entity.other.attribute-name.pseudo-class.css-modules.css, entity.other.pseudo-class.css-modules.css, entity.other.pseudo-class.css, entity.other.pseudo-element.css, entity.other.pseudo-element.css support.type.vendor-prefix.css, entity.other.pseudo-class.css support.type.vendor-prefix.css, meta.selector.css support.type.vendor-prefix.css",
+            "foreground": "var(red12)",
+            "font_style": "normal"
         },
         {
             "name": "SCSS: Variables",
@@ -414,7 +417,7 @@
         },
         {
             "name": "JS: Function",
-            "scope": "storage.type.function.js, storage.type.function.ts",
+            "scope": "storage.type.function.js, storage.type.function.ts, meta.function.js keyword.declaration.function.js",
             "foreground": "var(blue3)",
             "font_style": "bold"
         },
@@ -425,7 +428,7 @@
         },
         {
             "name": "JS: Storage type",
-            "scope": "storage.type.js, keyword.control.declaration.js, storage.type.ts, meta.var.expr.ts storage.type.ts",
+            "scope": "storage.type.js, keyword.control.declaration.js, storage.type.ts, meta.var.expr.ts storage.type.ts, keyword.declaration.js, keyword.declaration.async.js, keyword.declaration.class.js, storage.modifier.extends.js",
             "foreground": "var(yellow2)",
             "font_style": "bold"
         },
@@ -456,12 +459,12 @@
         },
         {
             "name": "JS: Object, unqouted property",
-            "scope": "constant.other.object.key.js string.unquoted.label.js, meta.object-literal.key.js, meta.object-literal.key.ts",
+            "scope": "constant.other.object.key.js string.unquoted.label.js, meta.object-literal.key.js, meta.object-literal.key.ts, meta.mapping.key.js",
             "foreground": "var(cyan2)"
         },
         {
             "name": "JS: Object, unqouted method",
-            "scope": "meta.function.json.js entity.name.function.js, meta.function.json.arrow.js entity.name.function.js, meta.group.braces.curly meta.method.js entity.name.method.js, meta.object-literal.js meta.function.declaration.js entity.name.function.js, meta.objectliteral.ts meta.method.declaration.ts meta.definition.method.ts entity.name.function.ts",
+            "scope": "meta.function.json.js entity.name.function.js, meta.function.json.arrow.js entity.name.function.js, meta.group.braces.curly meta.method.js entity.name.method.js, meta.object-literal.js meta.function.declaration.js entity.name.function.js, meta.objectliteral.ts meta.method.declaration.ts meta.definition.method.ts entity.name.function.ts, meta.mapping.key.js entity.name.function.js",
             "foreground": "var(cyan2)",
             "font_style": "bold"
         },
@@ -498,7 +501,7 @@
         },
         {
             "name": "JS: Template string, element start and begin",
-            "scope": "punctuation.template-string.element.begin.js, punctuation.template-string.element.end.js, punctuation.definition.template-expression.begin.js, punctuation.definition.template-expression.end.js, punctuation.definition.template-expression.begin.ts, punctuation.definition.template-expression.end.ts",
+            "scope": "punctuation.template-string.element.begin.js, punctuation.template-string.element.end.js, punctuation.definition.template-expression.begin.js, punctuation.definition.template-expression.end.js, punctuation.definition.template-expression.begin.ts, punctuation.definition.template-expression.end.ts, punctuation.section.interpolation.begin.js, punctuation.section.interpolation.end.js",
             "foreground": "var(grey)"
         },
         {
@@ -534,6 +537,12 @@
             "foreground": "var(grey)",
             "background": "var(white21)",
             "font_style": "bold"
+        },
+        {
+            "name": "Vue: script and style block",
+            "scope": "text.html.vue source.js.embedded.html, text.html.vue source.css.embedded.html",
+            "foreground": "var(grey2)",
+            "background": "var(white18)"
         },
         {
             "name": "HTML: Doctype",
@@ -593,12 +602,6 @@
             "scope": "source.js.embedded.html, source.css.embedded.html, text.html.vue source.js",
             "foreground": "var(grey2)",
             "background": "var(white21)"
-        },
-        {
-            "name": "Vue: script and style block",
-            "scope": "text.html.vue source.js.embedded.html, text.html.vue source.css.embedded.html",
-            "foreground": "var(grey2)",
-            "background": "var(white18)"
         },
         {
             "name": "Ruby: Variable definition",
@@ -677,11 +680,6 @@
             "foreground": "var(red12)"
         },
         {
-            "name": "PHP: Include",
-            "scope": "keyword.control.import.include.php",
-            "foreground": "var(red12)"
-        },
-        {
             "name": "Ruby: erb =",
             "scope": "text.html.ruby meta.tag.inline.any.html",
             "foreground": "var(grey2)"
@@ -690,6 +688,11 @@
             "name": "Ruby: erb \"\"",
             "scope": "text.html.ruby punctuation.definition.string.begin, text.html.ruby punctuation.definition.string.end",
             "foreground": "var(cyan2)"
+        },
+        {
+            "name": "PHP: Include",
+            "scope": "keyword.control.import.include.php",
+            "foreground": "var(red12)"
         },
         {
             "name": "PHP: Class Names",
@@ -800,6 +803,11 @@
             "name": "PHP: {}",
             "scope": "punctuation.section.block.php, punctuation.section.block.begin.php, punctuation.section.block.end.php",
             "foreground": "var(grey)"
+        },
+        {
+            "name": "PHP: Constant",
+            "scope": "constant.language.php",
+            "font_style": "italic bold"
         },
         {
             "name": "C: constant",
