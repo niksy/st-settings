@@ -47,5 +47,5 @@
 	"show_tab_close_buttons": false,
 	"tab_size": 4,
 	"theme": "El Capitan.sublime-theme",
-	"trim_trailing_white_space_on_save": true,
+	"trim_trailing_white_space_on_save": true
 }

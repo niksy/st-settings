@@ -18,7 +18,6 @@
 		"EditorConfig",
 		"Emmet",
 		"Find++",
-		"Fix Mac Path",
 		"Gettext",
 		"Git blame",
 		"Hosts",
@@ -47,6 +46,6 @@
 		"Theme - El Capitan",
 		"Twig",
 		"TypeScript",
-		"Vue Syntax Highlight"
+		"Vue Syntax Highlight",
 	],
 }
