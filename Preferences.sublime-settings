@@ -1,8 +1,4 @@
 {
-	"additional_path_items":
-	[
-		"$HOME/.nvm/current/bin"
-	],
 	"auto_complete_commit_on_tab": true,
 	"bold_folder_labels": true,
 	"color_scheme": "Packages/User/solarized-light-color-scheme/Solarized (light).sublime-color-scheme",
