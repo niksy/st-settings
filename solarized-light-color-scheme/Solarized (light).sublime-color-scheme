@@ -805,11 +805,6 @@
             "foreground": "var(grey)"
         },
         {
-            "name": "PHP: Constant",
-            "scope": "constant.language.php",
-            "font_style": "italic bold"
-        },
-        {
             "name": "C: constant",
             "scope": "constant.numeric.c",
             "foreground": "var(cyan2)"
