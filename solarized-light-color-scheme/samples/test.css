@@ -40,6 +40,10 @@ div.styled {
 	}
 }
 
+@media screen and (any-pointer: coarse) {
+
+}
+
 @font-face {
   font-family: "some typeface";
   src: url("type/filename.eot");

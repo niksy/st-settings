@@ -156,7 +156,7 @@
     [
         {
             "name": "Comment",
-            "scope": "comment, meta.disable-markdown punctuation.definition.comment, comment.line.git.rebase meta.rebase-msg.git.rebase markup.heading.git.rebase, comment.line.git.rebase meta.rebase-msg.git.rebase constant.numeric.hex.hash.git.rebase, comment.line.git.rebase markup.heading.git.rebase, comment.line.git.commit constant.language.branch-name.git.commit, comment.line.git.commit markup.heading.on-branch.git.commit, comment.line.git.commit markup.heading.git.commit, comment.line.git.commit meta.change-list.git.commit keyword.other.change-list.git.commit, comment.line.git.commit meta.change-list.git.commit string.unquoted.git.commit markup.changed.file.content.git.commit, comment.line.git.commit meta.change-list.git.commit string.unquoted.git.commit markup.deleted.file.git.commit, comment.line.git.commit meta.change-list.git.commit string.unquoted.git.commit markup.inserted.file.git.commit, comment.line.git.commit constant.language.timestamp.git.commit, comment.line.git.commit meta.change-list.git.commit string.unquoted.git.commit markup.changed.file.name.git.commit, comment.line.git.commit meta.command-list.git.commit keyword.operator.git.commit, comment.line.git.commit meta.command-list.git.commit constant.numeric.hex.hash.git.commit, comment.line.git.commit meta.command-list.git.commit string.unquoted.subject.git.commit",
+            "scope": "comment, meta.disable-markdown punctuation.definition.comment, comment.line.git.rebase meta.rebase-msg.git.rebase markup.heading.git.rebase, comment.line.git.rebase meta.rebase-msg.git.rebase constant.numeric.hex.hash.git.rebase, comment.line.git.rebase meta.rebase-msg.git.rebase constant.other.hash.git.rebase, comment.line.git.rebase markup.heading.git.rebase, comment.line.git.commit constant.language.branch-name.git.commit, comment.line.git.commit markup.heading.on-branch.git.commit, comment.line.git.commit markup.heading.git.commit, comment.line.git.commit meta.change-list.git.commit keyword.other.change-list.git.commit, comment.line.git.commit meta.change-list.git.commit string.unquoted.git.commit markup.changed.file.content.git.commit, comment.line.git.commit meta.change-list.git.commit string.unquoted.git.commit markup.deleted.file.git.commit, comment.line.git.commit meta.change-list.git.commit string.unquoted.git.commit markup.inserted.file.git.commit, comment.line.git.commit constant.language.timestamp.git.commit, comment.line.git.commit meta.change-list.git.commit string.unquoted.git.commit markup.changed.file.name.git.commit, comment.line.git.commit meta.command-list.git.commit keyword.operator.git.commit, comment.line.git.commit meta.command-list.git.commit constant.numeric.hex.hash.git.commit, comment.line.git.commit meta.command-list.git.commit string.unquoted.subject.git.commit",
             "foreground": "var(grey)",
             "font_style": "italic"
         },
@@ -464,7 +464,7 @@
         },
         {
             "name": "JS: Object, unqouted method",
-            "scope": "meta.function.json.js entity.name.function.js, meta.function.json.arrow.js entity.name.function.js, meta.group.braces.curly meta.method.js entity.name.method.js, meta.object-literal.js meta.function.declaration.js entity.name.function.js, meta.objectliteral.ts meta.method.declaration.ts meta.definition.method.ts entity.name.function.ts, meta.mapping.key.js entity.name.function.js",
+            "scope": "meta.function.json.js entity.name.function.js, meta.function.json.arrow.js entity.name.function.js, meta.group.braces.curly meta.method.js entity.name.method.js, meta.object-literal.js meta.function.declaration.js entity.name.function.js, meta.objectliteral.ts meta.method.declaration.ts meta.definition.method.ts entity.name.function.ts, meta.mapping.key.js entity.name.function.js, meta.mapping.js meta.function.js entity.name.function.js",
             "foreground": "var(cyan2)",
             "font_style": "bold"
         },
@@ -1257,7 +1257,7 @@
         },
         {
             "name": "Git Rebase: SHA",
-            "scope": "constant.sha.git-rebase, meta.commit.git.rebase constant.numeric.hex.hash.git.rebase",
+            "scope": "constant.sha.git-rebase, meta.commit.git.rebase constant.numeric.hex.hash.git.rebase, meta.commit.git.rebase constant.other.hash.git.rebase",
             "foreground": "var(orange5)"
         },
         {
