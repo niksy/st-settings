@@ -1,9 +1,0 @@
-{
-	"error_color": "region.redish",
-	"error_icon": "dot",
-	"error_outlined": true,
-	"extensions":
-	[
-		"ts"
-	]
-}

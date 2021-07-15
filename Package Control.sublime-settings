@@ -23,6 +23,8 @@
 		"Hosts",
 		"HyperClick",
 		"INI",
+		"LSP",
+		"LSP-typescript",
 		"MarkdownPreview",
 		"Package Control",
 		"PackageDev",
@@ -45,7 +47,6 @@
 		"TernJS",
 		"Theme - El Capitan",
 		"Twig",
-		"TypeScript",
 		"Vue Syntax Highlight",
 	],
 }
