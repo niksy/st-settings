@@ -392,6 +392,15 @@ window.x$ = window.xui = xui = function(q, context) {
 
 console.log( 'string', params );
 
+/**
+ * foo description
+ *
+ * @return {boolean} Return description
+ */
+function foo () {
+  return true;
+}
+
 do
 if
 in

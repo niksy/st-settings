@@ -379,7 +379,8 @@
         {
             "name": "CSS .class",
             "scope": "entity.other.attribute-name.suffix.scss, entity.other.attribute-name.class.css, entity.other.less.mixin, meta.selector.css entity.other.attribute-name.css",
-            "foreground": "var(orange5)"
+            "foreground": "var(orange5)",
+            "font_style": "normal"
         },
         {
             "name": "CSS: #id",
@@ -509,6 +510,11 @@
             "scope": "keyword.control.import-export.js, variable.language.import.js, keyword.control.import.ts, keyword.control.export.ts, keyword.control.from.ts, keyword.control.as.ts, meta.export.default.ts keyword.control.default.ts, meta.function-call.js keyword.import.js",
             "foreground": "var(yellow2)",
             "font_style": "bold"
+        },
+        {
+            "name": "JS: JSDoc param",
+            "scope": "comment.block.documentation.js entity.other.attribute-name.documentation.js",
+            "font_style": "italic bold"
         },
         {
             "name": "JSX: Element",
