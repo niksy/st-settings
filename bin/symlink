@@ -13,7 +13,7 @@ function in_array() {
 
 excludes=(".DS_Store" "README.md" ".git" ".gitignore" "bin");
 dir=$(dirname $(dirname $(cd $(dirname $0); pwd)/$(basename $0)));
-subl_user_dir="$HOME/Library/Application Support/Sublime Text 3/Packages/User";
+subl_user_dir="$HOME/Library/Application Support/Sublime Text/Packages/User";
 
 for f in $dir/*; do
 	file=$(basename "$f");
