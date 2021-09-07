@@ -1,0 +1,4 @@
+// These settings override both User and Default settings for the SCSS syntax
+{
+	"show_definitions": false
+}
