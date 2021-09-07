@@ -27,6 +27,7 @@
             }
         },
         "stylelint": {
+            "selector": "text.html.svelte, text.html.vue, source.css, source.scss",
             "env": {
                 "PATH": "~/.nvm/current/bin:$PATH"
             }
