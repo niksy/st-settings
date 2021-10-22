@@ -155,6 +155,21 @@
     "rules":
     [
         {
+            "scope": "col_000000CC",
+            "background": "#000000CC",
+            "foreground": "#B1B1B1FF"
+        },
+        {
+            "scope": "col_00000066",
+            "background": "#00000066",
+            "foreground": "#131313FF"
+        },
+        {
+            "scope": "col_000000B2",
+            "background": "#000000B2",
+            "foreground": "#CACACAFF"
+        },
+        {
             "name": "Comment",
             "scope": "comment, meta.disable-markdown punctuation.definition.comment, comment.line.git.rebase meta.rebase-msg.git.rebase markup.heading.git.rebase, comment.line.git.rebase meta.rebase-msg.git.rebase constant.numeric.hex.hash.git.rebase, comment.line.git.rebase meta.rebase-msg.git.rebase constant.other.hash.git.rebase, comment.line.git.rebase markup.heading.git.rebase, comment.line.git.commit constant.language.branch-name.git.commit, comment.line.git.commit markup.heading.on-branch.git.commit, comment.line.git.commit markup.heading.git.commit, comment.line.git.commit meta.change-list.git.commit keyword.other.change-list.git.commit, comment.line.git.commit meta.change-list.git.commit string.unquoted.git.commit markup.changed.file.content.git.commit, comment.line.git.commit meta.change-list.git.commit string.unquoted.git.commit markup.deleted.file.git.commit, comment.line.git.commit meta.change-list.git.commit string.unquoted.git.commit markup.inserted.file.git.commit, comment.line.git.commit constant.language.timestamp.git.commit, comment.line.git.commit meta.change-list.git.commit string.unquoted.git.commit markup.changed.file.name.git.commit, comment.line.git.commit meta.command-list.git.commit keyword.operator.git.commit, comment.line.git.commit meta.command-list.git.commit constant.numeric.hex.hash.git.commit, comment.line.git.commit meta.command-list.git.commit string.unquoted.subject.git.commit, comment.line.git.commit meta.command-list.git.commit constant.other.hash.git.commit",
             "foreground": "var(grey)",
