@@ -1,0 +1,4 @@
+// These settings override both User and Default settings for the Vue Component syntax
+{
+	"show_definitions": false
+}

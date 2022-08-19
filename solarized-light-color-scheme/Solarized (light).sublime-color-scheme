@@ -155,6 +155,16 @@
     "rules":
     [
         {
+            "foreground": "#F6F6F6FF",
+            "scope": "col_DA532CFF",
+            "background": "#DA532CFF"
+        },
+        {
+            "foreground": "#202020FF",
+            "scope": "col_5BBAD5FF",
+            "background": "#5BBAD5FF"
+        },
+        {
             "scope": "col_000000CC",
             "background": "#000000CC",
             "foreground": "#B1B1B1FF"
@@ -497,7 +507,7 @@
         },
         {
             "name": "JS: (), {}, [], ,",
-            "scope": "source.json meta.structure.array punctuation.definition.array.begin, source.json meta.structure.array punctuation.definition.array.end, source.json meta.structure.dictionary punctuation.definition.dictionary.begin, source.json meta.structure.dictionary punctuation.definition.dictionary.end, source.js meta.function.js punctuation.definition.parameters, source.js meta.function.arrow.js punctuation.definition.parameters, meta.brace.round.js, meta.brace.curly.js, meta.brace.square.js, source.js meta.group.braces.round punctuation.section.scope, source.js meta.group.braces.curly punctuation.section.scope, source.js meta.group.braces.square punctuation.section.scope, meta.object-literal.js, meta.binding.destructuring.mapping.js, meta.function.js meta.block.js, punctuation.section.group.begin.js, punctuation.section.group.end.js, punctuation.section.brackets.begin.js, punctuation.section.brackets.end.js, punctuation.section.block.begin.js, punctuation.section.block.end.js, punctuation.section.mapping.begin.json, punctuation.section.mapping.end.json, punctuation.section.sequence.begin.json, punctuation.section.sequence.end.json, punctuation.definition.block.ts, punctuation.definition.parameters.begin.ts, punctuation.definition.parameters.end.ts, meta.brace.square.ts, punctuation.definition.binding-pattern.array.ts, punctuation.definition.binding-pattern.object.ts",
+            "scope": "source.json meta.structure.array punctuation.definition.array.begin, source.json meta.structure.array punctuation.definition.array.end, source.json meta.structure.dictionary punctuation.definition.dictionary.begin, source.json meta.structure.dictionary punctuation.definition.dictionary.end, source.js meta.function.js punctuation.definition.parameters, source.js meta.function.arrow.js punctuation.definition.parameters, meta.brace.round.js, meta.brace.curly.js, meta.brace.square.js, source.js meta.group.braces.round punctuation.section.scope, source.js meta.group.braces.curly punctuation.section.scope, source.js meta.group.braces.square punctuation.section.scope, meta.object-literal.js, meta.binding.destructuring.mapping.js, meta.function.js meta.block.js, punctuation.section.group.begin.js, punctuation.section.group.end.js, punctuation.section.brackets.begin.js, punctuation.section.brackets.end.js, punctuation.section.block.begin.js, punctuation.section.block.end.js, punctuation.section.mapping.begin.json, punctuation.section.mapping.end.json, punctuation.section.sequence.begin.json, punctuation.section.sequence.end.json, punctuation.definition.block.ts, punctuation.definition.parameters.begin.ts, punctuation.definition.parameters.end.ts, meta.brace.square.ts, punctuation.definition.binding-pattern.array.ts, punctuation.definition.binding-pattern.object.ts, meta.function-call.js punctuation.accessor.js",
             "foreground": "var(grey)"
         },
         {
