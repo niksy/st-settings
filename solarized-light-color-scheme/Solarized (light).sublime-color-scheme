@@ -346,7 +346,7 @@
         },
         {
             "name": "CSS: @ rules (purple)",
-            "scope": "meta.at-rule.keyframe.css keyword.control.directive.css, meta.at-rule.supports.css keyword.control.directive.css, meta.at-rule.font-face.css keyword.control.directive.css, meta.at-rule.media.css keyword.control.directive.css, meta.at-rule.import.css keyword.control.directive.css, punctuation.definition.keyword.scss, punctuation.definition.keyword.css, keyword.control.at-rule.charset.css, keyword.control.at-rule.charset.scss, keyword.control.each.css, keyword.control.each.scss, keyword.control.else.css, keyword.control.else.scss, keyword.control.at-rule.import.css, keyword.control.at-rule.import.scss, keyword.control.at-rule.fontface.css, keyword.control.at-rule.fontface.scss, keyword.control.for.css, keyword.control.for.scss, keyword.control.at-rule.function.css, keyword.control.at-rule.function.scss, keyword.control.if.css, keyword.control.if.scss, keyword.control.at-rule.include.scss, keyword.control.at-rule.media.css, keyword.control.at-rule.media.scss, keyword.control.at-rule.font-face.css, keyword.control.at-rule.font-face.scss, variable.other.less, variable.declaration.less, variable.interpolation.less, keyword.control.at-rule.css, keyword.control.at-rule.scss, keyword.control.at-rule.supports.css, keyword.control.at-rule.supports.scss, keyword.control.at-rule.mixin.scss, meta.at-rule.import.scss support.function.url.scss, keyword.control.at-rule.viewport.css, keyword.control.at-rule.viewport.scss, keyword.control.return.scss, keyword.control.at-rule.keyframes.css, keyword.control.at-rule.keyframes.scss, meta.function.declaration.sass keyword.control.at-rule.sass, keyword.control.at-rule.return.sass, keyword.control.at-rule.extend.sass, meta.function-call.sass variable.function.sass keyword.control.at-rule.sass, meta.function-call.sass keyword.control.directive.sass, meta.at-rule.sass keyword.control.at-rule.sass, keyword.control.at-rule.keyframe.css, keyword.control.at-rule.keyframe.css support.type.property-vendor.css, keyword.control.at-rule.at-root.sass, meta.at-rule.each.sass keyword.control.flow.sass, keyword.control.at-rule.module.sass, keyword.control.flow.conditional.sass, meta.at-rule.sass keyword.control.flow.sass, text.html.vue source.scss.embedded.html meta.at-rule.module.sass keyword.control.directive.module.sass",
+            "scope": "meta.at-rule.keyframe.css keyword.control.directive.css, meta.at-rule.supports.css keyword.control.directive.css, meta.at-rule.font-face.css keyword.control.directive.css, meta.at-rule.media.css keyword.control.directive.css, meta.at-rule.import.css keyword.control.directive.css, punctuation.definition.keyword.scss, punctuation.definition.keyword.css, keyword.control.at-rule.charset.css, keyword.control.at-rule.charset.scss, keyword.control.each.css, keyword.control.each.scss, keyword.control.else.css, keyword.control.else.scss, keyword.control.at-rule.import.css, keyword.control.at-rule.import.scss, keyword.control.at-rule.fontface.css, keyword.control.at-rule.fontface.scss, keyword.control.for.css, keyword.control.for.scss, keyword.control.at-rule.function.css, keyword.control.at-rule.function.scss, keyword.control.if.css, keyword.control.if.scss, keyword.control.at-rule.include.scss, keyword.control.at-rule.media.css, keyword.control.at-rule.media.scss, keyword.control.at-rule.font-face.css, keyword.control.at-rule.font-face.scss, variable.other.less, variable.declaration.less, variable.interpolation.less, keyword.control.at-rule.css, keyword.control.at-rule.scss, keyword.control.at-rule.supports.css, keyword.control.at-rule.supports.scss, keyword.control.at-rule.mixin.scss, meta.at-rule.import.scss support.function.url.scss, keyword.control.at-rule.viewport.css, keyword.control.at-rule.viewport.scss, keyword.control.return.scss, keyword.control.at-rule.keyframes.css, keyword.control.at-rule.keyframes.scss, meta.function.declaration.sass keyword.control.at-rule.sass, keyword.control.at-rule.return.sass, keyword.control.at-rule.extend.sass, meta.function-call.sass variable.function.sass keyword.control.at-rule.sass, meta.function-call.sass keyword.control.directive.sass, meta.at-rule.sass keyword.control.at-rule.sass, keyword.control.at-rule.keyframe.css, keyword.control.at-rule.keyframe.css support.type.property-vendor.css, keyword.control.at-rule.at-root.sass, meta.at-rule.each.sass keyword.control.flow.sass, keyword.control.at-rule.module.sass, keyword.control.flow.conditional.sass, meta.at-rule.sass keyword.control.flow.sass, text.html.vue source.scss.embedded.html meta.at-rule.module.sass keyword.control.directive.module.sass, meta.at-rule.module.sass keyword.control.directive.module.sass",
             "foreground": "var(blue10)",
             "font_style": "bold"
         },
@@ -564,7 +564,7 @@
         },
         {
             "name": "Vue: Template interpolation",
-            "scope": "text.html.vue punctuation.definition.template.begin.html, text.html.vue punctuation.definition.template.end.html",
+            "scope": "text.html.vue punctuation.definition.interpolation.begin.html, text.html.vue punctuation.definition.interpolation.end.html",
             "foreground": "var(grey)",
             "background": "var(white21)",
             "font_style": "bold"
@@ -1507,7 +1507,7 @@
         {
             "scope": "col_0000007F",
             "foreground": "var(white3)",
-            "background": "color(var(black) alpha(0.5))"
+            "background": "color(var(black) alpha(0.8))"
         },
         {
             "scope": "col_FFFFFFFF",
@@ -1732,7 +1732,7 @@
         },
         {
             "scope": "diff.border.merge-left",
-            "background": "color(var(blue) alpha(0.5))",
+            "background": "color(var(blue) alpha(0.8))",
         },
         {
             "scope": "diff.inserted.merge-right",
@@ -1746,19 +1746,19 @@
         },
         {
             "scope": "diff.border.merge-right",
-            "background": "color(var(blue) alpha(0.5))",
+            "background": "color(var(blue) alpha(0.8))",
         },
         {
             "scope": "diff.border.merge-conflict",
-            "background": "color(var(red) alpha(0.5))",
+            "background": "color(var(red) alpha(0.8))",
         },
         {
             "scope": "diff.border.merge-merged",
-            "background": "color(var(yellow) alpha(0.5))",
+            "background": "color(var(yellow) alpha(0.8))",
         },
         {
             "scope": "blame.border",
-            "background": "color(var(cyan) alpha(0.5))",
+            "background": "color(var(cyan) alpha(0.8))",
         },
         {
             "scope": "blame.age-icon",
