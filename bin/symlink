@@ -12,14 +12,27 @@ function in_array() {
 }
 
 excludes=(".DS_Store" "README.md" ".git" ".gitignore" "bin");
+
 dir=$(dirname $(dirname $(cd $(dirname $0); pwd)/$(basename $0)));
-subl_user_dir="$HOME/Library/Application Support/Sublime Text/Packages/User";
+user_dir="$HOME/Library/Application Support/Sublime Text/Packages/User";
 
 for f in $dir/*; do
 	file=$(basename "$f");
 	excluded=$(in_array "$file" "${excludes[@]}");
 	excluded_result=$?;
 	if [ $excluded_result -ne 0 ]; then
-		ln -sfhv "$dir/$file" "$subl_user_dir/$file";
+		ln -sfhv "$dir/$file" "$user_dir/$file";
+	fi
+done
+
+dir=$(dirname $(dirname $(cd $(dirname $0); pwd)/$(basename $0)))"/sublime-merge";
+user_dir="$HOME/Library/Application Support/Sublime Merge/Packages/User";
+
+for f in $dir/*; do
+	file=$(basename "$f");
+	excluded=$(in_array "$file" "${excludes[@]}");
+	excluded_result=$?;
+	if [ $excluded_result -ne 0 ]; then
+		ln -sfhv "$dir/$file" "$user_dir/$file";
 	fi
 done
