@@ -1,9 +1,8 @@
 [
 	{ "caption": "Align", "command": "alignment" },
-	{ "caption": "Open Terminal here", "command": "open_terminal" },
-	{ "caption": "Open Terminal at project root", "command": "open_terminal_project_folder" },
-	{ "caption": "Project: Switch project", "command": "prompt_select_workspace" },
-	{ "caption": "File: Copy path", "command": "copy_path" },
-	{ "caption": "File: Reveal", "command": "open_dir", "args": {"dir": "$file_path", "file": "$file_name"} }
-
+	{ "caption": "Switch project", "command": "prompt_select_workspace" },
+	{ "caption": "Copy file path", "command": "copy_path" },
+	{ "caption": "Reveal file in Finder", "command": "open_dir", "args": {"dir": "$file_path", "file": "$file_name"} },
+	{ "caption": "Show scope name", "command": "show_scope_name" },
+	{ "caption": "Describe", "command": "lsp_hover" }
 ]

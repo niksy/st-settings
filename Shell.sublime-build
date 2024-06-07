@@ -1,9 +1,0 @@
-{
-	"selector": "source.shell",
-	"variants": [
-		{
-			"name": "Shellcheck fix",
-			"shell_cmd": "shellcheck -f diff \"$file_name\" | git apply"
-		}
-	]
-}

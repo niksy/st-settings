@@ -36,13 +36,14 @@
 	"open_files_in_new_window": false,
 	"rulers":
 	[
-		80
+		80,
+		100,
+		110
 	],
 	"scroll_past_end": true,
 	"scroll_speed": 0,
 	"shift_tab_unindent": true,
 	"show_full_path": true,
-	"show_git_status": false,
 	"show_tab_close_buttons": false,
 	"tab_size": 4,
 	"theme": "El Capitan.sublime-theme",

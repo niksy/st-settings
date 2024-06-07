@@ -261,3 +261,8 @@ $animals: (puma, black, default),
 
 @use 'foo';
 @forward 'foo';
+
+body {
+	--variable: 1;
+	width: var(--variable);
+}

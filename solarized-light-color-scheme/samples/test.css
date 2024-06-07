@@ -118,3 +118,8 @@ main, template {}
 @keyframes {
 
 }
+
+body {
+	--variable: 1;
+	width: var(--variable);
+}

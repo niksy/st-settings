@@ -1,0 +1,20 @@
+// Settings in here override those in "LSP-stylelint/LSP-stylelint.sublime-settings"
+
+{
+	"settings": {
+		"stylelint.snippet": [
+			"css",
+			"less",
+			"postcss",
+			"scss",
+			"vue"
+		],
+		"stylelint.validate": [
+			"css",
+			"less",
+			"postcss",
+			"scss",
+			"vue"
+		]
+	}
+}
