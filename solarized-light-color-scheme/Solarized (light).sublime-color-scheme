@@ -612,7 +612,7 @@
         },
         {
             "name": "JS: Object, unqouted property",
-            "scope": "constant.other.object.key.js string.unquoted.label.js, meta.object-literal.key.js, meta.object-literal.key.ts, meta.mapping.key.js",
+            "scope": "constant.other.object.key.js string.unquoted.label.js, meta.object-literal.key.js, meta.object-literal.key.ts, meta.mapping.key.js, meta.function.js",
             "foreground": "var(cyan2)"
         },
         {
@@ -631,6 +631,11 @@
             "scope": "source.js constant.language, source.ts constant.language, source.json constant.language, constant.language.null.js",
             "foreground": "var(blue3)",
             "font_style": "italic bold"
+        },
+        {
+            "name": "JS: Built-in constanst",
+            "scope": "support.constant.builtin.js",
+            "foreground": "var(grey)"
         },
         {
             "name": "JS: (), {}, [], ,",

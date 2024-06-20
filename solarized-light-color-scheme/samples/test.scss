@@ -6,84 +6,6 @@ comment */
 @import "foo";
 @import url("printstyle.css") print;
 
-$blue: #3bbfce;
-$margin: 16px;
-
-%placeholder-class {
-	text-align:center;
-}
-
-@mixin table-base {
-	th {
-		text-align: center;
-		font-weight: bold;
-	}
-	td, th {padding: 2px}
-}
-
-@mixin left($dist) {
-	float: left;
-	margin-left: $dist;
-	@debug $dist;
-	@warn $dist;
-	@error $dist;
-}
-
-@function function-name($foo) {
-	@return $foo ;
-}
-
-.content-navigation {
-	@include block-standard-table;
-	border-color: $blue;
-	color: darken($blue, 9%);
-	table-layout:fixed;
-
-	&:hover {
-		color: #f00;
-	}
-
-	&:enter {
-		color: #ff0;
-	}
-}
-
-.border {
-	padding: $margin / 2;
-	margin: $margin / 2;
-	border-color: $blue;
-}
-
-table.hl {
-	margin: 2em 0;
-	td.ln {
-		text-align: right;
-	}
-}
-
-li {
-	font: {
-		family: serif;
-		weight: bold;
-		size: 1.2em;
-	}
-}
-
-#data {
-	@include left(10px);
-	@include table-base;
-}
-
-.error {
-	border: 1px #f00;
-	background: #fdd;
-}
-
-.badError {
-	@extend .error;
-	border-width: 3px;
-}
-
 body { height: 100%; }
 
 * {
@@ -265,4 +187,82 @@ $animals: (puma, black, default),
 body {
 	--variable: 1;
 	width: var(--variable);
+}
+
+$blue: #3bbfce;
+$margin: 16px;
+
+%placeholder-class {
+	text-align:center;
+}
+
+@mixin table-base {
+	th {
+		text-align: center;
+		font-weight: bold;
+	}
+	td, th {padding: 2px}
+}
+
+@mixin left($dist) {
+	float: left;
+	margin-left: $dist;
+	@debug $dist;
+	@warn $dist;
+	@error $dist;
+}
+
+@function function-name($foo) {
+	@return $foo ;
+}
+
+.content-navigation {
+	@include block-standard-table;
+	border-color: $blue;
+	color: darken($blue, 9%);
+	table-layout:fixed;
+
+	&:hover {
+		color: #f00;
+	}
+
+	&:enter {
+		color: #ff0;
+	}
+}
+
+.border {
+	padding: $margin / 2;
+	margin: $margin / 2;
+	border-color: $blue;
+}
+
+table.hl {
+	margin: 2em 0;
+	td.ln {
+		text-align: right;
+	}
+}
+
+li {
+	font: {
+		family: serif;
+		weight: bold;
+		size: 1.2em;
+	}
+}
+
+#data {
+	@include left(10px);
+	@include table-base;
+}
+
+.error {
+	border: 1px #f00;
+	background: #fdd;
+}
+
+.badError {
+	@extend .error;
+	border-width: 3px;
 }
