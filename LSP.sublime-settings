@@ -8,40 +8,5 @@
 	  "info": "stippled",
 	  "hint": "stippled"
 	},
-	"show_multiline_diagnostics_highlights": false,
-	"clients": {
-		"LSP-sass": {
-			"command": ["some-sass-language-server", "--stdio"],
-			"enabled": true,
-			"selector": "source.scss | text.html.vue",
-			"settings": {
-				"editor.insertSpaces": 3,
-				"editor.indentSize": 4,
-				"editor.tabSize": 4,
-				"somesass.scannerDepth": 30,
-				"somesass.scannerExclude": [
-					"**/.git/**",
-					"**/node_modules/**",
-					"**/bower_components/**",
-				],
-				"somesass.scanImportedFiles": false,
-				"somesass.suggestionStyle": "all",
-				"somesass.suggestAllFromOpenDocument": true,
-				"somesass.suggestFromUseOnly": true,
-				"somesass.suggestFunctionsInStringContextAfterSymbols": " (+-*%"
-			}
-		},
-		"LSP-twig": {
-			"command": ["twiggy-language-server", "--stdio"],
-			"enabled": true,
-			"selector": "text.html.twig",
-			"settings": {
-				"twiggy.macro": true,
-				"twiggy.macroArguments": true,
-				"twiggy.block": true,
-				"twiggy.autoInsertSpaces": true,
-				"twiggy.phpBinConsoleCommand": ""
-			}
-		}
-	}
+	"show_multiline_diagnostics_highlights": false
 }
