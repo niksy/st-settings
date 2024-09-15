@@ -4,7 +4,7 @@
 		"plugins": [{
 			"name": "@vue/typescript-plugin",
 			// TODO: see if this can be set as empty string so it uses global or local version of plugin
-			"location": "/Users/niksy/Library/Caches/Sublime Text/Package Storage/LSP-volar/20.11.1/server/node_modules/@vue/typescript-plugin",
+			"location": "/Users/niksy/Library/Caches/Sublime Text/Package Storage/LSP-volar-next/20.11.1/server/node_modules/@vue/typescript-plugin",
 			"languages": ["vue"]
 		}]
 	},

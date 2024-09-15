@@ -26,6 +26,7 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"LSP-volar",
 		"Vintage",
 	],
 	"line_padding_bottom": 1,

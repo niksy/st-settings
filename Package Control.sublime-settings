@@ -32,9 +32,12 @@
 		"LSP-html",
 		"LSP-intelephense",
 		"LSP-json",
+		"LSP-sass",
 		"LSP-stylelint",
+		"LSP-twig",
 		"LSP-typescript",
 		"LSP-volar",
+		"LSP-volar-next",
 		"LSP-yaml",
 		"MarkdownPreview",
 		"nginx",
@@ -54,6 +57,8 @@
 	],
 	"repositories":
 	[
-		"https://github.com/niksy/LSP-volar",
+		"https://github.com/niksy/LSP-sass",
+		"https://github.com/niksy/LSP-twig",
+		"https://github.com/niksy/LSP-volar-next",
 	],
 }

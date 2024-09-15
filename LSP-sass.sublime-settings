@@ -1,0 +1,8 @@
+{
+	"settings": {
+		"somesass.scanImportedFiles": false,
+		"somesass.suggestAllFromOpenDocument": true,
+		"somesass.suggestFromUseOnly": true
+	},
+	"selector": "source.scss | text.html.vue"
+}
