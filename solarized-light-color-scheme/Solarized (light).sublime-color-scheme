@@ -155,6 +155,61 @@
     "rules":
     [
         {
+            "scope": "col_E83B5A19",
+            "foreground": "#696969FF",
+            "background": "#E83B5A19"
+        },
+        {
+            "scope": "col_0318210F",
+            "foreground": "#686868FF",
+            "background": "#0318210F"
+        },
+        {
+            "scope": "col_EFF2F7FF",
+            "foreground": "#717171FF",
+            "background": "#EFF2F7FF"
+        },
+        {
+            "scope": "col_FFFFFF14",
+            "foreground": "#767676FF",
+            "background": "#FFFFFF14"
+        },
+        {
+            "scope": "col_03182133",
+            "foreground": "#484848FF",
+            "background": "#03182133"
+        },
+        {
+            "scope": "col_031821CC",
+            "foreground": "#C0C0C0FF",
+            "background": "#031821CC"
+        },
+        {
+            "scope": "col_00000007",
+            "foreground": "#6F6F6FFF",
+            "background": "#00000007"
+        },
+        {
+            "scope": "col_03182114",
+            "foreground": "#646464FF",
+            "background": "#03182114"
+        },
+        {
+            "scope": "col_D3D3D3FF",
+            "background": "#D3D3D3FF",
+            "foreground": "#535353FF"
+        },
+        {
+            "background": "#020917FF",
+            "scope": "col_020917FF",
+            "foreground": "#888888FF"
+        },
+        {
+            "background": "#101725FF",
+            "scope": "col_101725FF",
+            "foreground": "#969696FF"
+        },
+        {
             "background": "#DD8800FF",
             "scope": "col_DD8800FF",
             "foreground": "#111111FF"
@@ -1248,7 +1303,7 @@
         },
         {
             "name": "Twig: Control",
-            "scope": "keyword.control.twig, keyword.operator.comparison.twig, keyword.operator.other.twig, meta.tag.template.value.twig keyword.operator.assignment.twig, keyword.control.loop.for.twig, keyword.control.loop.end.twig, keyword.other.tag.twig, keyword.other.endtag.twig, keyword.control.conditional.if.twig, keyword.control.conditional.end.twig, keyword.operator.logical.twig",
+            "scope": "keyword.control.twig, keyword.operator.comparison.twig, keyword.operator.other.twig, meta.tag.template.value.twig keyword.operator.assignment.twig, keyword.control.loop.for.twig, keyword.control.loop.end.twig, keyword.other.tag.twig, keyword.other.endtag.twig, keyword.control.conditional.if.twig, keyword.control.conditional.elseif.twig, keyword.control.conditional.end.twig, keyword.operator.logical.twig",
             "font_style": "bold"
         },
         {
