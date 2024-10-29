@@ -1,0 +1,6 @@
+{
+	"settings": {
+		"somesass.scss.completion.suggestFromUseOnly": true,
+	},
+	"selector": "source.scss | text.html.vue"
+}
