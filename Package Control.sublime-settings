@@ -31,7 +31,7 @@
 		"LSP-html",
 		"LSP-intelephense",
 		"LSP-json",
-		"LSP-sass",
+		"LSP-some-sass",
 		"LSP-stylelint",
 		"LSP-twig",
 		"LSP-typescript",
@@ -56,7 +56,6 @@
 	],
 	"repositories":
 	[
-		"https://github.com/niksy/LSP-sass",
 		"https://github.com/niksy/LSP-twig",
 		"https://github.com/niksy/LSP-volar-next",
 	],
