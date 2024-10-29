@@ -1,18 +1,55 @@
 [
-	// cmd+alt will activate jump to resolved HyperClick path
-	{
-		"button": "button1",
-		"count": 1,
-		"modifiers": ["super", "alt"],
-		"command": "hyper_click_jump",
-		"press_command": "drag_select"
-	},
-	// cmd will go to definition for active LSP context
+	// cmd+shift will go to definition for active LSP context
 	{
 		"button": "button1",
 		"count": 1,
 		"modifiers": ["super", "shift"],
 		"command": "lsp_symbol_definition",
 		"press_command": "drag_select"
+	},
+
+	// cmd+option will go to source for active LSP context
+	{
+		"button": "button1",
+		"count": 1,
+		"modifiers": ["super", "alt"],
+		"command": "lsp_typescript_goto_source_definition",
+		"args": {
+			"command_name": "_typescript.goToSourceDefinition",
+			"command_args": ["$file_uri", "$position"]
+		},
+		"press_command": "drag_select"
+	},
+
+	// cmd+shift in at-rules in Sass files will open module for active LSP context
+	{
+		"button": "button1",
+		"count": 1,
+		"modifiers": ["super", "shift"],
+		"command": "lsp_open_link",
+		"press_command": "drag_select",
+		"context": [
+			{
+				"key": "selector",
+				"operator": "equal",
+				"operand": "source.scss meta.at-rule meta.path.url.css"
+			}
+		]
+	},
+
+	// cmd+shift in Vue SFC style blocks for v-bind will go to implementation for active LSP context
+	{
+		"button": "button1",
+		"count": 1,
+		"modifiers": ["super", "shift"],
+		"command": "lsp_symbol_implementation",
+		"press_command": "drag_select",
+		"context": [
+			{
+				"key": "selector",
+				"operator": "equal",
+				"operand": "text.html.vue support.constant.property-value.css"
+			}
+		]
 	}
 ]

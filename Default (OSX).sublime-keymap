@@ -1,5 +1,4 @@
 [
-
 	// Use paste and indent as default paste action
 	{ "keys": ["super+v"], "command": "paste_and_indent" },
 	{ "keys": ["super+shift+v"], "command": "paste" },
@@ -18,6 +17,44 @@
 	    "command": "lsp_hover",
 	    "context": [{"key": "lsp.session_with_capability", "operand": "hoverProvider"}]
 	},
+
+	// Auto-show completion documentation after triggering once
+	// https://github.com/sublimelsp/LSP/issues/1421
+	{
+        "keys": ["up"],
+        "command": "chain",
+        "args": {
+            "commands": [
+                ["move", { "by": "lines", "forward": false }],
+                ["auto_complete_open_link"]
+            ]
+        },
+        "context": [
+            { "key": "auto_complete_visible" },
+            { "key": "popup_visible" }
+        ]
+    },
+    {
+        "keys": ["down"],
+        "command": "chain",
+        "args": {
+            "commands": [
+                ["move", { "by": "lines", "forward": true }],
+                ["auto_complete_open_link"]
+            ]
+        },
+        "context": [
+            { "key": "auto_complete_visible" },
+            { "key": "popup_visible" }
+        ]
+    },
+    {
+        "keys": ["super"],
+        "command": "auto_complete_open_link",
+        "context": [
+            { "key": "auto_complete_visible" }
+        ]
+    },
 
 	// Add markup completion for JSX
 	// (default key binding expanded with JS support)
@@ -66,44 +103,5 @@
 			    "key": "is_abbreviation"
 			}
 		]
-	},
-
-	// Auto-show completion documentation after triggering once
-	// https://github.com/sublimelsp/LSP/issues/1421
-	{
-        "keys": ["up"],
-        "command": "chain",
-        "args": {
-            "commands": [
-                ["move", { "by": "lines", "forward": false }],
-                ["auto_complete_open_link"]
-            ]
-        },
-        "context": [
-            { "key": "auto_complete_visible" },
-            { "key": "popup_visible" }
-        ]
-    },
-    {
-        "keys": ["down"],
-        "command": "chain",
-        "args": {
-            "commands": [
-                ["move", { "by": "lines", "forward": true }],
-                ["auto_complete_open_link"]
-            ]
-        },
-        "context": [
-            { "key": "auto_complete_visible" },
-            { "key": "popup_visible" }
-        ]
-    },
-    {
-        "keys": ["super"],
-        "command": "auto_complete_open_link",
-        "context": [
-            { "key": "auto_complete_visible" }
-        ]
-    }
-
+	}
 ]
