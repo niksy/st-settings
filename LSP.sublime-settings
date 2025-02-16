@@ -9,23 +9,5 @@
 	  "hint": "stippled"
 	},
 	"show_multiline_diagnostics_highlights": false,
-	"inhibit_snippet_completions": true,
-	"clients": {
-		"LSP-oxlint": {
-			"enabled": false,
-			"command": ["node", "/Users/niksy/Projects/dev/oxc-lsp/node_modules/oxlint/bin/oxc_language_server"],
-			"settings": {
-				"oxc_language_server.configPath": "oxlintrc.json",
-				"oxc_language_server.enable": true,
-				"oxc_language_server.run": "onType",
-				"oxc_language_server.trace.server": "off",
-			},
-			"selector": "source.js"
-		}
-	},
-	// "lsp_code_actions_on_save": {
-	// 	"source.fixAll.eslint": true,
-	// 	"source.fixAll.stylelint": true,
-	// 	"source.removeUnusedImports.ts": true
-	// }
+	"inhibit_snippet_completions": true
 }

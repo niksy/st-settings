@@ -28,15 +28,15 @@
 		"LSP-css",
 		"LSP-dockerfile",
 		"LSP-eslint",
+		"LSP-file-watcher-chokidar",
 		"LSP-html",
 		"LSP-intelephense",
 		"LSP-json",
 		"LSP-some-sass",
 		"LSP-stylelint",
-		"LSP-twig",
+		"LSP-twiggy",
 		"LSP-typescript",
-		"LSP-volar",
-		"LSP-volar-next",
+		"LSP-vue",
 		"LSP-yaml",
 		"MarkdownPreview",
 		"nginx",
@@ -52,11 +52,6 @@
 		"Terminal",
 		"Theme - El Capitan",
 		"Twig",
-		"Vue Syntax Highlight",
-	],
-	"repositories":
-	[
-		"https://github.com/niksy/LSP-twig",
-		"https://github.com/niksy/LSP-volar-next",
-	],
+		"Vue",
+	]
 }
