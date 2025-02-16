@@ -1,12 +1,15 @@
 // Settings in here override those in "LSP-typescript/LSP-typescript.sublime-settings"
 {
 	"initializationOptions": {
-		"plugins": [{
-			"name": "@vue/typescript-plugin",
-			// TODO: see if this can be set as empty string so it uses global or local version of plugin
-			"location": "/Users/niksy/Library/Caches/Sublime Text/Package Storage/LSP-volar-next/20.11.1/server/node_modules/@vue/typescript-plugin",
-			"languages": ["vue"]
-		}]
+		// Custom path until LSP-typescript gets latest TypeScript server bundled
+		"tsserver.path": "/Users/niksy/.nvm/versions/node/v22.11.0/lib/node_modules/typescript/lib/tsserver.js",
+		"plugins": [
+			{
+				"languages": ["vue"],
+				"location": "/Users/niksy/Library/Caches/Sublime Text/Package Storage/LSP-vue/22.11.0/server/node_modules",
+				"name": "@vue/typescript-plugin"
+			}
+		]
 	},
 	"selector": "source.js, source.jsx, source.ts, source.tsx, text.html.vue"
 }
