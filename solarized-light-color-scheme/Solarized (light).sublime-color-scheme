@@ -155,6 +155,21 @@
     "rules":
     [
         {
+            "foreground": "#6A6A6AFF",
+            "background": "#0000000C",
+            "scope": "col_0000000C"
+        },
+        {
+            "background": "#AC8C57FF",
+            "foreground": "#0F0F0FFF",
+            "scope": "col_AC8C57FF"
+        },
+        {
+            "background": "#00000033",
+            "scope": "col_00000033",
+            "foreground": "#444444FF"
+        },
+        {
             "foreground": "#656565FF",
             "background": "#E5E5E5FF",
             "scope": "col_E5E5E5FF"
@@ -628,7 +643,7 @@
         },
         {
             "name": "JS: Keyword control",
-            "scope": "source.js keyword.control, source.ts keyword.control",
+            "scope": "source.js keyword.control, source.jsx keyword.control, source.ts keyword.control",
             "foreground": "var(blue10)",
             "font_style": "bold"
         },
@@ -703,18 +718,18 @@
         },
         {
             "name": "JS: Constant",
-            "scope": "source.js constant.language, source.ts constant.language, source.json constant.language, constant.language.null.js",
+            "scope": "source.js constant.language, source.jsx constant.language, source.ts constant.language, source.json constant.language, constant.language.null.js",
             "foreground": "var(blue3)",
             "font_style": "italic bold"
         },
         {
             "name": "JS: Built-in constanst",
             "scope": "support.constant.builtin.js",
-            "foreground": "var(grey)"
+            "foreground": "var(yellow2)"
         },
         {
             "name": "JS: (), {}, [], ,",
-            "scope": "source.json meta.structure.array punctuation.definition.array.begin, source.json meta.structure.array punctuation.definition.array.end, source.json meta.structure.dictionary punctuation.definition.dictionary.begin, source.json meta.structure.dictionary punctuation.definition.dictionary.end, source.js meta.function.js punctuation.definition.parameters, source.js meta.function.arrow.js punctuation.definition.parameters, meta.brace.round.js, meta.brace.curly.js, meta.brace.square.js, source.js meta.group.braces.round punctuation.section.scope, source.js meta.group.braces.curly punctuation.section.scope, source.js meta.group.braces.square punctuation.section.scope, meta.object-literal.js, meta.binding.destructuring.mapping.js, meta.function.js meta.block.js, punctuation.section.group.begin.js, punctuation.section.group.end.js, punctuation.section.brackets.begin.js, punctuation.section.brackets.end.js, punctuation.section.block.begin.js, punctuation.section.block.end.js, punctuation.section.mapping.begin.json, punctuation.section.mapping.end.json, punctuation.section.sequence.begin.json, punctuation.section.sequence.end.json, punctuation.definition.block.ts, punctuation.definition.parameters.begin.ts, punctuation.definition.parameters.end.ts, meta.brace.square.ts, punctuation.definition.binding-pattern.array.ts, punctuation.definition.binding-pattern.object.ts, meta.function-call.js punctuation.accessor.js, punctuation.section.mapping.begin.js, punctuation.section.mapping.end.js, punctuation.section.sequence.begin.js, punctuation.section.sequence.end.js, source.js meta.binding.destructuring.sequence.js punctuation.section.sequence.begin.js, source.js meta.binding.destructuring.sequence.js punctuation.section.sequence.end.js, source.js meta.conditional.js punctuation.section.sequence.begin.js, source.js meta.conditional.js punctuation.section.sequence.end.js, source.js meta.sequence.js punctuation.section.sequence.begin.js, source.js meta.sequence.js punctuation.section.sequence.end.js",
+            "scope": "source.json meta.structure.array punctuation.definition.array.begin, source.json meta.structure.array punctuation.definition.array.end, source.json meta.structure.dictionary punctuation.definition.dictionary.begin, source.json meta.structure.dictionary punctuation.definition.dictionary.end, source.js meta.function.js punctuation.definition.parameters, source.js meta.function.arrow.js punctuation.definition.parameters, meta.brace.round.js, meta.brace.curly.js, meta.brace.square.js, source.js meta.group.braces.round punctuation.section.scope, source.js meta.group.braces.curly punctuation.section.scope, source.js meta.group.braces.square punctuation.section.scope, meta.object-literal.js, meta.binding.destructuring.mapping.js, meta.function.js meta.block.js, punctuation.section.group.begin.js, punctuation.section.group.end.js, punctuation.section.brackets.begin.js, punctuation.section.brackets.end.js, punctuation.section.block.begin.js, punctuation.section.block.end.js, punctuation.section.mapping.begin.json, punctuation.section.mapping.end.json, punctuation.section.sequence.begin.json, punctuation.section.sequence.end.json, punctuation.definition.block.ts, punctuation.definition.parameters.begin.ts, punctuation.definition.parameters.end.ts, meta.brace.square.ts, punctuation.definition.binding-pattern.array.ts, punctuation.definition.binding-pattern.object.ts, meta.function-call.js punctuation.accessor.js, punctuation.section.mapping.begin.js, punctuation.section.mapping.end.js, punctuation.section.sequence.begin.js, punctuation.section.sequence.end.js, meta.binding.destructuring.sequence.js punctuation.section.sequence.begin.js, meta.binding.destructuring.sequence.js punctuation.section.sequence.end.js, meta.conditional.js punctuation.section.sequence.begin.js, meta.conditional.js punctuation.section.sequence.end.js, meta.sequence.js punctuation.section.sequence.begin.js, meta.sequence.js punctuation.section.sequence.end.js",
             "foreground": "var(grey)"
         },
         {
@@ -731,6 +746,12 @@
             "name": "JS: Template string, element",
             "scope": "string.template-string.js entity.template-string.element.js",
             "foreground": "var(blue11)"
+        },
+        {
+            "name": "JS: Embedded",
+            "scope": "source.js text.html.embedded.js",
+            "foreground": "var(grey3)",
+            "background": "var(white21)"
         },
         {
             "name": "JS: Template string, element start and begin",
@@ -771,7 +792,7 @@
         },
         {
             "name": "Vue: Template interpolation",
-            "scope": "text.html.vue punctuation.definition.interpolation.begin.html, text.html.vue punctuation.definition.interpolation.end.html",
+            "scope": "text.html.vue punctuation.section.interpolation.begin.html, text.html.vue punctuation.section.interpolation.end.html",
             "foreground": "var(grey)",
             "background": "var(white21)",
             "font_style": "bold"
@@ -781,6 +802,11 @@
             "scope": "text.html.vue source.js.embedded.html, text.html.vue source.css.embedded.html",
             "foreground": "var(grey2)",
             "background": "var(white18)"
+        },
+        {
+            "name": "Vue: directive",
+            "scope": "meta.directive.modifiers.vue punctuation.separator.vue, meta.directive.modifiers.vue storage.modifier.vue, keyword.other.directive.vue, keyword.control.conditional.else.vue, keyword.control.conditional.elseif.vue, keyword.control.conditional.if.vue, keyword.control.loop.for.vue",
+            "foreground": "var(grey)",
         },
         {
             "name": "HTML: Doctype",
@@ -838,7 +864,6 @@
         {
             "name": "HTML: Embeddable",
             "scope": "source.js.embedded.html, source.css.embedded.html, text.html.vue source.js.embedded.vue",
-            "foreground": "var(grey2)",
             "background": "var(white21)"
         },
         {
@@ -1312,7 +1337,7 @@
         },
         {
             "name": "Twig: Block, expression",
-            "scope": "meta.tag.template.block.twig, meta.tag.template.value.twig, meta.placeholder.twig, meta.statement.twig, meta.expression.twig",
+            "scope": "meta.tag.template.block.twig, meta.tag.template.value.twig, meta.placeholder.twig, meta.embedded.statement.twig, meta.embedded.expression.twig",
             "background": "var(white21)"
         },
         {
