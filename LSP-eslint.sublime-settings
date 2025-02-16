@@ -1,8 +1,3 @@
 // Settings in here override those in "LSP-eslint/LSP-eslint.sublime-settings"
 
-{
-	"settings":
-	{
-		"experimental.useFlatConfig": false
-	},
-}
+{}

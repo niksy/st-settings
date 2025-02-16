@@ -2,13 +2,7 @@
 
 {
 	"settings": {
-		"stylelint.snippet": [
-			"css",
-			"less",
-			"postcss",
-			"scss",
-			"vue"
-		],
+		"stylelint.snippet": [],
 		"stylelint.validate": [
 			"css",
 			"less",
