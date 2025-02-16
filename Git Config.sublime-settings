@@ -2,6 +2,7 @@
 	"extensions":
 	[
 		".gitconfig",
-		".gitconfig_extra"
-	]
+		".gitconfig_extra",
+		".gitconfig_extra",
+	],
 }
