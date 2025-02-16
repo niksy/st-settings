@@ -7,6 +7,6 @@
  */
 $0]]></content>
 	<tabTrigger>seccomm</tabTrigger>
-	<scope>source.css, source.scss, source.js</scope>
+	<scope>source.css, source.scss, source.js, source.jsx, source.ts, source.tsx</scope>
 	<description>Section comment block</description>
 </snippet>

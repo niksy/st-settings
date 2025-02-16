@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-(${2: ${1:params} }) => {
-	${0:$TM_SELECTED_TEXT}
-}${3:,}]]></content>
-	<tabTrigger>afn</tabTrigger>
-	<scope>source.js</scope>
-	<description>Function: arrow</description>
-</snippet>
