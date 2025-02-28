@@ -1,7 +1,8 @@
 {
 	"extensions":
 	[
-		".env",
 		"env",
+		"env.local",
+		".npmrc",
 	],
 }

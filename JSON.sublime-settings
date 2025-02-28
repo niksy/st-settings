@@ -1,7 +1,6 @@
 {
 	"extensions":
 	[
-		"sublime-commands",
 		".jshintrc",
 		".eslintrc",
 		".jscsrc",
