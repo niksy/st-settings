@@ -15,11 +15,9 @@
 		"Color Highlight",
 		"DocBlockr",
 		"Dockerfile Syntax Highlighting",
-		"Dotfiles Syntax Highlighting",
 		"EditorConfig",
 		"Find++",
 		"Gettext",
-		"Git blame",
 		"Hosts",
 		"INI",
 		"JsPrettier",
@@ -53,5 +51,5 @@
 		"Theme - El Capitan",
 		"Twig",
 		"Vue",
-	]
+	],
 }
