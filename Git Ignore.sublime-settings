@@ -2,7 +2,6 @@
 	"extensions":
 	[
 		".gitignore",
-		".gitignore_global",
-		".gitignore",
+		".gitignore_global"
 	],
 }
