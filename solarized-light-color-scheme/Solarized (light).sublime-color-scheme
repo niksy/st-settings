@@ -750,7 +750,7 @@
         {
             "name": "JS: Embedded",
             "scope": "source.js text.html.embedded.js",
-            "foreground": "var(grey3)",
+            "foreground": "var(blue11)",
             "background": "var(white21)"
         },
         {
@@ -768,6 +768,11 @@
             "name": "JS: JSDoc param",
             "scope": "comment.block.documentation.js entity.other.attribute-name.documentation.js",
             "font_style": "italic bold"
+        },
+        {
+            "name": "JS: Inherited class",
+            "scope": "entity.other.inherited-class.js",
+            "foreground": "var(blue11)"
         },
         {
             "name": "JSX: Element",
