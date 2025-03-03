@@ -4,5 +4,6 @@
 		"env",
 		"env.local",
 		".npmrc",
+		".vault",
 	],
 }
