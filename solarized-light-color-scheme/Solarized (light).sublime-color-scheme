@@ -155,6 +155,21 @@
     "rules":
     [
         {
+            "scope": "col_EEE8D5FF",
+            "background": "#EEE8D5FF",
+            "foreground": "#676767FF"
+        },
+        {
+            "foreground": "#5A5A5AFF",
+            "scope": "col_D8DBDFFF",
+            "background": "#D8DBDFFF"
+        },
+        {
+            "scope": "col_C7CBD1FF",
+            "background": "#C7CBD1FF",
+            "foreground": "#4A4A4AFF"
+        },
+        {
             "foreground": "#6A6A6AFF",
             "background": "#0000000C",
             "scope": "col_0000000C"

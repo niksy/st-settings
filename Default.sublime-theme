@@ -1,0 +1,24 @@
+{
+	"variables": {
+		"tabset_light_bg": "var(panel_bg)",
+		"auto_complete_bg_light_tint": "var(--background)",
+		"auto_complete_selected_row_light_tint": "var(file_tab_selected_medium_tint)",
+		"font_size_sm": 12,
+		"font_size_lg": 14
+	},
+	"rules": [
+		{
+			"class": "tab_control",
+			"tint_modifier": "var(ui_bg)",
+			"content_margin": [15, 0, 15, 0]
+		},
+		{
+			"class": "status_bar",
+			"content_margin": [10, 5, 10, 5]
+		},
+		{
+			"class": "quick_panel",
+			"row_padding": [8, 6]
+		}
+	],
+}

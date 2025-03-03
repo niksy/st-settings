@@ -3,8 +3,6 @@
 	"bold_folder_labels": true,
 	"color_scheme": "Packages/User/solarized-light-color-scheme/Solarized (light).sublime-color-scheme",
 	"draw_white_space": "selection",
-	"el_capitan_font_default": true,
-	"el_capitan_sidebar_blue_folders": true,
 	"ensure_newline_at_eof_on_save": true,
 	"folder_exclude_patterns":
 	[
@@ -33,7 +31,7 @@
 	"match_brackets": false,
 	"match_tags": false,
 	"mini_diff": false,
-	"open_files_in_new_window": false,
+	"open_files_in_new_window": "never",
 	"rulers":
 	[
 		80,
@@ -45,7 +43,12 @@
 	"show_full_path": true,
 	"show_tab_close_buttons": false,
 	"tab_size": 4,
-	"theme": "El Capitan.sublime-theme",
-	"trim_trailing_white_space_on_save": true,
+	"trim_trailing_white_space_on_save": "all",
 	"index_files": false,
+	"theme": "Default.sublime-theme",
+	"file_tab_style": "square",
+	"hide_new_tab_button": true,
+	"show_encoding": true,
+	"show_sidebar_button": false,
+	"hide_tab_scrolling_buttons": true
 }
