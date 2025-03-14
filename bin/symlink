@@ -11,7 +11,7 @@ function in_array() {
 	return 1
 }
 
-excludes=(".DS_Store" "README.md" ".git" ".gitignore" "bin");
+excludes=(".DS_Store" "README.md" ".git" ".gitignore" "bin" "sublime-merge");
 
 dir=$(dirname $(dirname $(cd $(dirname $0); pwd)/$(basename $0)));
 user_dir="$HOME/Library/Application Support/Sublime Text/Packages/User";
