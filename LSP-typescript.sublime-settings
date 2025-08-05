@@ -1,8 +1,6 @@
 // Settings in here override those in "LSP-typescript/LSP-typescript.sublime-settings"
 {
 	"initializationOptions": {
-		// Custom path until LSP-typescript gets latest TypeScript server bundled
-		"tsserver.path": "/Users/niksy/.nvm/versions/node/v22.11.0/lib/node_modules/typescript/lib/tsserver.js",
 		"plugins": [
 			{
 				"languages": ["vue"],
