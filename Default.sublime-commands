@@ -4,5 +4,6 @@
 	{ "caption": "Copy file path", "command": "copy_path" },
 	{ "caption": "Reveal file in Finder", "command": "open_dir", "args": {"dir": "$file_path", "file": "$file_name"} },
 	{ "caption": "Show scope name", "command": "show_scope_name" },
-	{ "caption": "Describe", "command": "lsp_hover" }
+	{ "caption": "Describe", "command": "lsp_hover" },
+	{ "caption": "Sublime Merge: Line History", "command": "sublime_merge_line_history" }
 ]
