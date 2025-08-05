@@ -18,7 +18,8 @@
 	[
 		"no_round"
 	],
-	"font_size": 14.0,
+	"font_size": 14,
+	"default_font_size": 14.0,
 	"gpu_window_buffer": true,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
@@ -51,4 +52,5 @@
 	"show_encoding": true,
 	"show_sidebar_button": false,
 	"hide_tab_scrolling_buttons": true,
+	"disable_plugin_host_3.3": true,
 }
