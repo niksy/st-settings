@@ -51,4 +51,7 @@
 		"Twig",
 		"Vue",
 	],
+	"channels": [
+		"https://packages.sublimetext.io/channel.json"
+	],
 }
