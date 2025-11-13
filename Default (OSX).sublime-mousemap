@@ -37,6 +37,22 @@
 		]
 	},
 
+	// cmd+shift in `url` functions in style files will open URL for active LSP context
+	{
+		"button": "button1",
+		"count": 1,
+		"modifiers": ["super", "shift"],
+		"command": "lsp_open_link",
+		"press_command": "drag_select",
+		"context": [
+			{
+				"key": "selector",
+				"operator": "equal",
+				"operand": "meta.path.url.css meta.string.css"
+			}
+		]
+	},
+
 	// cmd+shift in Vue SFC style blocks for v-bind will go to implementation for active LSP context
 	{
 		"button": "button1",
@@ -49,6 +65,22 @@
 				"key": "selector",
 				"operator": "equal",
 				"operand": "text.html.vue support.constant.property-value.css"
+			}
+		]
+	},
+
+	// cmd+shift in Vue SFC template blocks will go to symbol implementation for active LSP context
+	{
+		"button": "button1",
+		"count": 1,
+		"modifiers": ["super", "shift"],
+		"command": "lsp_symbol_implementation",
+		"press_command": "drag_select",
+		"context": [
+			{
+				"key": "selector",
+				"operator": "equal",
+				"operand": "text.html.vue meta.embedded.expression.vue"
 			}
 		]
 	}
