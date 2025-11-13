@@ -20,6 +20,7 @@
 		"Gettext",
 		"Hosts",
 		"INI",
+		"JS Template String Converter",
 		"JsPrettier",
 		"LSP",
 		"LSP-bash",
