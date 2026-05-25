@@ -28,6 +28,7 @@
 		"LSP-dockerfile",
 		"LSP-eslint",
 		"LSP-file-watcher-chokidar",
+		"LSP-graphql",
 		"LSP-html",
 		"LSP-intelephense",
 		"LSP-json",
