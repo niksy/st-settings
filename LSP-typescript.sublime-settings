@@ -1,3 +1,8 @@
-// Settings in here override those in "LSP-typescript/LSP-typescript.sublime-settings"
 {
+	"initializationOptions": {
+		"preferences": {
+			"preferTypeOnlyAutoImports": true,
+			"importModuleSpecifierPreference": "non-relative"
+		}
+	}
 }
