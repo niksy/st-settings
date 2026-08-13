@@ -4,5 +4,9 @@
 		"vue.suggest.propNameCasing": "preferCamelCase",
 		"scss.hover.documentation": false,
 		"scss.hover.references": false
+	},
+	"disabled_capabilities": {
+		// https://github.com/sublimelsp/LSP-vue/issues/164#issuecomment-3477821734
+		"renameProvider": true
 	}
 }
