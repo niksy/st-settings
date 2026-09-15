@@ -2,6 +2,7 @@
 	{ "caption": "Align", "command": "alignment" },
 	{ "caption": "Project: Switch project", "command": "prompt_select_workspace" },
 	{ "caption": "File: Copy path", "command": "copy_path" },
+	{ "caption": "File: Copy path with line numbers", "command": "copy_filepath_with_line_numbers" },
 	{ "caption": "File: Reveal in Finder", "command": "open_dir", "args": {"dir": "$file_path", "file": "$file_name"} },
 	{ "caption": "Package: Show scope name", "command": "show_scope_name" },
 	{ "caption": "LSP: Describe", "command": "lsp_hover" },
