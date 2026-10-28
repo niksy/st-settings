@@ -2090,6 +2090,11 @@
         {
             "scope": "source.sublime-merge.preferences.git_binary",
             "foreground": "color(var(base02) alpha(1))",
+        },
+        {
+            "scope": "markup.t3-code-review-comments",
+            "background": "var(blue5)",
+            "foreground": "var(white18)"
         }
     ]
 }

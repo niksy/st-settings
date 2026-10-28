@@ -63,6 +63,12 @@
         ]
     },
 
+    {
+        "keys": ["super+enter"],
+        "command": "t3_code_review_comments_send",
+        "context": [{ "key": "t3_code_review_comments_unsent", "operator": "equal", "operand": true }]
+    },
+
 	// Add markup completion for JSX
 	// (default key binding expanded with JS support)
 	{
