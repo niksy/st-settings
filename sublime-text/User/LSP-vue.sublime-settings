@@ -5,8 +5,12 @@
 		"scss.hover.documentation": false,
 		"scss.hover.references": false
 	},
+	// TODO: remove when TS content mapper support arrives
 	"disabled_capabilities": {
+		"definitionProvider": true,
+		"referencesProvider": true,
 		// https://github.com/sublimelsp/LSP-vue/issues/164#issuecomment-3477821734
-		"renameProvider": true
+		"renameProvider": true,
+		"typeDefinitionProvider": true,
 	}
 }
