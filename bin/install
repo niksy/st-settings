@@ -1,0 +1,94 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+repository_dir="$(cd "$(dirname "$0")/.." && pwd)"
+sublime_text_dir="$HOME/Library/Application Support/Sublime Text"
+sublime_merge_dir="$HOME/Library/Application Support/Sublime Merge"
+settings_source="$repository_dir/sublime-text/User/Package Control.sublime-settings"
+settings_target="$sublime_text_dir/Packages/User/Package Control.sublime-settings"
+package_control_url="https://github.com/sublimehq/package_control/releases/latest/download/Package.Control.sublime-package"
+timeout_seconds=600
+poll_seconds=5
+
+if [[ "$(uname)" != "Darwin" ]]; then
+	echo "Error: this script supports only macOS." >&2
+	exit 1
+fi
+
+for app in "Sublime Text" "Sublime Merge"; do
+	if [[ ! -d "/Applications/$app.app" ]]; then
+		echo "Error: install $app first (/Applications/$app.app not found)." >&2
+		exit 1
+	fi
+done
+
+mkdir -p "$sublime_text_dir/Packages/User" "$sublime_text_dir/Installed Packages" "$sublime_merge_dir/Packages/User"
+
+# 1. Package Control
+
+package_control_file="$sublime_text_dir/Installed Packages/Package Control.sublime-package"
+if [[ -f "$package_control_file" ]]; then
+	echo "Package Control is already installed."
+else
+	echo "Installing Package Control…"
+	curl -fsSL -o "$package_control_file" "$package_control_url"
+	# Package Control loads only on start, so restart Sublime Text if it is open
+	if pgrep -xq "sublime_text"; then
+		echo "Closing Sublime Text so that it loads Package Control on next start…"
+		osascript -e 'quit app "Sublime Text"'
+		while pgrep -xq "sublime_text"; do
+			sleep 1
+		done
+	fi
+fi
+
+# 2. Packages from Package Control settings
+
+if [[ ! -L "$settings_target" ]]; then
+	cp "$settings_source" "$settings_target"
+fi
+
+# Settings file can contain comments and trailing commas, so evaluate it as JS object literal
+packages=()
+while IFS= read -r package; do
+	packages+=("$package")
+done < <(osascript -l JavaScript - "$settings_source" <<'EOF'
+function run([file]) {
+	const contents = $.NSString.stringWithContentsOfFileEncodingError(file, $.NSUTF8StringEncoding, null).js;
+	return eval(`(${contents})`).installed_packages.join("\n");
+}
+EOF
+)
+
+missing_packages() {
+	for package in "${packages[@]}"; do
+		if [[ ! -e "$sublime_text_dir/Installed Packages/$package.sublime-package" && ! -e "$sublime_text_dir/Packages/$package" ]]; then
+			echo "$package"
+		fi
+	done
+}
+
+missing="$(missing_packages)"
+if [[ -n "$missing" ]]; then
+	echo "Opening Sublime Text to install packages (View → Show Console shows progress)…"
+	open -a "Sublime Text"
+	elapsed=0
+	while [[ -n "$missing" && $elapsed -lt $timeout_seconds ]]; do
+		sleep "$poll_seconds"
+		elapsed=$((elapsed + poll_seconds))
+		missing="$(missing_packages)"
+		missing_count=$(grep -c . <<< "$missing" || true)
+		echo "$(( ${#packages[@]} - missing_count ))/${#packages[@]} packages installed"
+	done
+fi
+if [[ -n "$missing" ]]; then
+	echo "Warning: timeout. Install these packages manually:" >&2
+	sed 's/^/  - /' <<< "$missing" >&2
+else
+	echo "All packages are installed."
+fi
+
+# 3. Symlinks
+
+"$repository_dir/bin/symlink"
