@@ -1,5 +1,5 @@
 {
-	"initializationOptions": {
+	"initialization_options": {
 		"preferences": {
 			"preferTypeOnlyAutoImports": true,
 			"importModuleSpecifierPreference": "non-relative"
