@@ -1,0 +1,7 @@
+{
+	// First line of each message, before the comments. Empty: a summary of the files and lines.
+	"prompt_prefix": "",
+
+	// T3 Code state database. The plugin reads projects and threads from it (read-only).
+	"state_db": "~/.t3/userdata/statev2.sqlite",
+}

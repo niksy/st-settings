@@ -1,0 +1,4 @@
+[
+    { "caption": "T3 Code: Add review comment", "command": "t3_code_review_comments_add" },
+    { "caption": "T3 Code: Send review comments", "command": "t3_code_review_comments_send" }
+]

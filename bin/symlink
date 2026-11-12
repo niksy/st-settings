@@ -12,6 +12,7 @@ for f in $dir/*; do
 done
 
 ln -sfhv "$repository_dir/Copy Filepath With Line Numbers" "$packages_dir/Copy Filepath With Line Numbers";
+ln -sfhv "$repository_dir/T3 Code Review Comments" "$packages_dir/T3 Code Review Comments";
 
 # Sublime Merge
 
